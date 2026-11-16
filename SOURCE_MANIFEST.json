@@ -1,0 +1,900 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "SHA-256",
+  "source_root_label": "Exit_Study",
+  "destination_root_label": "csexitethiopia",
+  "source_paths_relative_to": "Exit_Study",
+  "course_counts": {
+    "question_courses": 16,
+    "outline_courses": 16,
+    "question_index_items": 16,
+    "outline_index_cards": 16
+  },
+  "integration": {
+    "start_marker": "<!-- RESOURCE-HUB-INTEGRATION:START -->",
+    "end_marker": "<!-- RESOURCE-HUB-INTEGRATION:END -->",
+    "encoding": "UTF-8",
+    "removal_rule": "For each HTML, remove its exact integration_block once as UTF-8 bytes. The entire result must match the source bytes and source_sha256.",
+    "stylesheet": "assets/resource-nav.css",
+    "script": "assets/resource-nav.js",
+    "navigation": {
+      "Home": "index.html",
+      "Study guide": "Complete_CS_Exit_Study_Guide.html",
+      "Questions": "Questions/Interactive_Study_Guides/index.html",
+      "Outlines": "Outlines/index.html",
+      "How to study": "index.html#how-to-study"
+    },
+    "questions_index_class": "resource-hub-questions-index",
+    "original_html_body_and_scripts_rewritten": false,
+    "original_security_policies_unchanged": true,
+    "strict_CSP_course_pages_use_allowed_inline_navigation": 16
+  },
+  "assertions": {
+    "all_source_hashes_unchanged": true,
+    "all_non_html_copies_identical": true,
+    "all_html_exact_after_block_removal": true,
+    "all_integration_assets_in_parsed_head": true,
+    "course_names_match_across_questions_and_outlines": true,
+    "all_original_body_text_and_inline_scripts_unchanged": true,
+    "entire_interactive_questions_and_outlines_trees_copied": true
+  },
+  "totals": {
+    "copied_files": 54,
+    "html_files_with_integration": 35,
+    "unchanged_non_html_files": 19
+  },
+  "generated_assets": [
+    {
+      "path": "assets/resource-nav.js",
+      "sha256": "63277c9d10ba6b829aff3e5ea90070c0bccbd860cea7b7e5c38bb7915771fe0d"
+    },
+    {
+      "path": "assets/resource-nav.css",
+      "sha256": "217dc4f361d30fe2db84a63f841839dcb94c0ddf048438b23fd4e7280bfbe8bf"
+    }
+  ],
+  "files": [
+    {
+      "source_path": "Complete_CS_Exit_Study_Guide.html",
+      "copied_path": "Complete_CS_Exit_Study_Guide.html",
+      "source_sha256": "00120d05158449be9b2f72eb19eecdaf86d3109b3badb3b4eb3d8a451103ba00",
+      "copied_sha256": "03aa84b65bad3099e42f64357392887c2981cd4e19d210044e2a25b255544c3c",
+      "source_bytes": 3390879,
+      "copied_bytes": 3391087,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"./assets/resource-nav.css\">\n<script defer src=\"./assets/resource-nav.js\" data-hub-root=\"./\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5201,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "source_sha256": "a407dfe7f3c95cc41adfc6c1bc91df1903b5091bad85cefc9921571c853fd90f",
+      "copied_sha256": "36bdcbf11f0279f26c98a8874d14216ee9550efd88cc8776215c9110a6cb595b",
+      "source_bytes": 1410800,
+      "copied_bytes": 1416235,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3726,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "source_sha256": "231699b377d5f602104f379d2f9bc1c9bd09c7f15faff6edf9532e0f79da8dcb",
+      "copied_sha256": "fc140577fc8b6085efb6b349b37de5f73850f68e12d1bf2ba6b2c7c4fd410183",
+      "source_bytes": 1887682,
+      "copied_bytes": 1893117,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3731,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "source_sha256": "aa8551a2d10cab71ae64a282149ff0401648f59588be1e5ba3c1de66b156c04d",
+      "copied_sha256": "43a9f8fe0a75efe6ab3425320abe91eec20fd0f3ff5aee8b49ff74d5b7386ae4",
+      "source_bytes": 992536,
+      "copied_bytes": 997971,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3716,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "source_sha256": "1b83a697d6dc6725a6b08b87f697fc8ce76a51cd1c57a23986b5619c3a39b16f",
+      "copied_sha256": "413dab9f9bbfe76f02173d8adc92b7dbee4a0673959e83227d1aa048d2bd15e2",
+      "source_bytes": 2239851,
+      "copied_bytes": 2245286,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3739,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "source_sha256": "3fae179f1975e5f3e64eb0f438396b4fd2849f223d28ef92755933b9d7448ec6",
+      "copied_sha256": "a1f146a26e0f27c696060e2d80e80b32a77817b36e55334e90bfacf1c880159e",
+      "source_bytes": 2057194,
+      "copied_bytes": 2062629,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3721,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "source_sha256": "71f2d830aadc41f1d4f808378558cb2cf12d10d138ee3989bb09ca2cab8ba139",
+      "copied_sha256": "308961b28a69eda83a6c06072a58e7292a6f6a006948c2068cbbec4485a02cba",
+      "source_bytes": 806550,
+      "copied_bytes": 811985,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3718,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "source_sha256": "4ab2e93347ce4fe217a312e6bbb4d776773461f2de87432fa850591246261c65",
+      "copied_sha256": "734dfe3af6487c99d125e3a094d86ba5cc8570bd731fc3a7586121b4c84c8a7d",
+      "source_bytes": 2538048,
+      "copied_bytes": 2543483,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3743,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "source_sha256": "13def9e05a936f65efd5562a6a7ed3d762291d14b3766a0172e56ae6e33b7d92",
+      "copied_sha256": "291fcdcc0460ad64602631760930e6e1c3ef20d69d499f3dff178360ae5222f3",
+      "source_bytes": 1561815,
+      "copied_bytes": 1567250,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3730,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "source_sha256": "660574c73eae153302b6a04d092b74adb6ca403dd535434224a05d17aae12d4f",
+      "copied_sha256": "6fd056913eceb998d5b0ae1a2ae1be4861f52246ec1b2acafcca8cce1e9f1dbf",
+      "source_bytes": 1220963,
+      "copied_bytes": 1226398,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3734,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "source_sha256": "c87f21b6821cf11cca78e1ddc259b4b250c951248ab475182d803a1d2b675953",
+      "copied_sha256": "1c96a264dd7807dc7f42d1ebe7e664a6e85bbe0946f430a0524094900edcbdb4",
+      "source_bytes": 2685806,
+      "copied_bytes": 2691241,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3732,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "source_sha256": "dd765b5e860c06b8d3743737734d6ddce924470491e22d1e24cc0e8535d84543",
+      "copied_sha256": "816d32b9f7af6d607b7023315bab0e92d94ad58c72309e15684ef20589b34e05",
+      "source_bytes": 1251545,
+      "copied_bytes": 1256980,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3740,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "source_sha256": "c72f57b8ad6133ca9bb94a9a7ae4e792a230dec673022b668f4b8260f0934025",
+      "copied_sha256": "fc5b2ad49159bfede99227b8930251539e04f4d95c091df6cf998bf2f9a1042c",
+      "source_bytes": 823389,
+      "copied_bytes": 828824,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3734,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "source_sha256": "18aed2fd326a6cfafca3238626233fa2a8f18d7c165d7ced368233b242f4d864",
+      "copied_sha256": "728c192c33e27c8c52051c90dccad83337cd588238cc7c8c5535067dc7a9d38d",
+      "source_bytes": 3930487,
+      "copied_bytes": 3935922,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3728,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "source_sha256": "c88ebb5d81ab729c753dcf8e15c6405c15829563dd6084e0b834b77fb55105f0",
+      "copied_sha256": "f2ce0b84fab24f57ce3777c862b0919f6663365dc72e0d3b20599c6d06c7c70b",
+      "source_bytes": 1565878,
+      "copied_bytes": 1571313,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3717,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/README.txt",
+      "copied_path": "Questions/Interactive_Study_Guides/README.txt",
+      "source_sha256": "1f91f6a3e4dc140ec5fbb7ed9e74d38d846c38d6289fa36926091aef4a501e24",
+      "copied_sha256": "1f91f6a3e4dc140ec5fbb7ed9e74d38d846c38d6289fa36926091aef4a501e24",
+      "source_bytes": 686,
+      "copied_bytes": 686,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "source_sha256": "6760c186890714326d86b34f393e732732411b1f2cc7fc70a66534b3a0867e1e",
+      "copied_sha256": "7d1a1f9c8ee51aeaaf02043cfc3ed0098fbb8a7dbf40371253976e0d8041e267",
+      "source_bytes": 2450290,
+      "copied_bytes": 2455725,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3721,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "copied_path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "source_sha256": "22f6597bf83643f884d5e2761a4a19107e3fbe7cc5fa92bbe04a4585de07704f",
+      "copied_sha256": "78e8b5dd258426fc8676fe1cfd08f7b66f0726fd33bc6c63b376d02097052507",
+      "source_bytes": 1880013,
+      "copied_bytes": 1885448,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<style data-resource-hub-navigation>\n/* All hub rules are scoped to classes owned by this integration. */\n.resource-hub-nav {\n  box-sizing: border-box;\n  display: block;\n  position: static;\n  float: none;\n  width: auto;\n  max-width: none;\n  margin: 0;\n  padding: 10px 16px;\n  border: 0;\n  border-bottom: 1px solid #ccd8d1;\n  border-radius: 0;\n  background: #f7f8f5;\n  color: #172e2c;\n  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  text-align: left;\n}\n.resource-hub-nav .resource-hub-links {\n  box-sizing: border-box;\n  display: flex;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 4px 8px;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0;\n}\n.resource-hub-nav .resource-hub-link {\n  box-sizing: border-box;\n  display: inline-flex;\n  align-items: center;\n  min-height: 36px;\n  margin: 0;\n  padding: 7px 10px;\n  border: 1px solid transparent;\n  border-radius: 6px;\n  background: transparent;\n  color: #205c49;\n  font: inherit;\n  font-weight: 600;\n  text-decoration: underline;\n  text-underline-offset: 3px;\n  overflow-wrap: anywhere;\n}\n.resource-hub-nav .resource-hub-link:hover,\n.resource-hub-nav .resource-hub-link[aria-current=\"page\"] {\n  background: #e5ede7;\n  color: #172e2c;\n}\n.resource-hub-nav .resource-hub-link:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 2px;\n}\n.resource-hub-questions-index {\n  box-sizing: border-box;\n  max-width: 1120px;\n  margin: 0 auto;\n  padding: 0 24px 40px;\n  background: #f7f8f5;\n  color: #172e2c;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n}\n.resource-hub-questions-index > .resource-hub-nav {\n  margin: 0 -24px 28px;\n}\n.resource-hub-questions-index > h1 {\n  margin: 0 0 16px;\n  font-size: clamp(26px, 4vw, 36px);\n  line-height: 1.25;\n}\n.resource-hub-questions-index > p {\n  max-width: 76ch;\n  margin: 16px 0;\n}\n.resource-hub-questions-index > p a,\n.resource-hub-questions-index .resource-hub-course-grid a {\n  color: #205c49;\n  text-underline-offset: 3px;\n}\n.resource-hub-questions-index > p a:focus-visible,\n.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {\n  outline: 3px solid #205c49;\n  outline-offset: 3px;\n}\n.resource-hub-questions-index > .resource-hub-course-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));\n  gap: 16px;\n  margin: 28px 0;\n  padding: 0;\n  list-style: none;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li {\n  box-sizing: border-box;\n  min-width: 0;\n  margin: 0;\n  padding: 20px;\n  border: 1px solid #ccd8d1;\n  border-radius: 10px;\n  background: #fff;\n  color: #172e2c;\n  font-size: 15px;\n  line-height: 1.6;\n  overflow-wrap: anywhere;\n}\n.resource-hub-questions-index .resource-hub-course-grid > li > a {\n  display: block;\n  margin-bottom: 8px;\n  font-size: 18px;\n  font-weight: 650;\n  line-height: 1.4;\n}\n@media (max-width: 520px) {\n  .resource-hub-nav { padding: 8px; }\n  .resource-hub-nav .resource-hub-links { gap: 2px; }\n  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }\n  .resource-hub-questions-index { padding: 0 16px 28px; }\n  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }\n}\n@media print {\n  .resource-hub-nav { display: none; }\n  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }\n  .resource-hub-questions-index .resource-hub-course-grid > li {\n    break-inside: avoid;\n    margin-bottom: 10px;\n  }\n}\n\n</style>\n<script data-hub-root=\"../../\">\n/* Resource hub navigation. Educational markup and original scripts remain untouched. */\n(() => {\n  'use strict';\n  const script = document.currentScript;\n  function mountNavigation() {\n  if (!script || !document.body || document.querySelector('.resource-hub-nav')) return;\n  const root = new URL(script.dataset.hubRoot || './', document.baseURI);\n  const destinations = [\n    ['Home', 'index.html'],\n    ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],\n    ['Questions', 'Questions/Interactive_Study_Guides/index.html'],\n    ['Outlines', 'Outlines/index.html'],\n    ['How to study', 'index.html#how-to-study']\n  ];\n  const nav = document.createElement('nav');\n  nav.className = 'resource-hub-nav';\n  nav.setAttribute('aria-label', 'Study hub');\n  const links = document.createElement('div');\n  links.className = 'resource-hub-links';\n  const current = new URL(window.location.href);\n  for (const [label, path] of destinations) {\n    const link = document.createElement('a');\n    const target = new URL(path, root);\n    link.className = 'resource-hub-link';\n    link.setAttribute('href', (script.dataset.hubRoot || './') + path);\n    link.textContent = label;\n    if (!target.hash && target.pathname === current.pathname) {\n      link.setAttribute('aria-current', 'page');\n    }\n    links.append(link);\n  }\n  nav.append(links);\n  document.body.prepend(nav);\n  // Only this simple index receives layout classes; retain every original node.\n  if (script.dataset.resourceHubIndex === 'questions') {\n    document.body.classList.add('resource-hub-questions-index');\n    for (const child of document.body.children) {\n      if (child.tagName === 'UL') child.classList.add('resource-hub-course-grid');\n    }\n  }\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mountNavigation, { once: true });\n  else mountNavigation();\n})();\n\n</script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 3716,
+      "integration_insertion_point": "before explicit </head>",
+      "integration_mode": "inline-navigation-compatible-with-original-CSP"
+    },
+    {
+      "source_path": "Questions/Interactive_Study_Guides/index.html",
+      "copied_path": "Questions/Interactive_Study_Guides/index.html",
+      "source_sha256": "2ccf6633d4989e026bda44bf822e565c78384700da17a496afa697e007cd673e",
+      "copied_sha256": "4846add066a0c44b9cdbb316afc65d98bde442aa876055d5106f103acade67d1",
+      "source_bytes": 2443,
+      "copied_bytes": 2699,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../../assets/resource-nav.css\">\n<script defer src=\"../../assets/resource-nav.js\" data-hub-root=\"../../\" data-resource-hub-index=\"questions\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 301,
+      "integration_insertion_point": "end of implicit head, before first <h1>"
+    },
+    {
+      "source_path": "Outlines/Advanced_Database_Systems.docx",
+      "copied_path": "Outlines/Advanced_Database_Systems.docx",
+      "source_sha256": "ae0ab3c7ac606a048b7ac39c404d24f8ec70b63f04c9830a6b2587d2888aba31",
+      "copied_sha256": "ae0ab3c7ac606a048b7ac39c404d24f8ec70b63f04c9830a6b2587d2888aba31",
+      "source_bytes": 67910,
+      "copied_bytes": 67910,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Advanced_Database_Systems.html",
+      "copied_path": "Outlines/Advanced_Database_Systems.html",
+      "source_sha256": "f360e8b99aad187c8cd57579fc3e99cee32426b622009a414054a4c8950986c9",
+      "copied_sha256": "8fd66661324cf9066d8c40240e703c44f4f7da961074d1aa0662b413ae2220ad",
+      "source_bytes": 175518,
+      "copied_bytes": 175729,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5548,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Automata_and_Complexity_Theory.docx",
+      "copied_path": "Outlines/Automata_and_Complexity_Theory.docx",
+      "source_sha256": "4a7205532da042dbcbfc53c99637be0b804257c5af3c688b4931fbff2b457af1",
+      "copied_sha256": "4a7205532da042dbcbfc53c99637be0b804257c5af3c688b4931fbff2b457af1",
+      "source_bytes": 45225,
+      "copied_bytes": 45225,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Automata_and_Complexity_Theory.html",
+      "copied_path": "Outlines/Automata_and_Complexity_Theory.html",
+      "source_sha256": "a089e16f0444109abe50235d306f9bc9d606dba602d447a8765005d35db668ca",
+      "copied_sha256": "742ff57482f7cd57d1f7006a18bd2be0a70fa3872c92ea5b7f097b8b18ccdc48",
+      "source_bytes": 149396,
+      "copied_bytes": 149607,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5553,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Compiler_Design.docx",
+      "copied_path": "Outlines/Compiler_Design.docx",
+      "source_sha256": "033162b8023085d56cd0970ccf008ccd9cec4b263ab3ce05c2f98535766c2883",
+      "copied_sha256": "033162b8023085d56cd0970ccf008ccd9cec4b263ab3ce05c2f98535766c2883",
+      "source_bytes": 45542,
+      "copied_bytes": 45542,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Compiler_Design.html",
+      "copied_path": "Outlines/Compiler_Design.html",
+      "source_sha256": "540088e75961d44c6a7bf1ddab469ef9dd7e0e8fac645f32b0a82ca557fb371c",
+      "copied_sha256": "6720d70a7af253753cb02254909649a562514eec36522f26135ee79217abd708",
+      "source_bytes": 148795,
+      "copied_bytes": 149006,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5538,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Computer_Organization_and_Architecture.docx",
+      "copied_path": "Outlines/Computer_Organization_and_Architecture.docx",
+      "source_sha256": "fe6044f21ed2dee52502dc7d95c486d18cdbf5730915954ed1d96f8125c0326d",
+      "copied_sha256": "fe6044f21ed2dee52502dc7d95c486d18cdbf5730915954ed1d96f8125c0326d",
+      "source_bytes": 73031,
+      "copied_bytes": 73031,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Computer_Organization_and_Architecture.html",
+      "copied_path": "Outlines/Computer_Organization_and_Architecture.html",
+      "source_sha256": "f840eca06d3908015002175337662d4ccde097a1a566b97ca4b139251a4f8d63",
+      "copied_sha256": "b0795cbf46922eeedd043990b81c50107b6827ec3ad5a1c1648593bb12f0a9c3",
+      "source_bytes": 145884,
+      "copied_bytes": 146095,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5561,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Computer_Programming.docx",
+      "copied_path": "Outlines/Computer_Programming.docx",
+      "source_sha256": "0b73d8dc109a0731f81282f14ea7639d17f1bfdc5481872cf511b1b409e15809",
+      "copied_sha256": "0b73d8dc109a0731f81282f14ea7639d17f1bfdc5481872cf511b1b409e15809",
+      "source_bytes": 48037,
+      "copied_bytes": 48037,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Computer_Programming.html",
+      "copied_path": "Outlines/Computer_Programming.html",
+      "source_sha256": "21694ee56946596f57abfc75567e1a33599c3e6c52a98eacce6052fd2d660322",
+      "copied_sha256": "b59607439432fddd0750b5b48fb8458f36fc7fbb47de521b7115beec0c1015c8",
+      "source_bytes": 122240,
+      "copied_bytes": 122451,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5543,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Computer_Security.docx",
+      "copied_path": "Outlines/Computer_Security.docx",
+      "source_sha256": "7eabb58412077b22bda7cbd0aeafa8b3ea60c21da852b24a3b1645c0502eed94",
+      "copied_sha256": "7eabb58412077b22bda7cbd0aeafa8b3ea60c21da852b24a3b1645c0502eed94",
+      "source_bytes": 49566,
+      "copied_bytes": 49566,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Computer_Security.html",
+      "copied_path": "Outlines/Computer_Security.html",
+      "source_sha256": "cfaacab29a3577cf4930cc261bedaf3f67da7888f19b150b106959eb345b361b",
+      "copied_sha256": "6f805e8663e045e099347e1663e55e550bfac58e7ffde2984924162d9cbcf759",
+      "source_bytes": 135051,
+      "copied_bytes": 135262,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5540,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Data_Communication_and_Computer_Networking.docx",
+      "copied_path": "Outlines/Data_Communication_and_Computer_Networking.docx",
+      "source_sha256": "e612c9eda9daf8b53e596b2f61d2d565702bc41ed548a1af22293efa07cf993b",
+      "copied_sha256": "e612c9eda9daf8b53e596b2f61d2d565702bc41ed548a1af22293efa07cf993b",
+      "source_bytes": 47351,
+      "copied_bytes": 47351,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "copied_path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "source_sha256": "6dedd0dd97fa8e51313b28a26cea3fea0f9f9eacca5abb00d9f043dfc6753366",
+      "copied_sha256": "d264c7f24ecfea7c0f69d2d5ee2544c6b5846e36ce12a97a4c19c96c50d2bd77",
+      "source_bytes": 146920,
+      "copied_bytes": 147131,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5565,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Data_Structures_and_Algorithms.docx",
+      "copied_path": "Outlines/Data_Structures_and_Algorithms.docx",
+      "source_sha256": "fa295fd5bd48bc1cdca0733585bd7c20aea530a92cd263ed8eba41a07238d300",
+      "copied_sha256": "fa295fd5bd48bc1cdca0733585bd7c20aea530a92cd263ed8eba41a07238d300",
+      "source_bytes": 46047,
+      "copied_bytes": 46047,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Data_Structures_and_Algorithms.html",
+      "copied_path": "Outlines/Data_Structures_and_Algorithms.html",
+      "source_sha256": "adfb57a929b2e19d406c9f4da0f97f7d1842b4f158511c1c10902d0feac0c8a1",
+      "copied_sha256": "39ea211d988d77d7f8db9671f50094d9b766f68c3ce505b994ecc202aa189acb",
+      "source_bytes": 181569,
+      "copied_bytes": 181780,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5552,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Design_and_Analysis_of_Algorithms.docx",
+      "copied_path": "Outlines/Design_and_Analysis_of_Algorithms.docx",
+      "source_sha256": "1c320e388868aa5b86290561a298baad7b65663de7929bad8e3c2641db7e8e1b",
+      "copied_sha256": "1c320e388868aa5b86290561a298baad7b65663de7929bad8e3c2641db7e8e1b",
+      "source_bytes": 54811,
+      "copied_bytes": 54811,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "copied_path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "source_sha256": "1ce251a7e038010ccab2bdfc74a866cc118070d5f171347cad365312aad617b2",
+      "copied_sha256": "06d2206ac47f74cc6d4bf9eb62d5cb8ab905a45a05e7fccbe3232a037b3d5130",
+      "source_bytes": 166473,
+      "copied_bytes": 166684,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5556,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Fundamental_of_Database_Systems.docx",
+      "copied_path": "Outlines/Fundamental_of_Database_Systems.docx",
+      "source_sha256": "59cf92439358fabfe893e5456fc526e26a6418955d2af2d4a35635c0c5958cfa",
+      "copied_sha256": "59cf92439358fabfe893e5456fc526e26a6418955d2af2d4a35635c0c5958cfa",
+      "source_bytes": 46387,
+      "copied_bytes": 46387,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Fundamental_of_Database_Systems.html",
+      "copied_path": "Outlines/Fundamental_of_Database_Systems.html",
+      "source_sha256": "e8a9821d8e4ccb5a72ff3f0ab4e731ad211b6042c0ed596a3a26dfab60bdd2ab",
+      "copied_sha256": "4d3006e52c967856040d4087de1ffad9265950773be82187c5a4f0dd4ffd2e36",
+      "source_bytes": 159405,
+      "copied_bytes": 159616,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5554,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Introduction_to_Artificial_Intelligence.docx",
+      "copied_path": "Outlines/Introduction_to_Artificial_Intelligence.docx",
+      "source_sha256": "3c6d9318d611ed296a77e33b94749cd3a7895689b1618ae8b3828798aeb0a808",
+      "copied_sha256": "3c6d9318d611ed296a77e33b94749cd3a7895689b1618ae8b3828798aeb0a808",
+      "source_bytes": 64811,
+      "copied_bytes": 64811,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "copied_path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "source_sha256": "e646929e8d8607fddb1a8e5a07a5f8ab8f781a3263c55146c08b592a38ec9b10",
+      "copied_sha256": "04863228615591e3fa36d1f9f82fa897019d1e7b44cb923d9cf4f07213b56be1",
+      "source_bytes": 159109,
+      "copied_bytes": 159320,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5562,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Network_and_System_Administration.docx",
+      "copied_path": "Outlines/Network_and_System_Administration.docx",
+      "source_sha256": "0324d664b1d3d62723314205c4946b658ab2e37cb42308d2b11b2582d89eebe7",
+      "copied_sha256": "0324d664b1d3d62723314205c4946b658ab2e37cb42308d2b11b2582d89eebe7",
+      "source_bytes": 57969,
+      "copied_bytes": 57969,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Network_and_System_Administration.html",
+      "copied_path": "Outlines/Network_and_System_Administration.html",
+      "source_sha256": "c073a7305a37e77b64c0b4dd6be3c9abfb73708b2ed748d6144b6b0194704fa1",
+      "copied_sha256": "19cb4e95c2081aedd018aa2013d3bbfa82dface3b85f12f3d07e9184505a1f4f",
+      "source_bytes": 141351,
+      "copied_bytes": 141562,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5556,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Object_Oriented_Programming.docx",
+      "copied_path": "Outlines/Object_Oriented_Programming.docx",
+      "source_sha256": "ebd7d1d6362da5c4724bc240a1b71e6638c680814aa9ce61a905c8e0136835e8",
+      "copied_sha256": "ebd7d1d6362da5c4724bc240a1b71e6638c680814aa9ce61a905c8e0136835e8",
+      "source_bytes": 49771,
+      "copied_bytes": 49771,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Object_Oriented_Programming.html",
+      "copied_path": "Outlines/Object_Oriented_Programming.html",
+      "source_sha256": "5e8dd30406c8dbe8341ee178eb2cf76fea4a9d0eb8ed0e7532cb4010cc4718df",
+      "copied_sha256": "d273aedabad70b3a81321c45bbb0e4ac6234efdcc3e7e2f28f761432218bf8fd",
+      "source_bytes": 149662,
+      "copied_bytes": 149873,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5550,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Operating_System.docx",
+      "copied_path": "Outlines/Operating_System.docx",
+      "source_sha256": "9b46a9890a4f20e0a9c54a630730f2d3f3b7b94c6f7c55e3fe096cbaa9344450",
+      "copied_sha256": "9b46a9890a4f20e0a9c54a630730f2d3f3b7b94c6f7c55e3fe096cbaa9344450",
+      "source_bytes": 58864,
+      "copied_bytes": 58864,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Operating_System.html",
+      "copied_path": "Outlines/Operating_System.html",
+      "source_sha256": "6c97eb54c20ed5e1cb7d4b9ed59354d5cbbd0ca993a1dc65f2b201c2262c3cb3",
+      "copied_sha256": "3b416564293ea8183bdffd0c9ebcca7a8acc7680850e2f08ad377940109589c3",
+      "source_bytes": 154819,
+      "copied_bytes": 155030,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5539,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Outline_Coverage_Audit.json",
+      "copied_path": "Outlines/Outline_Coverage_Audit.json",
+      "source_sha256": "0ba154cab308b5310292f7e16c2b2b68db9a32ea0ce14bf7a679a795135dc270",
+      "copied_sha256": "0ba154cab308b5310292f7e16c2b2b68db9a32ea0ce14bf7a679a795135dc270",
+      "source_bytes": 521075,
+      "copied_bytes": 521075,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/README.txt",
+      "copied_path": "Outlines/README.txt",
+      "source_sha256": "1edf7c2afde92613c3b79147fdd9a67bdfcf394767b87025dbe773181f3f15fe",
+      "copied_sha256": "1edf7c2afde92613c3b79147fdd9a67bdfcf394767b87025dbe773181f3f15fe",
+      "source_bytes": 1126,
+      "copied_bytes": 1126,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Software_Engineering.docx",
+      "copied_path": "Outlines/Software_Engineering.docx",
+      "source_sha256": "7d1b15c5893c0a49cef03b4a35aefa6ae2832c0dd138402c4208e0682c412b11",
+      "copied_sha256": "7d1b15c5893c0a49cef03b4a35aefa6ae2832c0dd138402c4208e0682c412b11",
+      "source_bytes": 83701,
+      "copied_bytes": 83701,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Software_Engineering.html",
+      "copied_path": "Outlines/Software_Engineering.html",
+      "source_sha256": "676605ec8dad7b275e95e49383efbaed68bafc11f2fe50529b8ecdc0622de7c8",
+      "copied_sha256": "2c7da57fe42da2923c0aa31069a16ed2cc57296ee330e160f7a38dd94a0d235e",
+      "source_bytes": 165641,
+      "copied_bytes": 165852,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5543,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/Web_Programming.docx",
+      "copied_path": "Outlines/Web_Programming.docx",
+      "source_sha256": "dc9f06d424d56c15f06554bb37a01edbf1bccf90d47bef68a02b8e04bc6b86dd",
+      "copied_sha256": "dc9f06d424d56c15f06554bb37a01edbf1bccf90d47bef68a02b8e04bc6b86dd",
+      "source_bytes": 58811,
+      "copied_bytes": 58811,
+      "integration_block": null,
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": true
+      }
+    },
+    {
+      "source_path": "Outlines/Web_Programming.html",
+      "copied_path": "Outlines/Web_Programming.html",
+      "source_sha256": "244079fa93b5d0400b9422ad4ce0206b615d9adee241dfe0e55e239e96affcfe",
+      "copied_sha256": "b9aabec81b71959590de892356ac15ca0310a73be87f81370fb7d6fb903435c1",
+      "source_bytes": 171485,
+      "copied_bytes": 171696,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5538,
+      "integration_insertion_point": "before explicit </head>"
+    },
+    {
+      "source_path": "Outlines/index.html",
+      "copied_path": "Outlines/index.html",
+      "source_sha256": "e62461e7e263cf7057eefda9213ecfb2208457645d2a8a75d1f86c89d1b147b4",
+      "copied_sha256": "2efafc98b901a6862dd36e7dcfe414f2983a5b79dfd774e7255dd72925761a4c",
+      "source_bytes": 16120,
+      "copied_bytes": 16331,
+      "integration_block": "<!-- RESOURCE-HUB-INTEGRATION:START -->\n<link rel=\"stylesheet\" href=\"../assets/resource-nav.css\">\n<script defer src=\"../assets/resource-nav.js\" data-hub-root=\"../\"></script>\n<!-- RESOURCE-HUB-INTEGRATION:END -->",
+      "content_preservation": {
+        "source_unchanged": true,
+        "exact_original_bytes_after_removing_integration_block": true,
+        "copied_bytes_identical_to_source": false
+      },
+      "integration_byte_offset": 5550,
+      "integration_insertion_point": "before explicit </head>"
+    }
+  ]
+}

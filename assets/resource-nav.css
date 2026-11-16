@@ -1,0 +1,128 @@
+/* All hub rules are scoped to classes owned by this integration. */
+.resource-hub-nav {
+  box-sizing: border-box;
+  display: block;
+  position: static;
+  float: none;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 10px 16px;
+  border: 0;
+  border-bottom: 1px solid #ccd8d1;
+  border-radius: 0;
+  background: #f7f8f5;
+  color: #172e2c;
+  font: 400 14px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-align: left;
+}
+.resource-hub-nav .resource-hub-links {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0;
+}
+.resource-hub-nav .resource-hub-link {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  margin: 0;
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: transparent;
+  color: #205c49;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+.resource-hub-nav .resource-hub-link:hover,
+.resource-hub-nav .resource-hub-link[aria-current="page"] {
+  background: #e5ede7;
+  color: #172e2c;
+}
+.resource-hub-nav .resource-hub-link:focus-visible {
+  outline: 3px solid #205c49;
+  outline-offset: 2px;
+}
+.resource-hub-questions-index {
+  box-sizing: border-box;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+  background: #f7f8f5;
+  color: #172e2c;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.resource-hub-questions-index > .resource-hub-nav {
+  margin: 0 -24px 28px;
+}
+.resource-hub-questions-index > h1 {
+  margin: 0 0 16px;
+  font-size: clamp(26px, 4vw, 36px);
+  line-height: 1.25;
+}
+.resource-hub-questions-index > p {
+  max-width: 76ch;
+  margin: 16px 0;
+}
+.resource-hub-questions-index > p a,
+.resource-hub-questions-index .resource-hub-course-grid a {
+  color: #205c49;
+  text-underline-offset: 3px;
+}
+.resource-hub-questions-index > p a:focus-visible,
+.resource-hub-questions-index .resource-hub-course-grid a:focus-visible {
+  outline: 3px solid #205c49;
+  outline-offset: 3px;
+}
+.resource-hub-questions-index > .resource-hub-course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
+  gap: 16px;
+  margin: 28px 0;
+  padding: 0;
+  list-style: none;
+}
+.resource-hub-questions-index .resource-hub-course-grid > li {
+  box-sizing: border-box;
+  min-width: 0;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #ccd8d1;
+  border-radius: 10px;
+  background: #fff;
+  color: #172e2c;
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.resource-hub-questions-index .resource-hub-course-grid > li > a {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+@media (max-width: 520px) {
+  .resource-hub-nav { padding: 8px; }
+  .resource-hub-nav .resource-hub-links { gap: 2px; }
+  .resource-hub-nav .resource-hub-link { padding: 7px 8px; }
+  .resource-hub-questions-index { padding: 0 16px 28px; }
+  .resource-hub-questions-index > .resource-hub-nav { margin: 0 -16px 24px; }
+}
+@media print {
+  .resource-hub-nav { display: none; }
+  .resource-hub-questions-index > .resource-hub-course-grid { display: block; }
+  .resource-hub-questions-index .resource-hub-course-grid > li {
+    break-inside: avoid;
+    margin-bottom: 10px;
+  }
+}

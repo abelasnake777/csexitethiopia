@@ -1,0 +1,236 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-16T11:18:11.523761+00:00",
+  "static": {
+    "passed": true,
+    "html_pages": 36,
+    "preserved_resource_files": 54,
+    "educational_html_preserved": 35,
+    "local_links_checked": 5819,
+    "no_hardcoded_root_paths": true,
+    "all_source_bytes_recoverable": true,
+    "course_questions": 16,
+    "course_outlines": 16
+  },
+  "educational_preservation": "Removing the exact marked navigation block recovers every original educational HTML byte. Non-HTML resources are identical. Original source files unchanged.",
+  "original_question_security_policies_preserved": true,
+  "browser": "Chromium on Linux",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "home_cards": 3,
+      "copy_buttons": 4,
+      "overflow": false,
+      "contacts": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "home_cards": 3,
+      "copy_buttons": 4,
+      "overflow": false,
+      "contacts": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "home_cards": 3,
+      "copy_buttons": 4,
+      "overflow": false,
+      "contacts": true
+    },
+    {
+      "width": 320,
+      "height": 780,
+      "home_cards": 3,
+      "copy_buttons": 4,
+      "overflow": false,
+      "contacts": true
+    }
+  ],
+  "course_viewport_cases": 64,
+  "questions_courses_tested": 16,
+  "outlines_courses_tested": 16,
+  "question_and_outline_toggles_verified": true,
+  "outline_progress_persists": true,
+  "clipboard_cases": [
+    {
+      "viewport": 1440,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "value": "5061102585011",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "clipboard_API_unavailable": true,
+      "fallback_copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "5061102585011",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "5061102585011",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "clipboard_API_unavailable": true,
+      "fallback_copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "5061102585011",
+      "copied": true
+    }
+  ],
+  "final_homepage_copy_tests": [
+    {
+      "viewport": 1440,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 1440,
+      "value": "5061102585011",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 768,
+      "value": "5061102585011",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 390,
+      "value": "5061102585011",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "Abel Asnake Bekele",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "0934150083",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "1000786296149",
+      "copied": true
+    },
+    {
+      "viewport": 320,
+      "value": "5061102585011",
+      "copied": true
+    }
+  ],
+  "subdirectory_hosting_verified": true,
+  "script_errors": [],
+  "network_errors": [],
+  "visual_QA": "Desktop home/support; all three actions visible at390px; tablet768px; phone support; both course-selector grids. Additional course checks automated on desktop and phone.",
+  "deployment": "Static files ready for Yegara; no live hosting deployment performed."
+}
