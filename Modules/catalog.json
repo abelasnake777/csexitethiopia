@@ -1,0 +1,304 @@
+{
+  "courses": [
+    {
+      "slug": "Computer_Programming",
+      "course": "Computer Programming",
+      "file": "files/ComputerProgramming.pdf",
+      "source_file": "Computer Programming.pdf",
+      "sha256": "613d8127c7858bfc96914920c74e3f9098b650c65ba0e51f77bedcb24855378f",
+      "bytes": 2096964,
+      "pages": 53,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Fundamental_of_Database_Systems",
+      "course": "Fundamental of Database Systems",
+      "file": "files/DatabaseSystem.pdf",
+      "source_file": "Database System.pdf",
+      "sha256": "60097dace9ec6c1e147c512b146fdef4a1b7ae54f1e9a388403db23675b24100",
+      "bytes": 3737425,
+      "pages": 126,
+      "start_page": 5,
+      "shared_with": [
+        "Advanced Database Systems"
+      ],
+      "shared_note": "Full shared PDF; fundamentals body begins on physical page 5. Advanced Database Systems begins on physical page 27."
+    },
+    {
+      "slug": "Advanced_Database_Systems",
+      "course": "Advanced Database Systems",
+      "file": "files/DatabaseSystem.pdf",
+      "source_file": "Database System.pdf",
+      "sha256": "60097dace9ec6c1e147c512b146fdef4a1b7ae54f1e9a388403db23675b24100",
+      "bytes": 3737425,
+      "pages": 126,
+      "start_page": 27,
+      "shared_with": [
+        "Fundamental of Database Systems"
+      ],
+      "shared_note": "Full shared PDF; advanced database body begins on physical page 27 at Chapter 1: Query Processing and Optimization."
+    },
+    {
+      "slug": "Object_Oriented_Programming",
+      "course": "Object Oriented Programming",
+      "file": "files/ObjectOrientedProgramming.pdf",
+      "source_file": "Object Oriented Programming.pdf",
+      "sha256": "0951520f4dfc9d25f89c02eb8e69ac0755aced2f505d26bd9bccf8523f264c75",
+      "bytes": 1440636,
+      "pages": 34,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Computer_Organization_and_Architecture",
+      "course": "Computer Organization and Architecture",
+      "file": "files/ComputerOrganizationAndArchitecture.pdf",
+      "source_file": "COA all chapter.pdf",
+      "sha256": "e6eb339118cc1d34b97597da7e4ecd0cc96a0580c74e07c8c97a2d8ee707795d",
+      "bytes": 2773062,
+      "pages": 119,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Data_Communication_and_Computer_Networking",
+      "course": "Data Communication and Computer Networking",
+      "file": "files/DataCommunicationandSystemAdmin.pdf",
+      "source_file": "Data Communication and System Admin.pdf",
+      "sha256": "7ee086fa86510982ebf4be87636d26b162204405694e421b656342cdc2fd52bf",
+      "bytes": 1118643,
+      "pages": 66,
+      "start_page": 5,
+      "shared_with": [
+        "Network and System Administration"
+      ],
+      "shared_note": "Full shared PDF; networking body begins on physical page 5. System and Network Administration begins within physical page 21."
+    },
+    {
+      "slug": "Data_Structures_and_Algorithms",
+      "course": "Data Structure and Algorithms",
+      "file": "files/DataStructuresAndAlgorithms.pdf",
+      "source_file": "Data Structures and Algorithms.pdf",
+      "sha256": "c44cfa7463a015894287d405398520c7b59dc3f0037919a095c4ca6152f84415",
+      "bytes": 1193407,
+      "pages": 11,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Web_Programming",
+      "course": "Web Programming",
+      "file": "files/WebProgramming.pdf",
+      "source_file": "Web Programming Module (2)_261014_105145.pdf",
+      "sha256": "1d161c83ff9a73b8eaf4cb4bbe1fae2b53814f869983c44280d11f4bfa38ea7f",
+      "bytes": 1077960,
+      "pages": 95,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Operating_System",
+      "course": "Operating System",
+      "file": "files/OperatingSystem.pdf",
+      "source_file": "Operating Systems Teaching Material by ShmDch WSU.pdf",
+      "sha256": "fc400eed277a0df030781f059ba3e87bbc2df9d3b541b14ab0496f4956e31402",
+      "bytes": 1391063,
+      "pages": 54,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Software_Engineering",
+      "course": "Software Engineering",
+      "file": "files/SoftwareEngineering.pdf",
+      "source_file": "Software Engineering.pdf",
+      "sha256": "7c0fa416a6271881ae98be0a7803fe8e983fd3b6b265d5dbe6d6490d3f27d904",
+      "bytes": 3054268,
+      "pages": 153,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "course": "Design and Analysis of Algorithms",
+      "file": "files/DesignAndAnalysisOfAlgorithms.pdf",
+      "source_file": "Design and Analysis of Algorithm.pdf",
+      "sha256": "19fe2c31be36bce7f2b1a107d796c5f6ed569bbf859a946ff844de9b891aaf37",
+      "bytes": 1799285,
+      "pages": 132,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "course": "Introduction to Artificial Intelligence",
+      "file": "files/IntroductionToArtificialIntelligence.pdf",
+      "source_file": "Introduction to Artificial Intelligence.pdf",
+      "sha256": "56db7b8813ff484a1ce682dde091a32d2c2d9f29d324f645fdd9fee2b80fdc5b",
+      "bytes": 2100585,
+      "pages": 85,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Computer_Security",
+      "course": "Computer Security",
+      "file": "files/ComputerSecurity.pdf",
+      "source_file": "Computer Security.pdf",
+      "sha256": "06bfbdff95c885717a4c95d663be9eb6dfb353b3763f14d477c0a4587c7c8bee",
+      "bytes": 664588,
+      "pages": 11,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Network_and_System_Administration",
+      "course": "Network and System Administration",
+      "file": "files/DataCommunicationandSystemAdmin.pdf",
+      "source_file": "Data Communication and System Admin.pdf",
+      "sha256": "7ee086fa86510982ebf4be87636d26b162204405694e421b656342cdc2fd52bf",
+      "bytes": 1118643,
+      "pages": 66,
+      "start_page": 21,
+      "shared_with": [
+        "Data Communication and Computer Networking"
+      ],
+      "shared_note": "Full shared PDF; MODULE II: SYSTEM AND NETWORK ADMINISTRATION begins within physical page 21; the printed TOC lists 12."
+    },
+    {
+      "slug": "Automata_and_Complexity_Theory",
+      "course": "Automata and Complexity Theory",
+      "file": "files/AutomataAndComplexityTheory.pdf",
+      "source_file": "Automata and complexity theory.pdf",
+      "sha256": "a333d125adfa28902a6317979823e395997ccbc0d1cd7969c86004e56bab07f4",
+      "bytes": 977495,
+      "pages": 18,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    },
+    {
+      "slug": "Compiler_Design",
+      "course": "Compiler Design",
+      "file": "files/CompilerDesign.pdf",
+      "source_file": "Compiler Design.pdf",
+      "sha256": "dc0c66b666fb0cbab4a62c369cf6e92ce23d358a408e81c020dd1a4c4b6ca59e",
+      "bytes": 964644,
+      "pages": 19,
+      "start_page": 1,
+      "shared_with": [],
+      "shared_note": ""
+    }
+  ],
+  "unique_files": [
+    {
+      "file": "files/ComputerProgramming.pdf",
+      "source_file": "Computer Programming.pdf",
+      "sha256": "613d8127c7858bfc96914920c74e3f9098b650c65ba0e51f77bedcb24855378f",
+      "bytes": 2096964,
+      "pages": 53
+    },
+    {
+      "file": "files/DatabaseSystem.pdf",
+      "source_file": "Database System.pdf",
+      "sha256": "60097dace9ec6c1e147c512b146fdef4a1b7ae54f1e9a388403db23675b24100",
+      "bytes": 3737425,
+      "pages": 126
+    },
+    {
+      "file": "files/ObjectOrientedProgramming.pdf",
+      "source_file": "Object Oriented Programming.pdf",
+      "sha256": "0951520f4dfc9d25f89c02eb8e69ac0755aced2f505d26bd9bccf8523f264c75",
+      "bytes": 1440636,
+      "pages": 34
+    },
+    {
+      "file": "files/ComputerOrganizationAndArchitecture.pdf",
+      "source_file": "COA all chapter.pdf",
+      "sha256": "e6eb339118cc1d34b97597da7e4ecd0cc96a0580c74e07c8c97a2d8ee707795d",
+      "bytes": 2773062,
+      "pages": 119
+    },
+    {
+      "file": "files/DataCommunicationandSystemAdmin.pdf",
+      "source_file": "Data Communication and System Admin.pdf",
+      "sha256": "7ee086fa86510982ebf4be87636d26b162204405694e421b656342cdc2fd52bf",
+      "bytes": 1118643,
+      "pages": 66
+    },
+    {
+      "file": "files/DataStructuresAndAlgorithms.pdf",
+      "source_file": "Data Structures and Algorithms.pdf",
+      "sha256": "c44cfa7463a015894287d405398520c7b59dc3f0037919a095c4ca6152f84415",
+      "bytes": 1193407,
+      "pages": 11
+    },
+    {
+      "file": "files/WebProgramming.pdf",
+      "source_file": "Web Programming Module (2)_261014_105145.pdf",
+      "sha256": "1d161c83ff9a73b8eaf4cb4bbe1fae2b53814f869983c44280d11f4bfa38ea7f",
+      "bytes": 1077960,
+      "pages": 95
+    },
+    {
+      "file": "files/OperatingSystem.pdf",
+      "source_file": "Operating Systems Teaching Material by ShmDch WSU.pdf",
+      "sha256": "fc400eed277a0df030781f059ba3e87bbc2df9d3b541b14ab0496f4956e31402",
+      "bytes": 1391063,
+      "pages": 54
+    },
+    {
+      "file": "files/SoftwareEngineering.pdf",
+      "source_file": "Software Engineering.pdf",
+      "sha256": "7c0fa416a6271881ae98be0a7803fe8e983fd3b6b265d5dbe6d6490d3f27d904",
+      "bytes": 3054268,
+      "pages": 153
+    },
+    {
+      "file": "files/DesignAndAnalysisOfAlgorithms.pdf",
+      "source_file": "Design and Analysis of Algorithm.pdf",
+      "sha256": "19fe2c31be36bce7f2b1a107d796c5f6ed569bbf859a946ff844de9b891aaf37",
+      "bytes": 1799285,
+      "pages": 132
+    },
+    {
+      "file": "files/IntroductionToArtificialIntelligence.pdf",
+      "source_file": "Introduction to Artificial Intelligence.pdf",
+      "sha256": "56db7b8813ff484a1ce682dde091a32d2c2d9f29d324f645fdd9fee2b80fdc5b",
+      "bytes": 2100585,
+      "pages": 85
+    },
+    {
+      "file": "files/ComputerSecurity.pdf",
+      "source_file": "Computer Security.pdf",
+      "sha256": "06bfbdff95c885717a4c95d663be9eb6dfb353b3763f14d477c0a4587c7c8bee",
+      "bytes": 664588,
+      "pages": 11
+    },
+    {
+      "file": "files/AutomataAndComplexityTheory.pdf",
+      "source_file": "Automata and complexity theory.pdf",
+      "sha256": "a333d125adfa28902a6317979823e395997ccbc0d1cd7969c86004e56bab07f4",
+      "bytes": 977495,
+      "pages": 18
+    },
+    {
+      "file": "files/CompilerDesign.pdf",
+      "source_file": "Compiler Design.pdf",
+      "sha256": "dc0c66b666fb0cbab4a62c369cf6e92ce23d358a408e81c020dd1a4c4b6ca59e",
+      "bytes": 964644,
+      "pages": 19
+    }
+  ]
+}

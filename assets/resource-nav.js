@@ -10,6 +10,7 @@
     ['Study guide', 'Complete_CS_Exit_Study_Guide.html'],
     ['Questions', 'Questions/Interactive_Study_Guides/index.html'],
     ['Outlines', 'Outlines/index.html'],
+    ['Modules', 'Modules/index.html'],
     ['How to study', 'index.html#how-to-study']
   ];
   const nav = document.createElement('nav');

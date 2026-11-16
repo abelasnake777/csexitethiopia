@@ -1,16 +1,18 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-11-16T11:18:11.523761+00:00",
+  "checked_at_utc": "2026-11-16T13:02:00.947148+00:00",
   "static": {
     "passed": true,
-    "html_pages": 36,
-    "preserved_resource_files": 54,
+    "html_pages": 53,
+    "preserved_resource_files": 68,
     "educational_html_preserved": 35,
-    "local_links_checked": 5819,
+    "local_links_checked": 6052,
     "no_hardcoded_root_paths": true,
     "all_source_bytes_recoverable": true,
     "course_questions": 16,
-    "course_outlines": 16
+    "course_outlines": 16,
+    "course_modules": 16,
+    "unique_module_pdfs": 14
   },
   "educational_preservation": "Removing the exact marked navigation block recovers every original educational HTML byte. Non-HTML resources are identical. Original source files unchanged.",
   "original_question_security_policies_preserved": true,
@@ -19,7 +21,7 @@
     {
       "width": 1440,
       "height": 1000,
-      "home_cards": 3,
+      "home_cards": 4,
       "copy_buttons": 4,
       "overflow": false,
       "contacts": true
@@ -27,7 +29,7 @@
     {
       "width": 768,
       "height": 1024,
-      "home_cards": 3,
+      "home_cards": 4,
       "copy_buttons": 4,
       "overflow": false,
       "contacts": true
@@ -35,7 +37,7 @@
     {
       "width": 390,
       "height": 844,
-      "home_cards": 3,
+      "home_cards": 4,
       "copy_buttons": 4,
       "overflow": false,
       "contacts": true
@@ -43,7 +45,7 @@
     {
       "width": 320,
       "height": 780,
-      "home_cards": 3,
+      "home_cards": 4,
       "copy_buttons": 4,
       "overflow": false,
       "contacts": true
@@ -146,91 +148,41 @@
       "copied": true
     }
   ],
-  "final_homepage_copy_tests": [
-    {
-      "viewport": 1440,
-      "value": "Abel Asnake Bekele",
-      "copied": true
-    },
-    {
-      "viewport": 1440,
-      "value": "0934150083",
-      "copied": true
-    },
-    {
-      "viewport": 1440,
-      "value": "1000786296149",
-      "copied": true
-    },
-    {
-      "viewport": 1440,
-      "value": "5061102585011",
-      "copied": true
-    },
-    {
-      "viewport": 768,
-      "value": "Abel Asnake Bekele",
-      "copied": true
-    },
-    {
-      "viewport": 768,
-      "value": "0934150083",
-      "copied": true
-    },
-    {
-      "viewport": 768,
-      "value": "1000786296149",
-      "copied": true
-    },
-    {
-      "viewport": 768,
-      "value": "5061102585011",
-      "copied": true
-    },
-    {
-      "viewport": 390,
-      "value": "Abel Asnake Bekele",
-      "copied": true
-    },
-    {
-      "viewport": 390,
-      "value": "0934150083",
-      "copied": true
-    },
-    {
-      "viewport": 390,
-      "value": "1000786296149",
-      "copied": true
-    },
-    {
-      "viewport": 390,
-      "value": "5061102585011",
-      "copied": true
-    },
-    {
-      "viewport": 320,
-      "value": "Abel Asnake Bekele",
-      "copied": true
-    },
-    {
-      "viewport": 320,
-      "value": "0934150083",
-      "copied": true
-    },
-    {
-      "viewport": 320,
-      "value": "1000786296149",
-      "copied": true
-    },
-    {
-      "viewport": 320,
-      "value": "5061102585011",
-      "copied": true
-    }
-  ],
   "subdirectory_hosting_verified": true,
   "script_errors": [],
   "network_errors": [],
   "visual_QA": "Desktop home/support; all three actions visible at390px; tablet768px; phone support; both course-selector grids. Additional course checks automated on desktop and phone.",
-  "deployment": "Static files ready for Yegara; no live hosting deployment performed."
+  "deployment": "Static site ready for Yegara. Repository remains private; no live hosting deployment performed.",
+  "home_resource_options": 4,
+  "module_viewport_cases": 32,
+  "module_courses": 16,
+  "unique_original_module_PDFs": 14,
+  "module_PDFs_unchanged": true,
+  "module_page_controls_and_zoom": true,
+  "PDF_downloads_hash_verified": true,
+  "module_viewer_subdirectory_hosting": true,
+  "self_hosted_PDFjs": "6.5.438",
+  "study_guide_file_unchanged": true,
+  "study_guide_sha256": "03aa84b65bad3099e42f64357392887c2981cd4e19d210044e2a25b255544c3c",
+  "original_question_JSON_payloads_unchanged": true,
+  "question_reference_totals": {
+    "courses": 16,
+    "questions": 3485,
+    "unique_stable_ids": 3485,
+    "hint_blocks_with_valid_links": 3485,
+    "answer_blocks_with_valid_links": 3485,
+    "hint_section_links": 4322,
+    "answer_section_links": 4322,
+    "questions_tested_for_independent_toggles": 3485,
+    "missing_ids": 0,
+    "duplicate_ids": 0,
+    "missing_hint_links": 0,
+    "missing_answer_links": 0,
+    "mismatched_links": 0,
+    "missing_master_sections": 0,
+    "incorrect_course_ancestors": 0,
+    "script_errors": 0,
+    "network_errors": 0
+  },
+  "reference_audit": "QUESTION_REFERENCE_AUDIT.json"
 }
