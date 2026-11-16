@@ -66,7 +66,11 @@
     },
     {
       "path": "assets/modules.css",
-      "sha256": "9ac2e651ce660f9ace8c3b254751de8bde2e5b7207db2c2121b99e93d7bfe245"
+      "sha256": "d9aa6d061a7b1bfb5094045d8904910db7c11387c3ed38bd44ddb32b5e889e27"
+    },
+    {
+      "path": "assets/module-loader.js",
+      "sha256": "a8b37739702d151e69d66c4ae89e888a1ec7cdba50cd32faacc9c84cf6c3ae0c"
     }
   ],
   "files": [

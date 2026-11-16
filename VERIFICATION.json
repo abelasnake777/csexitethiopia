@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-11-16T13:02:00.947148+00:00",
+  "checked_at_utc": "2026-11-16T13:07:06.038095+00:00",
   "static": {
     "passed": true,
     "html_pages": 53,
@@ -184,5 +184,12 @@
     "script_errors": 0,
     "network_errors": 0
   },
-  "reference_audit": "QUESTION_REFERENCE_AUDIT.json"
+  "reference_audit": "QUESTION_REFERENCE_AUDIT.json",
+  "local_file_native_PDF_fallback": {
+    "passed": true,
+    "file_protocol_native_viewer": true,
+    "correct_original_pdf": true,
+    "script_errors": []
+  },
+  "module_dynamic_loader_checked": true
 }

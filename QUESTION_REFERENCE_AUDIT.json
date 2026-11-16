@@ -103,8 +103,8 @@
     "source_master_sha256": "00120d05158449be9b2f72eb19eecdaf86d3109b3badb3b4eb3d8a451103ba00",
     "source_manifest_sha256": "684610ce70e61f130c590cdc1be024097136e716cd3970a64aa89e96982427f0",
     "reading_map_sha256": "93efba24e4495631df81ad5ffb6f99de043a4a2b4b540eee9e21c8d78ec9d2ea",
-    "current_source_manifest_sha256": "b38c633b95031d233bc1b43851e4a521f743d1997fdae52a39ca45f9534ac135",
-    "manifest_metadata_note": "The removal-rule wording was clarified after DOM verification; educational files and reference links did not change."
+    "current_source_manifest_sha256": "b9ae66794097ebac8509331267b0a7d0a68815f009653d0b08a027809ce83ae9",
+    "manifest_metadata_note": "Manifest metadata extended for the local PDF loader after DOM verification; question files, study-guide file and reference links did not change."
   },
   "courses": [
     {
