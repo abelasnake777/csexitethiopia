@@ -10,7 +10,8 @@ const source = process.env.SOURCE_ROOT || '/home/abel_asnake/Documents/Exit_Stud
 const base = (process.env.BASE_URL || 'http://127.0.0.1:8457').replace(/\/$/, '');
 const readingPath = process.env.READING_MAP || path.join(source, '.master_guide_work/output/Question_Reading_Index.json');
 const readingBytes = fs.readFileSync(readingPath);
-const rows = JSON.parse(readingBytes);
+const reviews = new Map(JSON.parse(fs.readFileSync(path.join(root, 'STUDY_NOTE_ANSWER_REVIEW.json'))).reviews.map(r => [r.id, r]));
+const rows = JSON.parse(readingBytes).map(r => ({...r, original_section_ids: r.section_ids, section_ids: [...new Set([...r.section_ids, ...(reviews.get(r.id)?.section_ids || [])])]}));
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const output = path.join(root, '.qa/ref-dom-evidence.json');
 const result = {schema_version: 1, passed: false, started_at: new Date().toISOString(), base_url: base,
@@ -75,7 +76,7 @@ const result = {schema_version: 1, passed: false, started_at: new Date().toISOSt
       const wanted = new Map(expected.map(r => [r.id, r]));
       for (const q of observed) {
         const row = wanted.get(q.id);
-        assert.deepEqual(q.model_section_ids, row.section_ids, q.id);
+        assert.deepEqual(q.model_section_ids, row.original_section_ids, q.id);
         assert.equal(q.initially_closed, true, q.id);
         assert.deepEqual(q.toggle_states, [[true, false], [true, true], [false, true], [false, false]], q.id);
         assert.equal(q.answer_container_count, 1, q.id);
@@ -105,7 +106,7 @@ const result = {schema_version: 1, passed: false, started_at: new Date().toISOSt
         const detail = card.locator(':scope > details.reveal');
         const states = [];
         for (const which of [0, 1, 0, 1]) {
-          await detail.nth(which).locator('summary').click();
+          await detail.nth(which).locator(':scope > summary').click();
           const open = await detail.nth(which).evaluate(d => d.open);
           await assert.doesNotReject(() => page.waitForFunction(({id, which, open}) => document.querySelector('[data-question-id="' + id + '"]').querySelectorAll(':scope > details.reveal')[which].querySelector('summary').getAttribute('aria-expanded') === String(open), {id: observed[index].id, which, open}));
           states.push(await detail.evaluateAll(ds => ds.map(d => d.open)));

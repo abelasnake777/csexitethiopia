@@ -94,12 +94,18 @@ def static_checks():
     require(sha(block) == baseline['insertion']['sha256'], 'Insertion baseline hash mismatch')
     manifest = json.loads((ROOT / 'SOURCE_MANIFEST.json').read_bytes())
     manifest_files = {f['copied_path']: f for f in manifest['files']}
+    review_data = json.loads((ROOT / 'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes())
+    reviews = {r['id']: r for r in review_data['reviews']}
     courses, questions, seen = [], [], set()
     for slug in slugs:
         before = baseline['courses'][slug]
         raw = (ROOT / before['path']).read_bytes()
         require(raw.count(START.encode()) == raw.count(END.encode()) == raw.count(block) == 1, slug + ': insertion markers/block changed')
         restored = raw.replace(block, b'', 1)
+        review_block = manifest_files[before['path']].get('answer_review_integration_block')
+        if review_block:
+            require(restored.count(review_block.encode()) == 1, slug + ': answer overlay count')
+            restored = restored.replace(review_block.encode(), b'', 1)
         # Navigation may include the authorized Modules link; original educational bytes are checked below.
         matches = PAYLOAD.findall(raw)
         require(len(matches) == 1 and sha(matches[0]) == before['payload_sha256'], slug + ': embedded JSON changed')
@@ -120,16 +126,17 @@ def static_checks():
             ids = item['guide']['section_ids']
             require(ids and ids == row['section_ids'], qid + ': section IDs mismatch')
             require(len(ids) == len(set(ids)), qid + ': duplicate reference')
-            for sid in ids:
+            effective_ids = list(dict.fromkeys(ids + reviews.get(qid, {}).get('section_ids', [])))
+            for sid in effective_ids:
                 targets = parser.ids.get(sid, [])
                 require(len(targets) == 1, qid + ': missing/duplicate master target ' + sid)
                 require(targets[0]['tag'] == 'SECTION' and targets[0]['course_ancestor'] == 'course-' + slug, qid + ': incorrect master section/course ' + sid)
-                require(bool(model['section_titles'].get(sid)), qid + ': missing link title ' + sid)
-            questions.append({'id': qid, 'slug': slug, 'number': row['number'], 'section_ids': ids})
+                require(bool(model['section_titles'].get(sid)) or sid in reviews.get(qid, {}).get('section_ids', []), qid + ': missing link title ' + sid)
+            questions.append({'id': qid, 'slug': slug, 'number': row['number'], 'section_ids': effective_ids, 'original_section_ids': ids})
         courses.append({**before, 'slug': slug, 'after_sha256': sha(raw), 'after_bytes': len(raw),
                         'questions': len(expected), 'json_unchanged': True, 'navigation_updated_only_with_modules_link': True,
                         'exact_previous_bytes_after_removing_answer_block': sha(restored) == before['before_sha256'],
-                        'exact_source_bytes_after_removing_answer_and_navigation_blocks': True})
+                        'exact_source_bytes_after_removing_review_reference_and_navigation_blocks': True})
     require(seen == set(by_id), 'Missing/extra stable IDs')
     source_changed = [rel for rel, digest in baseline['source_files'].items() if not (source / rel).is_file() or sha((source / rel).read_bytes()) != digest]
     require(not source_changed, 'Protected source changed: ' + repr(source_changed))
@@ -148,6 +155,7 @@ def static_checks():
         'website_master_sha256': sha(master_bytes), 'source_master_sha256': sha((source / 'Complete_CS_Exit_Study_Guide.html').read_bytes()),
         'source_manifest_sha256': sha((ROOT / 'SOURCE_MANIFEST.json').read_bytes()),
         'reading_map_sha256': sha(reading_bytes),
+        'answer_review_sha256': sha((ROOT / 'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes()),
     }
 
 
@@ -157,7 +165,7 @@ def main():
     ap.add_argument('--static-only', action='store_true', help='Check source preservation and mappings without replacing the DOM audit')
     args = ap.parse_args()
     audit = {'schema_version': 1, 'passed': False, 'generated_at': datetime.now(timezone.utc).isoformat(),
-             'scope_note': 'Reference coverage only. Original answers and ambiguity/clarification guidance are preserved; this audit does not assert unique answers for ambiguous questions.',
+             'scope_note': 'Reference-link coverage only, not answer completeness or correctness. Original question payloads remain unchanged. Current complete-note reviews are separately recorded in STUDY_NOTE_ANSWER_REVIEW.json; historical reviews stay archived.',
              'errors': []}
     try:
         baseline, rows, courses, static_questions, parser, preservation = static_checks()
@@ -174,7 +182,7 @@ def main():
         # Recheck preserved files after the browser run and reject stale/mismatched evidence.
         baseline, rows, courses, static_questions, parser, preservation = static_checks()
         require(evidence['reading_map_sha256'] == preservation['reading_map_sha256'], 'DOM reading-map hash mismatch')
-        by_id = {r['id']: r for r in rows}
+        by_id = {r['id']: r for r in static_questions}
         counts = Counter(q['id'] for q in evidence['questions'])
         require(set(counts) == set(by_id) and all(n == 1 for n in counts.values()), 'DOM evidence must cover every stable ID exactly once')
         course_evidence = {c['slug']: c for c in evidence['courses']}
@@ -187,7 +195,7 @@ def main():
             course['browser_checks'] = observed_course
         for q in evidence['questions']:
             row = by_id[q['id']]
-            require(q['slug'] == row['slug'] and q['model_section_ids'] == row['section_ids'], q['id'] + ': DOM map mismatch')
+            require(q['slug'] == row['slug'] and q['model_section_ids'] == row['original_section_ids'], q['id'] + ': DOM map mismatch')
             require(q['initially_closed'] and q['block_count'] == 2, q['id'] + ': initial toggle state')
             require(q['toggle_states'] == [[True, False], [True, True], [False, True], [False, False]], q['id'] + ': independent toggles')
             require(q['answer_container_count'] == 1 and q['answer_container_follows_guidance'], q['id'] + ': answer container')
@@ -203,6 +211,16 @@ def main():
                     require(target == {'count': 1, 'tag': 'SECTION', 'course_ancestor': 'course-' + row['slug']}, q['id'] + ': DOM target/course mismatch')
                     require(parser.ids[sid][0]['course_ancestor'] == target['course_ancestor'], q['id'] + ': static/DOM master disagreement')
         require(not evidence['errors'] and not evidence['script_errors'] and not evidence['network_errors'], 'Browser errors')
+        answer_reviews = json.loads((ROOT / 'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes())
+        audit['separate_answer_support_review'] = {
+            'path': 'STUDY_NOTE_ANSWER_REVIEW.json',
+            'readable_report': 'ANSWER_REVIEW_SUMMARY.html',
+            'reviewed': answer_reviews['reviewed'],
+            'previous_module_verified_retained': answer_reviews['prior_verified_unchanged'],
+            'statuses': answer_reviews['statuses'],
+            'supplementary_reference_answers': answer_reviews['supplementary_reference_answers'],
+            'scope': 'The zero-missing counts below concern LINKS only. Answer certainty and genuine source defects are separately recorded, not inferred from link presence.'
+        }
         audit.update(passed=True, totals={'courses': 16, 'questions': 3485, 'unique_stable_ids': 3485,
                       'hint_blocks_with_valid_links': 3485, 'answer_blocks_with_valid_links': 3485,
                       'hint_section_links': sum(len(q['hint_links']) for q in evidence['questions']),

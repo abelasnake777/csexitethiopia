@@ -2,11 +2,13 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
-import hashlib,json,argparse
+import hashlib,json,argparse,re
 ROOT=Path(__file__).resolve().parent.parent
 class Page(HTMLParser):
  def __init__(self,text):
   super().__init__(convert_charrefs=True);self.ids=set();self.links=[];self.feed(text)
+  match=re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',text,re.S)
+  if match:self.ids.update('question-'+str(item['question']['question'])for item in json.loads(match[1])['questions'])
  def handle_starttag(self,tag,attrs):
   attrs=dict(attrs)
   if 'id'in attrs:self.ids.add(attrs['id'])
@@ -17,7 +19,7 @@ def verify(source=None):
  manifest=json.loads((ROOT/'SOURCE_MANIFEST.json').read_text());preserved=0
  for f in manifest['files']:
   data=(ROOT/f['copied_path']).read_bytes();assert digest(data)==f['copied_sha256'],('Changed copied resource',f['copied_path'])
-  for key in ['reference_integration_block','integration_block']:
+  for key in ['answer_review_integration_block','reference_integration_block','integration_block']:
    block=f.get(key)
    if block:
     b=block.encode();assert data.count(b)==1;data=data.replace(b,b'',1)
