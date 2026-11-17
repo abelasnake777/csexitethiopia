@@ -33,6 +33,8 @@ Keep all four resource paths together. Existing reading-section links, practice-
 
 Resources were copied from the existing Exit Study materials. Original source files and the complete study note were left untouched. Imported HTML has removable navigation additions; question readers also have a study-note reference insertion and a current-answer review overlay. Removing the three exact blocks recorded in `SOURCE_MANIFEST.json` recovers the original question reader byte for byte. The original embedded question JSON, stems, choices, provenance, images and historical reviews are unchanged.
 
+Four practice questions now use user-approved intended readings: restored aⁿbⁿcⁿ notation, permission mode -rwxr--r--, simultaneous FCFS arrivals, and an explicit two-path project network ending at day 9. Their displayed stems and cleaned choices are labeled as clarified practice versions; original imported JSON and source wording remain recoverable in the audit. The search index follows the clarified wording.
+
 The current-answer overlay places new complete-note explanations and literal evidence before the older review. Historical hints and answers remain in independently collapsed archives, so old module-only limitations do not masquerade as current answers. Existing module-verified answers are retained. The imported content-security policy stays unchanged; the new code and review data are embedded inline for compatibility with that policy.
 The shared navigation adds Home and resource links. The questions selector receives presentation-only responsive grid styling. Other resource layouts retain their existing styles. Non-HTML resources are identical copies. The manifest documents these checks.
 

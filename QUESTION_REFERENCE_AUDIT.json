@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "passed": true,
-  "generated_at": "2026-11-16T18:19:23.808005+00:00",
+  "generated_at": "2026-11-17T08:49:07.605825+00:00",
   "scope_note": "Reference-link coverage only, not answer completeness or correctness. Original question payloads remain unchanged. Current complete-note reviews are separately recorded in STUDY_NOTE_ANSWER_REVIEW.json; historical reviews stay archived.",
   "errors": [],
   "dom_evidence": {
     "path": ".qa/ref-dom-evidence.json",
-    "sha256": "3f3274b4f465a0f56c4a2dab367c3e69f3fb84d655a9e8b1265e27e3c96486dc",
+    "sha256": "90939bc3c552529f62b4865d8b515df7be10faf9442d227049b5c28b5f7a9b87",
     "browser": {
       "engine": "chromium",
       "version": "155.0.8059.84",
       "executable": "/opt/google/chrome/chrome"
     },
-    "started_at": "2026-11-16T18:19:25.270Z",
-    "finished_at": "2026-11-16T18:20:13.135Z",
+    "started_at": "2026-11-17T08:49:09.105Z",
+    "finished_at": "2026-11-17T08:49:55.046Z",
     "base_url": "http://127.0.0.1:8457"
   },
   "separate_answer_support_review": {
@@ -23,14 +23,19 @@
     "previous_module_verified_retained": 1321,
     "statuses": {
       "ambiguous": 399,
-      "answered": 1150,
+      "answered": 1154,
       "multiple_answers": 247,
       "no_valid_option": 106,
-      "answered_open": 258,
-      "incomplete_question": 4
+      "answered_open": 258
     },
     "supplementary_reference_answers": 3,
-    "scope": "The zero-missing counts below concern LINKS only. Answer certainty and genuine source defects are separately recorded, not inferred from link presence."
+    "scope": "The zero-missing counts below concern LINKS only. Answer certainty and genuine source defects are separately recorded, not inferred from link presence.",
+    "clarified_question_ids": [
+      "Q00891",
+      "SS099",
+      "NS0693",
+      "Q01601"
+    ]
   },
   "totals": {
     "courses": 16,
@@ -119,6 +124,7 @@
       "assets/study-note-answers.js",
       "tests/answer_review_summary.cjs",
       "tests/modules.cjs",
+      "tests/question_clarifications.cjs",
       "tests/study_note_answers.cjs",
       "tools/apply_study_note_answers.py",
       "tools/build_answer_review_summary.py",
@@ -128,9 +134,9 @@
     "parallel_work_note": "Observed differences outside this task scope are recorded, not attributed to this task. This verifier writes only its authorized audit/evidence files.",
     "website_master_sha256": "03aa84b65bad3099e42f64357392887c2981cd4e19d210044e2a25b255544c3c",
     "source_master_sha256": "00120d05158449be9b2f72eb19eecdaf86d3109b3badb3b4eb3d8a451103ba00",
-    "source_manifest_sha256": "709be3e5d6c9d802e3a53e0ec07469c544e8ff2ca553d4124553cf72b3c39241",
+    "source_manifest_sha256": "f02a95a4563b9b4d9469cad51f628fa81b5d27c3a042eefa08965df06cbfc67e",
     "reading_map_sha256": "93efba24e4495631df81ad5ffb6f99de043a4a2b4b540eee9e21c8d78ec9d2ea",
-    "answer_review_sha256": "750aaeefdc3b9e473dba1251850474c8ff6cba7dfe91e6289ffc17270a5934b9"
+    "answer_review_sha256": "6128f721eddb8f80ce828b6969d52c4a6cd87d867e173b34c5e47605bb1e38d0"
   },
   "courses": [
     {
@@ -141,8 +147,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "a407dfe7f3c95cc41adfc6c1bc91df1903b5091bad85cefc9921571c853fd90f",
       "slug": "Advanced_Database_Systems",
-      "after_sha256": "26c942f43726f79d640f9395ec8f4c7ad56aba98563467727ad2da69d0f8c205",
-      "after_bytes": 1653904,
+      "after_sha256": "86b7c4dd3e78123264d4d52cc99a0f5e7a5b4259f63a7f2b0ef44191b87b4cf8",
+      "after_bytes": 1655005,
       "questions": 239,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -151,7 +157,7 @@
       "browser_checks": {
         "slug": "Advanced_Database_Systems",
         "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
-        "sha256": "26c942f43726f79d640f9395ec8f4c7ad56aba98563467727ad2da69d0f8c205",
+        "sha256": "86b7c4dd3e78123264d4d52cc99a0f5e7a5b4259f63a7f2b0ef44191b87b4cf8",
         "questions": 239,
         "pointer_checks": [
           {
@@ -213,8 +219,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "231699b377d5f602104f379d2f9bc1c9bd09c7f15faff6edf9532e0f79da8dcb",
       "slug": "Automata_and_Complexity_Theory",
-      "after_sha256": "ba60413f95d3a680af32f3335078a2051ddc268d998401da0d1453db7d55c1d3",
-      "after_bytes": 2067208,
+      "after_sha256": "fac3edbd77d4da1eaea93058fd78456e1b978372724c4aebbc2dc2346196e366",
+      "after_bytes": 2069426,
       "questions": 156,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -223,7 +229,7 @@
       "browser_checks": {
         "slug": "Automata_and_Complexity_Theory",
         "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
-        "sha256": "ba60413f95d3a680af32f3335078a2051ddc268d998401da0d1453db7d55c1d3",
+        "sha256": "fac3edbd77d4da1eaea93058fd78456e1b978372724c4aebbc2dc2346196e366",
         "questions": 156,
         "pointer_checks": [
           {
@@ -285,8 +291,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "aa8551a2d10cab71ae64a282149ff0401648f59588be1e5ba3c1de66b156c04d",
       "slug": "Compiler_Design",
-      "after_sha256": "29e310b57e7edb09bfa912a85477401cbfe81160ca9004c3416144cd62744621",
-      "after_bytes": 1186829,
+      "after_sha256": "73fe63daab9c4abf9012e34557019145a03deb9eee013e7b80c44f17a60d043b",
+      "after_bytes": 1187930,
       "questions": 200,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -295,7 +301,7 @@
       "browser_checks": {
         "slug": "Compiler_Design",
         "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
-        "sha256": "29e310b57e7edb09bfa912a85477401cbfe81160ca9004c3416144cd62744621",
+        "sha256": "73fe63daab9c4abf9012e34557019145a03deb9eee013e7b80c44f17a60d043b",
         "questions": 200,
         "pointer_checks": [
           {
@@ -357,8 +363,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "1b83a697d6dc6725a6b08b87f697fc8ce76a51cd1c57a23986b5619c3a39b16f",
       "slug": "Computer_Organization_and_Architecture",
-      "after_sha256": "d8435fe9ef3878eb4de6d21ea985e41993dc0cfc765b1511be65de74161ac95a",
-      "after_bytes": 2442345,
+      "after_sha256": "1f65876b1862a1faba5d2bd37069d95289580f45c6bf06ca099061b0052175a1",
+      "after_bytes": 2443446,
       "questions": 184,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -367,7 +373,7 @@
       "browser_checks": {
         "slug": "Computer_Organization_and_Architecture",
         "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
-        "sha256": "d8435fe9ef3878eb4de6d21ea985e41993dc0cfc765b1511be65de74161ac95a",
+        "sha256": "1f65876b1862a1faba5d2bd37069d95289580f45c6bf06ca099061b0052175a1",
         "questions": 184,
         "pointer_checks": [
           {
@@ -429,8 +435,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "3fae179f1975e5f3e64eb0f438396b4fd2849f223d28ef92755933b9d7448ec6",
       "slug": "Computer_Programming",
-      "after_sha256": "aec49f3e954324f09dd82afefb909d08488d39b2db0d27ac7f609126fcc698cf",
-      "after_bytes": 2180486,
+      "after_sha256": "dad5630c50caa61b2835548de99cddecf9152feaed630785ae9fa8b9b0afcbd4",
+      "after_bytes": 2181587,
       "questions": 177,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -439,7 +445,7 @@
       "browser_checks": {
         "slug": "Computer_Programming",
         "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
-        "sha256": "aec49f3e954324f09dd82afefb909d08488d39b2db0d27ac7f609126fcc698cf",
+        "sha256": "dad5630c50caa61b2835548de99cddecf9152feaed630785ae9fa8b9b0afcbd4",
         "questions": 177,
         "pointer_checks": [
           {
@@ -501,8 +507,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "71f2d830aadc41f1d4f808378558cb2cf12d10d138ee3989bb09ca2cab8ba139",
       "slug": "Computer_Security",
-      "after_sha256": "19297a49db82eadc9bf9d09fef07f5ad5a49db09383fb56e0f1f5dc659b1a7d7",
-      "after_bytes": 978935,
+      "after_sha256": "edba85539859255ba8ec4e0558ff562730453174c5910bf42572658c018cb633",
+      "after_bytes": 980036,
       "questions": 171,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -511,7 +517,7 @@
       "browser_checks": {
         "slug": "Computer_Security",
         "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
-        "sha256": "19297a49db82eadc9bf9d09fef07f5ad5a49db09383fb56e0f1f5dc659b1a7d7",
+        "sha256": "edba85539859255ba8ec4e0558ff562730453174c5910bf42572658c018cb633",
         "questions": 171,
         "pointer_checks": [
           {
@@ -573,8 +579,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "4ab2e93347ce4fe217a312e6bbb4d776773461f2de87432fa850591246261c65",
       "slug": "Data_Communication_and_Computer_Networking",
-      "after_sha256": "f6ae963c3b374df4e7e3efdfd2d744d53b06c8abced6853e5d504b54f06e3411",
-      "after_bytes": 2775110,
+      "after_sha256": "456ca37bdd4aac5e6324a6b908b97a84fe0f9ae6a8a73ec400005625eba27f7e",
+      "after_bytes": 2776211,
       "questions": 274,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -583,7 +589,7 @@
       "browser_checks": {
         "slug": "Data_Communication_and_Computer_Networking",
         "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
-        "sha256": "f6ae963c3b374df4e7e3efdfd2d744d53b06c8abced6853e5d504b54f06e3411",
+        "sha256": "456ca37bdd4aac5e6324a6b908b97a84fe0f9ae6a8a73ec400005625eba27f7e",
         "questions": 274,
         "pointer_checks": [
           {
@@ -645,8 +651,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "13def9e05a936f65efd5562a6a7ed3d762291d14b3766a0172e56ae6e33b7d92",
       "slug": "Data_Structures_and_Algorithms",
-      "after_sha256": "b8e3243a5d13d6769d6c868a316e8c1fa242e17ecce771df8fc6f6028f21f56a",
-      "after_bytes": 1817703,
+      "after_sha256": "49c0f3537ecc1cb7f3e60e927adcf9026a4770adc24e66f0d3e67a2ad229bd29",
+      "after_bytes": 1818804,
       "questions": 271,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -655,7 +661,7 @@
       "browser_checks": {
         "slug": "Data_Structures_and_Algorithms",
         "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
-        "sha256": "b8e3243a5d13d6769d6c868a316e8c1fa242e17ecce771df8fc6f6028f21f56a",
+        "sha256": "49c0f3537ecc1cb7f3e60e927adcf9026a4770adc24e66f0d3e67a2ad229bd29",
         "questions": 271,
         "pointer_checks": [
           {
@@ -717,8 +723,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "660574c73eae153302b6a04d092b74adb6ca403dd535434224a05d17aae12d4f",
       "slug": "Design_and_Analysis_of_Algorithms",
-      "after_sha256": "b8c4591669c12a7b2684a392fcd33594b2cc4060659c7bcae544ca9770acb38b",
-      "after_bytes": 1358511,
+      "after_sha256": "425e5b68e7c097ad230ca2ca58fe4a67267a8602aa8e91fa45a42809723e1e50",
+      "after_bytes": 1359612,
       "questions": 141,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -727,7 +733,7 @@
       "browser_checks": {
         "slug": "Design_and_Analysis_of_Algorithms",
         "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
-        "sha256": "b8c4591669c12a7b2684a392fcd33594b2cc4060659c7bcae544ca9770acb38b",
+        "sha256": "425e5b68e7c097ad230ca2ca58fe4a67267a8602aa8e91fa45a42809723e1e50",
         "questions": 141,
         "pointer_checks": [
           {
@@ -789,8 +795,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "c87f21b6821cf11cca78e1ddc259b4b250c951248ab475182d803a1d2b675953",
       "slug": "Fundamental_of_Database_Systems",
-      "after_sha256": "0afd9bcaf7a3a97b5fed43f68cf915979cdd108cfdc86ee74491b53e6303914f",
-      "after_bytes": 2857939,
+      "after_sha256": "ef086c28c9bb86dd3decf85ecebf453bc6abe954c3c091557b0e359ca23288cd",
+      "after_bytes": 2859040,
       "questions": 226,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -799,7 +805,7 @@
       "browser_checks": {
         "slug": "Fundamental_of_Database_Systems",
         "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
-        "sha256": "0afd9bcaf7a3a97b5fed43f68cf915979cdd108cfdc86ee74491b53e6303914f",
+        "sha256": "ef086c28c9bb86dd3decf85ecebf453bc6abe954c3c091557b0e359ca23288cd",
         "questions": 226,
         "pointer_checks": [
           {
@@ -861,8 +867,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "dd765b5e860c06b8d3743737734d6ddce924470491e22d1e24cc0e8535d84543",
       "slug": "Introduction_to_Artificial_Intelligence",
-      "after_sha256": "505e74014f2c7d073fbd5682e83544710fc17fa903b3010b2fb989240f2f42cc",
-      "after_bytes": 1420391,
+      "after_sha256": "7fb7832221ac667a1ae9d887022746cbcb07d4a2353e33cbef1008aa13dfcb41",
+      "after_bytes": 1421492,
       "questions": 235,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -871,7 +877,7 @@
       "browser_checks": {
         "slug": "Introduction_to_Artificial_Intelligence",
         "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
-        "sha256": "505e74014f2c7d073fbd5682e83544710fc17fa903b3010b2fb989240f2f42cc",
+        "sha256": "7fb7832221ac667a1ae9d887022746cbcb07d4a2353e33cbef1008aa13dfcb41",
         "questions": 235,
         "pointer_checks": [
           {
@@ -933,8 +939,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "c72f57b8ad6133ca9bb94a9a7ae4e792a230dec673022b668f4b8260f0934025",
       "slug": "Network_and_System_Administration",
-      "after_sha256": "416fcf64a7556f2b96c1f1de92aa7ad4a9c6a95e4b45449919013beb16bf778c",
-      "after_bytes": 952277,
+      "after_sha256": "b7aa5e034ce3c318f164243d9b085e595f0f7228ee452b6654ef18cca49186a6",
+      "after_bytes": 954252,
       "questions": 101,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -943,7 +949,7 @@
       "browser_checks": {
         "slug": "Network_and_System_Administration",
         "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
-        "sha256": "416fcf64a7556f2b96c1f1de92aa7ad4a9c6a95e4b45449919013beb16bf778c",
+        "sha256": "b7aa5e034ce3c318f164243d9b085e595f0f7228ee452b6654ef18cca49186a6",
         "questions": 101,
         "pointer_checks": [
           {
@@ -1005,8 +1011,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "18aed2fd326a6cfafca3238626233fa2a8f18d7c165d7ced368233b242f4d864",
       "slug": "Object_Oriented_Programming",
-      "after_sha256": "8e0ee5b640ffb1385e387a32d43b74911b90e9a989d76c6a79a83086b958891e",
-      "after_bytes": 4200277,
+      "after_sha256": "95a14b0860f596628f479a3a5435d2a5166098ad30a537e42131074c03ec1b07",
+      "after_bytes": 4201378,
       "questions": 294,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1015,7 +1021,7 @@
       "browser_checks": {
         "slug": "Object_Oriented_Programming",
         "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
-        "sha256": "8e0ee5b640ffb1385e387a32d43b74911b90e9a989d76c6a79a83086b958891e",
+        "sha256": "95a14b0860f596628f479a3a5435d2a5166098ad30a537e42131074c03ec1b07",
         "questions": 294,
         "pointer_checks": [
           {
@@ -1077,8 +1083,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "c88ebb5d81ab729c753dcf8e15c6405c15829563dd6084e0b834b77fb55105f0",
       "slug": "Operating_System",
-      "after_sha256": "2507e0d85284eec9793362e1ea5dfa23dc81b32e4e4d377b357a17fb97699269",
-      "after_bytes": 1854389,
+      "after_sha256": "1876f2a5337ec9b73299899de3a3f515b42cc1731415fdaaacb8ad7f5117d4bc",
+      "after_bytes": 1856336,
       "questions": 233,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1087,7 +1093,7 @@
       "browser_checks": {
         "slug": "Operating_System",
         "path": "Questions/Interactive_Study_Guides/Operating_System.html",
-        "sha256": "2507e0d85284eec9793362e1ea5dfa23dc81b32e4e4d377b357a17fb97699269",
+        "sha256": "1876f2a5337ec9b73299899de3a3f515b42cc1731415fdaaacb8ad7f5117d4bc",
         "questions": 233,
         "pointer_checks": [
           {
@@ -1149,8 +1155,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "6760c186890714326d86b34f393e732732411b1f2cc7fc70a66534b3a0867e1e",
       "slug": "Software_Engineering",
-      "after_sha256": "c886067512aafb2c749bb3a8277ed15f23d74a8f1847202db0841f2d6a81ff9d",
-      "after_bytes": 2705233,
+      "after_sha256": "dd6db4cf514787c913fcc0eeeb7dbecbe3573694f5f126f97864ac8a22c19e87",
+      "after_bytes": 2707805,
       "questions": 278,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1159,7 +1165,7 @@
       "browser_checks": {
         "slug": "Software_Engineering",
         "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
-        "sha256": "c886067512aafb2c749bb3a8277ed15f23d74a8f1847202db0841f2d6a81ff9d",
+        "sha256": "dd6db4cf514787c913fcc0eeeb7dbecbe3573694f5f126f97864ac8a22c19e87",
         "questions": 278,
         "pointer_checks": [
           {
@@ -1221,8 +1227,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "22f6597bf83643f884d5e2761a4a19107e3fbe7cc5fa92bbe04a4585de07704f",
       "slug": "Web_Programming",
-      "after_sha256": "6c0751da754195b8d75c660a7f3703088963d40b8cb159d273199303f0474f0b",
-      "after_bytes": 2176158,
+      "after_sha256": "e695f8a51eabc56172b8e69300e745392c4ed81a00d703d267160dd08ea43d76",
+      "after_bytes": 2177259,
       "questions": 305,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1231,7 +1237,7 @@
       "browser_checks": {
         "slug": "Web_Programming",
         "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
-        "sha256": "6c0751da754195b8d75c660a7f3703088963d40b8cb159d273199303f0474f0b",
+        "sha256": "e695f8a51eabc56172b8e69300e745392c4ed81a00d703d267160dd08ea43d76",
         "questions": 305,
         "pointer_checks": [
           {

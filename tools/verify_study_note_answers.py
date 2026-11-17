@@ -61,6 +61,12 @@ def verify(allow_partial=False):
             r=reviews[qid];c['reviewed']+=1;c['statuses'][r['status']]+=1
             require(r['status']in STATUSES,qid+' invalid review status')
             require(r['previous_status']==old,qid+' previous status mismatch')
+            revision=r.get('question_revision')
+            if revision:
+                require(revision['kind']=='user_approved_intended_reading' and revision['approved_on'] and revision['assumptions'] and revision['note'],qid+' clarification provenance')
+                require(revision['original_stem']==q['stem'] and revision['original_options']==q['options'],qid+' original clarification snapshot differs')
+                require(revision['stem'].strip() and [o['label']for o in revision['options']]==[o['label']for o in q['options']],qid+' clarified question/options mismatch')
+                require(all(o['text'].strip() for o in revision['options']),qid+' empty clarified option')
             options=[o['label']for o in q['options']]
             require([a['label']for a in r['choices']]==options,qid+' options missing/reordered')
             require(len(set(r['labels']))==len(r['labels']) and set(r['labels'])<=set(options),qid+' answer label mismatch')
@@ -95,7 +101,7 @@ def verify(allow_partial=False):
     require(len(reviews)==data['reviewed'] and data['targeted_questions']==len(targets),'Summary count mismatch')
     require(Counter(r['status']for r in reviews.values())==data['statuses'],'Status summary mismatch')
     if not allow_partial:require(data['complete']and len(reviews)==len(targets),'Review incomplete')
-    result={'passed':True,'generated_at':datetime.now(timezone.utc).isoformat(),'scope':'Structural and evidence verification; not a guarantee of answer correctness or exam completeness.','study_guide_sha256':sha(master),'review_data_sha256':sha((ROOT/'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes()),'questions':len(seen),'targeted':len(targets),'reviewed':len(reviews),'previous_verified_unchanged':original_verified,'all_targeted_reviewed':len(reviews)==len(targets),'literal_note_passages_checked':evidence_count,'alternative_choice_sets_checked':variants,'statuses':data['statuses'],'courses':courses}
+    result={'passed':True,'generated_at':datetime.now(timezone.utc).isoformat(),'scope':'Structural and evidence verification; not a guarantee of answer correctness or exam completeness.','study_guide_sha256':sha(master),'review_data_sha256':sha((ROOT/'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes()),'questions':len(seen),'targeted':len(targets),'reviewed':len(reviews),'previous_verified_unchanged':original_verified,'all_targeted_reviewed':len(reviews)==len(targets),'literal_note_passages_checked':evidence_count,'alternative_choice_sets_checked':variants,'clarified_question_ids':[r['id']for r in reviews.values()if r.get('question_revision')],'statuses':data['statuses'],'courses':courses}
     (ROOT/'.qa/study-note-answers-static.json').write_text(json.dumps(result,indent=2)+'\n')
     return result
 

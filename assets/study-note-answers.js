@@ -14,6 +14,20 @@
       const review = reviews[article.dataset.questionId];
       if (!review) continue;
       const item = items.get(article.dataset.questionId);
+      if (review.question_revision) {
+        const revision = review.question_revision;
+        const stem = article.querySelector(':scope > .stem');
+        stem.textContent = revision.stem;
+        const options = article.querySelector(':scope > .choices');
+        options.replaceChildren(...revision.options.map(option => el('li', option.label + '. ' + option.text, 'choice')));
+        stem.after(el('p', revision.note, 'question-clarification'));
+        article.dataset.questionClarified = 'true';
+        // Keep the existing reader search in sync with the clarified display.
+        if (typeof searchable !== 'undefined') {
+          const entry = searchable.find(entry => entry.article === article);
+          if (entry) entry.text = [article.dataset.questionId, revision.stem, ...revision.options.map(o => o.text)].join(' ').toLocaleLowerCase();
+        }
+      }
       const blocks = article.querySelectorAll(':scope > details.reveal');
       const hint = blocks[0].querySelector('.reveal-content') || blocks[0].querySelector('.reveal-body') || [...blocks[0].children].find(c => c.tagName !== 'SUMMARY');
       const answer = blocks[1].querySelector('.reveal-content') || blocks[1].querySelector('.reveal-body') || [...blocks[1].children].find(c => c.tagName !== 'SUMMARY');
@@ -79,7 +93,7 @@
     }
     const footer = document.querySelector('main > footer');
     if (footer) {
-      footer.textContent = 'Current answer reviews use the complete study note; earlier verified module explanations are retained. Historical source reviews remain available in closed archives. Ambiguity, missing question data and genuine note gaps are identified explicitly. ';
+      footer.textContent = 'Current answer reviews use the complete study note; earlier verified module explanations are retained. Historical source reviews remain available in closed archives. User-approved clarified practice wording is labeled; original source data is retained. Ambiguity, missing question data and genuine note gaps are identified explicitly. ';
       const report = el('a', 'Answer review summary'); report.href = '../../ANSWER_REVIEW_SUMMARY.html'; footer.append(report);
     }
     const closeArchives = () => document.querySelectorAll('.legacy-module-review').forEach(d => d.open = false);

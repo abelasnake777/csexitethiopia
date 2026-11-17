@@ -6,11 +6,10 @@
   "complete": true,
   "statuses": {
     "ambiguous": 399,
-    "answered": 1150,
+    "answered": 1154,
     "multiple_answers": 247,
     "no_valid_option": 106,
-    "answered_open": 258,
-    "incomplete_question": 4
+    "answered_open": 258
   },
   "study_guide_unchanged_sha256": "03aa84b65bad3099e42f64357392887c2981cd4e19d210044e2a25b255544c3c",
   "courses": [
@@ -64,8 +63,7 @@
       ],
       "statuses": {
         "ambiguous": 24,
-        "answered": 68,
-        "incomplete_question": 1,
+        "answered": 69,
         "multiple_answers": 15,
         "no_valid_option": 6,
         "answered_open": 5
@@ -343,9 +341,8 @@
       "statuses": {
         "no_valid_option": 2,
         "multiple_answers": 19,
-        "answered": 31,
-        "ambiguous": 21,
-        "incomplete_question": 1
+        "answered": 32,
+        "ambiguous": 21
       }
     },
     {
@@ -397,11 +394,10 @@
         }
       ],
       "statuses": {
-        "answered": 110,
+        "answered": 111,
         "ambiguous": 34,
         "multiple_answers": 13,
-        "no_valid_option": 13,
-        "incomplete_question": 1
+        "no_valid_option": 13
       }
     },
     {
@@ -426,10 +422,9 @@
       ],
       "statuses": {
         "ambiguous": 32,
-        "answered": 105,
+        "answered": 106,
         "multiple_answers": 11,
         "no_valid_option": 10,
-        "incomplete_question": 1,
         "answered_open": 5
       }
     },
@@ -7416,11 +7411,13 @@
     },
     {
       "id": "Q00891",
-      "status": "incomplete_question",
-      "labels": [],
-      "answer_text": "Restore the garbled exponents; an LBA suffices if the intended language is aⁿbⁿcⁿ for n>1.",
-      "hint": "Read the three-equal-count language and identify the missing exponent notation.",
-      "explanation": "The literal stem contains a\"b\"c\" with an unused bound n>1 rather than readable powers, and the packet supplies no source image to recover them. AUT25/AUT26 establish that the equal-count interpretation aⁿbⁿcⁿ is context-sensitive and not context-free, making LBA appropriate under that repair. The restored formula must be explicit before a unique literal answer is certified.",
+      "status": "answered",
+      "labels": [
+        "B"
+      ],
+      "answer_text": "Linear Bounded Automaton (LBA).",
+      "hint": "Read AUT25 and AUT26. Compare regular, context-free and context-sensitive languages, then identify the memory needed to match three equal counts.",
+      "explanation": "The clarified language contains equal numbers of a, b and c in that order. AUT26 identifies this family as context-sensitive but not context-free. Restricting n to integers greater than 1 does not remove the unbounded equal-count requirement. AUT25 describes an LBA that checks the order and repeatedly marks one a, one b and one c, using only the input-sized tape region. B therefore recognizes the stated language; DFA, NFA and single-stack PDA cannot.",
       "section_ids": [
         "AUT26",
         "AUT25"
@@ -7429,32 +7426,83 @@
         {
           "section_id": "AUT26",
           "quote": "aⁿbⁿcⁿ is CSL but not CFL, and therefore decidable."
+        },
+        {
+          "section_id": "AUT25",
+          "quote": "For aⁿbⁿcⁿ first verify a*b*c* order, repeatedly mark one unmarked a, b and c, and reject missing/excess symbols."
         }
       ],
       "choices": [
         {
           "label": "A",
-          "verdict": "possible",
-          "explanation": "DFA cannot recognize the intended unbounded three-equal-count language; the literal garbled language is not established."
+          "verdict": "incorrect",
+          "explanation": "A DFA recognizes regular languages; this three-equal-count language is not even context-free."
         },
         {
           "label": "B",
-          "verdict": "possible",
-          "explanation": "An LBA recognizes aⁿbⁿcⁿ using bounded marking, if the quotation marks really represent repeated exponents."
+          "verdict": "correct",
+          "explanation": "An LBA can mark matching a, b and c symbols while staying within space proportional to the input length."
         },
         {
           "label": "C",
-          "verdict": "possible",
-          "explanation": "NFA has the same regular-language power as DFA and fails the intended equal-count interpretation."
+          "verdict": "incorrect",
+          "explanation": "An NFA recognizes exactly the regular languages, so nondeterminism does not give it the memory needed here."
         },
         {
           "label": "D",
-          "verdict": "possible",
-          "explanation": "A single-stack PDA recognizes CFLs and fails the intended three-equal-count language, but the formula needs repair."
+          "verdict": "incorrect",
+          "explanation": "A standard single-stack PDA recognizes context-free languages; the stated three-equal-count language is not context-free."
         }
       ],
       "variant_reviews": [],
-      "previous_status": "insufficient_module_coverage"
+      "previous_status": "insufficient_module_coverage",
+      "question_revision": {
+        "kind": "user_approved_intended_reading",
+        "approved_on": "2026-11-17",
+        "original_status": "incomplete_question",
+        "original_stem": "Which automaton is powerful enough to recognize the language L = {a\"b\"c\" | n> 1}?",
+        "original_options": [
+          {
+            "label": "A",
+            "text": "DFA"
+          },
+          {
+            "label": "B",
+            "text": "Linear Bounded Automaton (LBA)"
+          },
+          {
+            "label": "C",
+            "text": ".\nNFA"
+          },
+          {
+            "label": "D",
+            "text": "Pushdown Automaton (PDA)"
+          }
+        ],
+        "stem": "Which automaton is powerful enough to recognize the language L = {aⁿbⁿcⁿ | n > 1}, where n is an integer?",
+        "options": [
+          {
+            "label": "A",
+            "text": "DFA"
+          },
+          {
+            "label": "B",
+            "text": "Linear Bounded Automaton (LBA)"
+          },
+          {
+            "label": "C",
+            "text": "NFA"
+          },
+          {
+            "label": "D",
+            "text": "Pushdown Automaton (PDA)"
+          }
+        ],
+        "note": "Clarified practice version: the corrupted powers are restored as aⁿbⁿcⁿ.",
+        "assumptions": [
+          "Each of a, b and c is repeated n times, with integer n > 1."
+        ]
+      }
     },
     {
       "id": "Q00934",
@@ -57899,44 +57947,97 @@
     },
     {
       "id": "SS099",
-      "status": "incomplete_question",
-      "labels": [],
-      "answer_text": "The damaged permission string cannot determine nine permission bits",
-      "hint": "Read Unix rwx and octal permissions and check the stated scope.",
-      "explanation": "An octal mode requires three complete rwx triplets after the file-type character. The literal -rwxr-r— is missing or merging characters, so 744 cannot be proved by guessing absent hyphens. NSA19 explicitly identifies this damaged string. No source image is supplied in this packet to restore it, so the option cannot be chosen reliably.",
+      "status": "answered",
+      "labels": [
+        "A"
+      ],
+      "answer_text": "744.",
+      "hint": "Read NSA19. Ignore the leading file-type character, split the remaining permissions into owner/group/other triplets, and sum read=4, write=2 and execute=1.",
+      "explanation": "The leading hyphen identifies an ordinary file and is not a permission bit. Split the remaining characters as rwx | r-- | r--. The owner has 4+2+1=7, the group has read only (4), and others have read only (4). Writing those three octal digits in order gives 744, so A is correct.",
       "section_ids": [
         "NSA19"
       ],
       "evidence": [
         {
           "section_id": "NSA19",
-          "quote": "The bank string -rwxr-r— is damaged; missing hyphens cannot be guessed."
+          "quote": "In each triplet read=4,write=2,execute=1; sum enabled bits to get an octal digit."
+        },
+        {
+          "section_id": "NSA19",
+          "quote": "-rwxr--r-- means ordinary file, owner7/group4/other4, hence 744."
         }
       ],
       "choices": [
         {
           "label": "A",
-          "verdict": "possible",
-          "explanation": "744 would require -rwxr--r--; the missing characters cannot be silently supplied."
+          "verdict": "correct",
+          "explanation": "744 exactly represents owner rwx, group r-- and others r--."
         },
         {
           "label": "B",
-          "verdict": "possible",
-          "explanation": "700 requires -rwx------, which is not established by the damaged string."
+          "verdict": "incorrect",
+          "explanation": "700 would deny both group and others all permissions, unlike the two read permissions shown."
         },
         {
           "label": "C",
-          "verdict": "possible",
-          "explanation": "755 requires -rwxr-xr-x, also not established by the extracted characters."
+          "verdict": "incorrect",
+          "explanation": "755 would give group and others execute permission as well as read permission; those execute bits are absent."
         },
         {
           "label": "D",
-          "verdict": "possible",
-          "explanation": "766 requires -rwxrw-rw-; the damaged string does not establish those group/other bits."
+          "verdict": "incorrect",
+          "explanation": "766 would give group and others write permission; neither triplet contains w."
         }
       ],
       "variant_reviews": [],
-      "previous_status": "ambiguous_question"
+      "previous_status": "ambiguous_question",
+      "question_revision": {
+        "kind": "user_approved_intended_reading",
+        "approved_on": "2026-11-17",
+        "original_status": "incomplete_question",
+        "original_stem": "The permission -rwxr-r— represented in octal expression will be:",
+        "original_options": [
+          {
+            "label": "A",
+            "text": "\"Sa 744"
+          },
+          {
+            "label": "B",
+            "text": "700"
+          },
+          {
+            "label": "C",
+            "text": "Ore 755"
+          },
+          {
+            "label": "D",
+            "text": "766"
+          }
+        ],
+        "stem": "The ordinary file permission string -rwxr--r-- is represented by which octal mode?",
+        "options": [
+          {
+            "label": "A",
+            "text": "744"
+          },
+          {
+            "label": "B",
+            "text": "700"
+          },
+          {
+            "label": "C",
+            "text": "755"
+          },
+          {
+            "label": "D",
+            "text": "766"
+          }
+        ],
+        "note": "Clarified practice version: the complete permission string is -rwxr--r--.",
+        "assumptions": [
+          "The missing permission characters are restored to -rwxr--r--."
+        ]
+      }
     },
     {
       "id": "AM0565",
@@ -71614,48 +71715,99 @@
     },
     {
       "id": "NS0693",
-      "status": "incomplete_question",
-      "labels": [],
-      "answer_text": "Arrival times are missing; 17 ms requires all three jobs initially ready.",
-      "hint": "Compute ready-queue waits using actual arrival times, not just order.",
-      "explanation": "OS15’s worked example gives waits 0,24,27 and average 17 only when all three jobs are ready at time 0. It explicitly says to recompute when arrivals differ. This stem gives arrival order, not times: P2 or P3 could arrive after earlier jobs complete and wait zero. Consequently no numerical option is determined without actual times or a simultaneous-arrival assumption.",
+      "status": "answered",
+      "labels": [
+        "C"
+      ],
+      "answer_text": "17 ms.",
+      "hint": "Read OS13 and OS15. Draw the FCFS time line, compute each ready-queue waiting time, and average those waits rather than the completion times.",
+      "explanation": "FCFS runs P1 from 0 to 24 ms, P2 from 24 to 27 ms, and P3 from 27 to 30 ms. Because every process arrives at 0, their waiting times are 0, 24 and 27 ms. The average is (0+24+27)/3 = 51/3 = 17 ms, so C is correct. The average turnaround is a different quantity: (24+27+30)/3 = 27 ms.",
       "section_ids": [
         "OS15"
       ],
       "evidence": [
         {
           "section_id": "OS15",
-          "quote": "All ready at time 0, tie order P1=24,P2=3,P3=3: schedule 0–24 P1,24–27 P2,27–30 P3. Waiting times 0,24,27 average to 17."
+          "quote": "All ready at time 0, tie order P1=24,P2=3,P3=3: schedule 0–24 P1,24–27 P2,27–30 P3."
         },
         {
           "section_id": "OS15",
-          "quote": "If arrivals are not simultaneous, recompute using their actual times."
+          "quote": "Waiting times 0,24,27 average to 17."
         }
       ],
       "choices": [
         {
           "label": "A",
-          "verdict": "possible",
-          "explanation": "Three ms could only be assessed after arrival times are given; order alone does not determine these waits."
+          "verdict": "incorrect",
+          "explanation": "3 ms is the burst time of P2 or P3, not the average ready-queue wait."
         },
         {
           "label": "B",
-          "verdict": "possible",
-          "explanation": "Nine ms is not derivable without arrival times, which can change the ready-queue waiting intervals."
+          "verdict": "incorrect",
+          "explanation": "The three waits total 51 ms, so dividing by three cannot give 9 ms."
         },
         {
           "label": "C",
-          "verdict": "possible",
-          "explanation": "Seventeen ms is correct if all are ready at zero, but that extra assumption is absent."
+          "verdict": "correct",
+          "explanation": "The waits 0, 24 and 27 ms average to 17 ms."
         },
         {
           "label": "D",
           "verdict": "incorrect",
-          "explanation": "Twenty-seven is the simultaneous-ready example’s average turnaround, not its average waiting time."
+          "explanation": "27 ms is the average turnaround time in this example, not the average waiting time."
         }
       ],
       "variant_reviews": [],
-      "previous_status": "source_unverified"
+      "previous_status": "source_unverified",
+      "question_revision": {
+        "kind": "user_approved_intended_reading",
+        "approved_on": "2026-11-17",
+        "original_status": "incomplete_question",
+        "original_stem": "In the FCFS scheduling algorithm, if processes P1(24ms), P2(3ms), P3(3ms) arrive in order P1, P2, P3, what is the average waiting time?",
+        "original_options": [
+          {
+            "label": "A",
+            "text": "3 ms"
+          },
+          {
+            "label": "B",
+            "text": "9 ms"
+          },
+          {
+            "label": "C",
+            "text": "17 ms"
+          },
+          {
+            "label": "D",
+            "text": "27 ms"
+          }
+        ],
+        "stem": "All three processes arrive at time 0 and are ready immediately. Their CPU burst times are P1 = 24 ms, P2 = 3 ms and P3 = 3 ms. Using non-preemptive FCFS with tie order P1, P2, P3, and ignoring context-switch overhead, what is the average waiting time?",
+        "options": [
+          {
+            "label": "A",
+            "text": "3 ms"
+          },
+          {
+            "label": "B",
+            "text": "9 ms"
+          },
+          {
+            "label": "C",
+            "text": "17 ms"
+          },
+          {
+            "label": "D",
+            "text": "27 ms"
+          }
+        ],
+        "note": "Clarified practice version: all arrivals are at time 0, with FCFS tie order P1, P2, P3.",
+        "assumptions": [
+          "All processes arrive at time 0.",
+          "FCFS resolves the simultaneous-arrival tie as P1, P2, P3.",
+          "Each process has one CPU burst and context-switch overhead is ignored."
+        ]
+      }
     },
     {
       "id": "NS0694",
@@ -74672,44 +74824,94 @@
     },
     {
       "id": "Q01601",
-      "status": "incomplete_question",
-      "labels": [],
-      "answer_text": "Slack cannot be computed from these ES/EF rows alone.",
-      "hint": "Read the latest-time and successor requirements for float in SE30.",
-      "explanation": "Slack requires LS−ES or LF−EF. The stem gives only early times and durations, with no successor network, latest times or required project finish. If C→D is a complete path ending at day 9 alongside A→B, C has zero float, but that network is not stated. Other completion constraints can produce different float, so no unique label is justified.",
+      "status": "answered",
+      "labels": [
+        "A"
+      ],
+      "answer_text": "0 days.",
+      "hint": "Read SE30. Use the explicit two-path network and day-9 finish to work backward, then compare Activity C’s latest and earliest starts.",
+      "explanation": "Each complete path takes 9 days: A→B is 4+5 and C→D is 3+6. Working backward from day 9, D must start by day 3. Therefore C must finish by day 3 and start by day 0. C has LS=0 and ES=0, so total slack = LS−ES = 0 days (equivalently LF−EF = 3−3). A is correct. Delaying C would delay its successor D and the required project finish.",
       "section_ids": [
         "SE30"
       ],
       "evidence": [
         {
           "section_id": "SE30",
-          "quote": "Early start/finish values alone do not determine slack without successor relationships and the project completion constraint."
+          "quote": "If C3→D6 is a complete path parallel to A4→B5 and both finish at day9, C has zero float."
         }
       ],
       "choices": [
         {
           "label": "A",
-          "verdict": "possible",
-          "explanation": "Zero follows under an added complete C→D path finishing at day 9, not from the supplied rows alone."
+          "verdict": "correct",
+          "explanation": "C has latest start 0 and earliest start 0, giving zero total slack."
         },
         {
           "label": "B",
-          "verdict": "possible",
-          "explanation": "One day would require latest-time or completion constraints that the question does not provide."
+          "verdict": "incorrect",
+          "explanation": "A one-day delay would make the C→D path finish on day 10, beyond the day-9 finish."
         },
         {
           "label": "C",
-          "verdict": "possible",
-          "explanation": "Three days of float cannot be confirmed or ruled out without the full network and finish constraint."
+          "verdict": "incorrect",
+          "explanation": "C’s three-day duration is not its slack; a three-day delay would finish this path on day 12."
         },
         {
           "label": "D",
-          "verdict": "possible",
-          "explanation": "Six days likewise depends on missing latest times and successor constraints."
+          "verdict": "incorrect",
+          "explanation": "D’s six-day duration is not C’s slack; a six-day delay to C would finish the path on day 15."
         }
       ],
       "variant_reviews": [],
-      "previous_status": "insufficient_module_coverage"
+      "previous_status": "insufficient_module_coverage",
+      "question_revision": {
+        "kind": "user_approved_intended_reading",
+        "approved_on": "2026-11-17",
+        "original_status": "incomplete_question",
+        "original_stem": "Given the following activities in a project: Activity A: Duration = 4 days, ES = 0, EF = 4, Activity B: Duration = 5 days, ES = 4, EF = 9, Activity C: Duration = 3 days, ES = 0, EF = 3, Activity D: Duration = 6 days, ES = 3, EF = 9. What is the slack time for Activity C?",
+        "original_options": [
+          {
+            "label": "A",
+            "text": "0 days"
+          },
+          {
+            "label": "B",
+            "text": "1 day"
+          },
+          {
+            "label": "C",
+            "text": "3 days"
+          },
+          {
+            "label": "D",
+            "text": "6 days"
+          }
+        ],
+        "stem": "A project starts at day 0 and must finish at day 9. It consists of exactly two parallel paths, A → B and C → D. A and C have no predecessors, B depends only on A, D depends only on C, and the project finishes when both B and D are complete. Activity durations and early times are: A: duration 4 days, ES=0, EF=4; B: duration 5 days, ES=4, EF=9; C: duration 3 days, ES=0, EF=3; D: duration 6 days, ES=3, EF=9. What is the total slack (float) of Activity C?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 days"
+          },
+          {
+            "label": "B",
+            "text": "1 day"
+          },
+          {
+            "label": "C",
+            "text": "3 days"
+          },
+          {
+            "label": "D",
+            "text": "6 days"
+          }
+        ],
+        "note": "Clarified practice version: A → B and C → D are the complete parallel paths, both ending at day 9.",
+        "assumptions": [
+          "The complete dependency network is A → B and C → D, with a common start at day 0 and common finish at day 9.",
+          "There are no additional activities, dependencies or resource constraints."
+        ]
+      }
     },
     {
       "id": "Q01602",
@@ -88601,5 +88803,11 @@
       "previous_status": "source_unverified"
     }
   ],
-  "updated_at_utc": "2026-11-16T18:18:48.083156+00:00"
+  "updated_at_utc": "2026-11-17T08:47:01.995844+00:00",
+  "clarified_question_ids": [
+    "Q00891",
+    "SS099",
+    "NS0693",
+    "Q01601"
+  ]
 }

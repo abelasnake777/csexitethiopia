@@ -34,7 +34,7 @@ const result = {passed:false, started_at:new Date().toISOString(), review_sha256
      const visibleText=normalized([...outer[1].querySelector('.reveal-content').children].filter(n=>!n.matches('.legacy-module-review')).map(n=>n.textContent).join(' '));
      const choiceNodes=[...primary.children].filter(n=>n.tagName==='P'&&n.firstElementChild?.tagName==='STRONG');
      const evidence=[...primary.querySelectorAll('blockquote')].map(n=>normalized([...n.childNodes].filter(x=>x.nodeName!=='CITE').map(n=>n.textContent).join('')));
-     const record={id,reviewed:true,status:primary.dataset.reviewStatus,title:primary.querySelector('.current-answer-title').textContent,explanation:primary.querySelector('.current-answer-explanation').textContent,choices:choiceNodes.map(n=>n.textContent),evidence,variant_review_count:[...primary.querySelectorAll('h3')].filter(n=>n.textContent.startsWith('Alternative source choices · ')).length,variants_rendered:(r.variant_reviews||[]).every(v=>primary.textContent.includes(v.source)&&primary.textContent.includes(v.answer_text)&&primary.textContent.includes(v.explanation)&&v.choices.every(c=>primary.textContent.includes(c.label+' · '+c.verdict+' — '+c.explanation))),external_sources:[...primary.querySelectorAll('.current-supplement')].map(n=>({statement:n.querySelector('p').textContent,url:n.querySelector('a').getAttribute('href'),title:n.querySelector('a').textContent})),hint_external_urls:[...hintBody.querySelectorAll('a')].map(a=>a.getAttribute('href')),archive_count:archives.length,archives_closed:archives.every(d=>!d.open),initially_closed:initiallyClosed,hint_visible:hintVisible,hint_only:hintOnly,legacy_warning_in_primary:/Not established by the supplied module|Review finding: insufficient module coverage|Source material is not an independently verified key/.test(visibleText)};
+     const record={displayed_stem:article.querySelector(':scope > .stem').textContent,displayed_options:[...article.querySelector(':scope > .choices').children].map(n=>n.textContent),clarification_note:article.querySelector(':scope > .question-clarification')?.textContent,clarified:article.dataset.questionClarified,id,reviewed:true,status:primary.dataset.reviewStatus,title:primary.querySelector('.current-answer-title').textContent,explanation:primary.querySelector('.current-answer-explanation').textContent,choices:choiceNodes.map(n=>n.textContent),evidence,variant_review_count:[...primary.querySelectorAll('h3')].filter(n=>n.textContent.startsWith('Alternative source choices · ')).length,variants_rendered:(r.variant_reviews||[]).every(v=>primary.textContent.includes(v.source)&&primary.textContent.includes(v.answer_text)&&primary.textContent.includes(v.explanation)&&v.choices.every(c=>primary.textContent.includes(c.label+' · '+c.verdict+' — '+c.explanation))),external_sources:[...primary.querySelectorAll('.current-supplement')].map(n=>({statement:n.querySelector('p').textContent,url:n.querySelector('a').getAttribute('href'),title:n.querySelector('a').textContent})),hint_external_urls:[...hintBody.querySelectorAll('a')].map(a=>a.getAttribute('href')),archive_count:archives.length,archives_closed:archives.every(d=>!d.open),initially_closed:initiallyClosed,hint_visible:hintVisible,hint_only:hintOnly,legacy_warning_in_primary:/Not established by the supplied module|Review finding: insufficient module coverage|Source material is not an independently verified key/.test(visibleText)};
      outer.forEach(d=>d.open=false);
      return record;
     });
@@ -44,6 +44,12 @@ const result = {passed:false, started_at:new Date().toISOString(), review_sha256
    for(const q of target){
     const r=reviewMap.get(q.id);
     assert.equal(q.status,r.status,q.id);
+    if(r.question_revision){
+     assert.equal(q.displayed_stem,r.question_revision.stem,q.id+' clarified stem');
+     assert.deepEqual(q.displayed_options,r.question_revision.options.map(o=>o.label+'. '+o.text),q.id+' clarified options');
+     assert.equal(q.clarification_note,r.question_revision.note,q.id+' clarification label');
+     assert.equal(q.clarified,'true',q.id);
+    }
     assert.ok(q.title.includes(r.answer_text),q.id);
     assert.equal(q.explanation,r.explanation,q.id);
     assert.equal(q.choices.length,r.choices.length,q.id);

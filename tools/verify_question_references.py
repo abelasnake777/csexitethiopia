@@ -219,6 +219,7 @@ def main():
             'previous_module_verified_retained': answer_reviews['prior_verified_unchanged'],
             'statuses': answer_reviews['statuses'],
             'supplementary_reference_answers': answer_reviews['supplementary_reference_answers'],
+            'clarified_question_ids': answer_reviews.get('clarified_question_ids', []),
             'scope': 'The zero-missing counts below concern LINKS only. Answer certainty and genuine source defects are separately recorded, not inferred from link presence.'
         }
         audit.update(passed=True, totals={'courses': 16, 'questions': 3485, 'unique_stable_ids': 3485,

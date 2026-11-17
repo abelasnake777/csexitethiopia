@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-11-16T18:22:22.698441+00:00",
+  "checked_at_utc": "2026-11-17T08:51:02.909129+00:00",
   "static": {
     "passed": true,
     "html_pages": 54,
@@ -243,7 +243,7 @@
       "https://www3.cs.stonybrook.edu/~pramod.ganapathi/doc/algorithms/dynamicprogramming.html"
     ]
   },
-  "educational_preservation": "Removing marked current-answer, answer-reference and navigation blocks recovers every imported source byte. Question JSON, stems, choices, provenance, images and historical reviews remain unchanged. Current answers are separate additions; historical hints/answers stay in closed archives.",
+  "educational_preservation": "The complete study note and original imported question JSON, source wording, images and provenance are unchanged. Four user-approved practice versions display clarified wording/options through the reversible overlay; their original wording and assumptions remain in the review ledger. Historical reviews remain archived.",
   "original_question_security_policies_preserved": true,
   "browser": "Chromium on Linux",
   "viewports": [
@@ -415,7 +415,7 @@
   },
   "reference_audit": {
     "path": "QUESTION_REFERENCE_AUDIT.json",
-    "sha256": "7e0eadca59639173848f9717b906acd6dc117110fecf261223a4f31cd380151f",
+    "sha256": "0e7e3f11bbf5f10fccfb921ef33e2decb75e047630a07ce673651a58f6b0b66e",
     "scope": "Reference links only, not correctness or completeness of answers."
   },
   "local_file_native_PDF_fallback": {
@@ -427,20 +427,19 @@
   "module_dynamic_loader_checked": true,
   "current_answer_review": {
     "path": "STUDY_NOTE_ANSWER_REVIEW.json",
-    "sha256": "750aaeefdc3b9e473dba1251850474c8ff6cba7dfe91e6289ffc17270a5934b9",
+    "sha256": "6128f721eddb8f80ce828b6969d52c4a6cd87d867e173b34c5e47605bb1e38d0",
     "targeted": 2164,
     "reviewed": 2164,
     "previous_module_verified_retained": 1321,
     "statuses": {
       "ambiguous": 399,
-      "answered": 1150,
+      "answered": 1154,
       "multiple_answers": 247,
       "no_valid_option": 106,
-      "answered_open": 258,
-      "incomplete_question": 4
+      "answered_open": 258
     },
     "stable_facts_supplemented_with_authoritative_references": 3,
-    "literal_note_passages_checked": 2294,
+    "literal_note_passages_checked": 2296,
     "alternative_choice_sets_checked": 11,
     "desktop_mobile_course_cases": 32,
     "all_current_DOM_answers_choices_evidence_match_review_data": true,
@@ -484,23 +483,43 @@
         "sha256": "8eeddf8522f0d742e8124dcf09a4ddb2a5cb94803c294517bf2662a1f1a03d55"
       }
     ],
-    "remaining_incomplete_ids": [
+    "remaining_incomplete_ids": [],
+    "unresolved_stable_note_gap_ids": [],
+    "scope": "Review status is explicit. These checks do not establish a unique answer for every source question or guarantee correctness/exam completeness.",
+    "clarified_question_ids": [
       "Q00891",
       "SS099",
       "NS0693",
       "Q01601"
     ],
-    "unresolved_stable_note_gap_ids": [],
-    "scope": "Review status is explicit. These checks do not establish a unique answer for every source question or guarantee correctness/exam completeness."
+    "question_clarifications": {
+      "authorization": "User requested intended readings for all four formerly incomplete questions on2026-11-17.",
+      "answers": {
+        "Q00891": "B",
+        "SS099": "A",
+        "NS0693": "C",
+        "Q01601": "A"
+      },
+      "displayed_stems_and_choices_updated": true,
+      "original_imported_payloads_preserved": true,
+      "assumptions_explicit": true,
+      "desktop_mobile_cases": 8,
+      "search_and_default_hidden_checks_passed": true
+    }
   },
   "answer_review_summary": {
     "path": "ANSWER_REVIEW_SUMMARY.html",
-    "sha256": "42cf07580cd4196ff92173fa4e1d1760ca5b5686b16f9d3a8be7ad6765fe1c7a",
+    "sha256": "24a762d050048f28ddddc86fc05d1a79cea4fb7476d27dfa88b9570bf9b1464b",
     "desktop_mobile_checked": true,
     "question_deep_links_checked": true
   },
   "retained_module_viewer_checks": {
     "previous_release": "9878994",
     "reason": "Module reader assets and original PDFs are unchanged; previous32course/viewportcases retained and source/PDFhashes rechecked."
+  },
+  "upload_archive": {
+    "regenerated": false,
+    "reason": "User asked to defer ZIP generation until corrections are finished. Existing ZIP remains the prior release.",
+    "previous_archive_unchanged_sha256": "bc7ff492aaa4d0d0dfd8421d6075280f02724a0b7329146d70571d67c4568a14"
   }
 }
