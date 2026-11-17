@@ -22,6 +22,7 @@ Then visit `http://localhost:8000`. A server is useful for checking clipboard be
 - `Modules/`: 16 course entries, an embedded PDF reader and 14 original PDFs (two pairs of courses share files).
 - `QUESTION_REFERENCE_AUDIT.json`: exhaustive per-question hint and answer reference-link checks.
 - `STUDY_NOTE_ANSWER_REVIEW.json`: current review data and explicit answer-certainty statuses.
+- `ANSWER_COMPLETENESS_AUDIT.json`: definite-answer coverage for all main questions and alternative source versions.
 - `ANSWER_REVIEW_SUMMARY.html`: readable course counts and links to flagged source questions.
 - `SOURCE_MANIFEST.json`: copied-resource hashes and content-preservation records.
 - `VERIFICATION.json`: verification summary for this release.
@@ -33,7 +34,7 @@ Keep all four resource paths together. Existing reading-section links, practice-
 
 Resources were copied from the existing Exit Study materials. Original source files and the complete study note were left untouched. Imported HTML has removable navigation additions; question readers also have a study-note reference insertion and a current-answer review overlay. Removing the three exact blocks recorded in `SOURCE_MANIFEST.json` recovers the original question reader byte for byte. The original embedded question JSON, stems, choices, provenance, images and historical reviews are unchanged.
 
-Four practice questions now use user-approved intended readings: restored aⁿbⁿcⁿ notation, permission mode -rwxr--r--, simultaneous FCFS arrivals, and an explicit two-path project network ending at day 9. Their displayed stems and cleaned choices are labeled as clarified practice versions; original imported JSON and source wording remain recoverable in the audit. The search index follows the clarified wording.
+Clarified practice versions use user-approved intended readings, including: restored aⁿbⁿcⁿ notation, permission mode -rwxr--r--, simultaneous FCFS arrivals, and an explicit two-path project network ending at day 9. Their displayed stems and cleaned choices are labeled as clarified practice versions; original imported JSON and source wording remain recoverable in the audit. The search index follows the clarified wording.
 
 The current-answer overlay places new complete-note explanations and literal evidence before the older review. Historical hints and answers remain in independently collapsed archives, so old module-only limitations do not masquerade as current answers. Existing module-verified answers are retained. The imported content-security policy stays unchanged; the new code and review data are embedded inline for compatibility with that policy.
 The shared navigation adds Home and resource links. The questions selector receives presentation-only responsive grid styling. Other resource layouts retain their existing styles. Non-HTML resources are identical copies. The manifest documents these checks.
@@ -78,26 +79,32 @@ The embedded viewer uses self-hosted Mozilla PDF.js, loaded only on module viewe
 
 If opening HTML directly from disk, use Open PDF or Download PDF. The embedded viewer needs HTTP/HTTPS; use the local QA server for preview. Apache MIME types for .mjs and .wasm are included in .htaccess.
 
-## Question reference coverage
+## Question answers and study-note support
 
-Every one of the 3,485 questions has links to its mapped study-note sections in both the hint and answer blocks. The full reference audit checks actual rendered links, intended course sections, IDs/order and independent default-hidden controls. It checks **reference-link coverage**, not answer correctness. A working reference does not prove that a damaged or ambiguous question has one answer.
+Every one of the 3,485 main practice questions and 24 alternative source versions has an explicit answer. Each question has an independent, default-hidden reading hint and answer/explanation block, including choice-by-choice reasoning and exact supporting study-note passages. The study-note lookup uses the current clarified practice wording.
 
-All 2,164 records previously marked module-insufficient, source-gap, source-unverified or ambiguous have separate current reviews. The 1,321 previously module-verified records remain unchanged. Open-ended prompts receive written answers; missing options alone do not make a prompt incomplete. Multiple valid choices, assumptions that change the answer, absent correct options, missing data and genuine note gaps remain distinct. Where an authoritative supplementary rule is supplied, the answer explicitly labels the complete note as background instead of claiming the missing rule is already there.
+The bank contains 3,026 single-answer questions, 199 explicit select-all questions and 260 written prompts. 1,060 records have labeled practice clarifications. The global exact stem-and-options duplicate check found zero duplicate groups. Original imported question data and historical reviews are retained.
 
-`ANSWER_REVIEW_SUMMARY.html` and `STUDY_NOTE_ANSWER_REVIEW.json` record the current counts and remaining limitations. No check guarantees a score or authenticates a source key. `QUESTION_REFERENCE_AUDIT.json` contains the separate per-question link results.
+The full grounding review added 86 focused conceptual lessons to fill missing coverage. All existing guide text is preserved byte for byte, recoverable by removing the exact additive blocks in `SOURCE_MANIFEST.json`. The original materials in Exit_Study are untouched. Module PDFs and revision outlines are unchanged.
 
-Portable current-answer checks, using the question files and actual unchanged note HTML:
+`ANSWER_REVIEW_SUMMARY.html` gives the readable course overview. `STUDY_NOTE_SUPPORT.json` records every active answer, reading hint, exact evidence and editorial resolution; `STUDY_NOTE_SUPPORT_AUDIT.json` verifies its coverage and actual note passages. `ANSWER_COMPLETENESS_AUDIT.json` checks definite answers and exact duplicate prompts. `QUESTION_REFERENCE_AUDIT.json` separately records every rendered reference link and independent toggle. Editorial relevance review and automated coverage checks are distinct; these records do not authenticate an imported exam key or predict a score.
+
+Portable verification (no build step for hosting):
 
 ```sh
+python3 tools/verify_site.py
+python3 tools/verify_study_note_support.py
 python3 tools/verify_study_note_answers.py
-node tests/study_note_answers.cjs
+python3 tools/verify_answer_completeness.py
 ```
 
-The second command checks every current answer at desktop and phone widths, rendered choice analysis, evidence, archived legacy content and default-hidden behavior. Reapply reviewed data or regenerate the readable report after an intentional review update with:
+With the local QA server running, browser checks cover all questions and source versions, detailed explanations and choice contrasts, exact note proof, hidden controls, the active reading lookup and added lessons on desktop and phones:
 
 ```sh
-python3 tools/apply_study_note_answers.py
-python3 tools/build_answer_review_summary.py
+node tests/study_note_answers.cjs
+node tests/answer_completeness.cjs
+node tests/study_note_support.cjs
+node tests/answer_review_summary.cjs
 ```
 
-The exhaustive reference helper under `tools/` uses the author's saved baseline in `.qa/` and original Exit_Study workspace. These are development inputs, not hosting dependencies. Portable copied-resource and local-link checks remain available through `tools/verify_site.py`.
+To reapply an intentionally reviewed update, apply `tools/apply_study_note_support.py`, then `tools/apply_study_note_answers.py`, regenerate audits and run `tools/build_answer_review_summary.py`. The exhaustive reference helper additionally uses the author's saved baseline in `.qa/` and the original workspace. These are development inputs, not hosting dependencies. ZIP generation remains deferred at the owner's request.

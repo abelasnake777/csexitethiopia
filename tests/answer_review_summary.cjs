@@ -9,7 +9,8 @@ const root=path.resolve(__dirname,'..'),base=process.env.BASE_URL||'http://127.0
   assert.equal(await p.locator('tbody tr').count(),16);
   assert.equal(await p.locator('details').count(),16);assert.equal(await p.locator('details[open]').count(),0);
   const rows=await p.locator('tbody tr').evaluateAll(rs=>rs.map(r=>[...r.querySelectorAll('td')].map(n=>Number(n.textContent))));
-  for(const row of rows)assert.equal(row[0],row.slice(1).reduce((a,b)=>a+b,0));
+  const fullSupport=fs.existsSync(path.join(root,'STUDY_NOTE_SUPPORT.json'));
+  for(const row of rows)assert.equal(row[0],row.slice(fullSupport?2:1).reduce((a,b)=>a+b,0));
   assert.equal(rows.reduce((n,r)=>n+r[0],0),3485);
   assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   await p.locator('details').first().locator(':scope>summary').click();

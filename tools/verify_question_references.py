@@ -9,6 +9,7 @@ The default command runs tests/question_references.cjs and writes
 QUESTION_REFERENCE_AUDIT.json plus .qa/ref-dom-evidence.json. Static-only does
 not replace a completed DOM audit. No source, master, index, or manifest is written.
 """
+from study_note_preservation import verify_base
 import argparse
 from collections import Counter
 from datetime import datetime, timezone
@@ -96,6 +97,8 @@ def static_checks():
     manifest_files = {f['copied_path']: f for f in manifest['files']}
     review_data = json.loads((ROOT / 'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes())
     reviews = {r['id']: r for r in review_data['reviews']}
+    support_path=ROOT/'STUDY_NOTE_SUPPORT.json'
+    if support_path.exists():reviews.update({r['id']:r['answer_review']for r in json.loads(support_path.read_text())['questions']})
     courses, questions, seen = [], [], set()
     for slug in slugs:
         before = baseline['courses'][slug]
@@ -126,7 +129,7 @@ def static_checks():
             ids = item['guide']['section_ids']
             require(ids and ids == row['section_ids'], qid + ': section IDs mismatch')
             require(len(ids) == len(set(ids)), qid + ': duplicate reference')
-            effective_ids = list(dict.fromkeys(ids + reviews.get(qid, {}).get('section_ids', [])))
+            effective_ids = reviews[qid]['section_ids']if support_path.exists()else list(dict.fromkeys(ids + reviews.get(qid, {}).get('section_ids', [])))
             for sid in effective_ids:
                 targets = parser.ids.get(sid, [])
                 require(len(targets) == 1, qid + ': missing/duplicate master target ' + sid)
@@ -146,7 +149,7 @@ def static_checks():
     website_added = sorted(set(website_now) - set(baseline['website_files']) - allowed)
     # Other website workers may add/update their own files while this scoped audit runs.
     # Record these observations without attributing them to this task or overwriting them.
-    require(sha(master_bytes) == baseline['website_files']['Complete_CS_Exit_Study_Guide.html'], 'Website master changed')
+    verify_base(master_bytes.decode())
     return baseline, rows, courses, questions, parser, {
         'source_files_hashed': len(baseline['source_files']), 'source_changed': source_changed,
         'website_files_hashed_before': len(baseline['website_files']), 'observed_parallel_website_changes': website_changed,
@@ -222,6 +225,8 @@ def main():
             'clarified_question_ids': answer_reviews.get('clarified_question_ids', []),
             'scope': 'The zero-missing counts below concern LINKS only. Answer certainty and genuine source defects are separately recorded, not inferred from link presence.'
         }
+        support_path=ROOT/'STUDY_NOTE_SUPPORT_AUDIT.json'
+        if support_path.exists():audit['full_study_note_grounding']=json.loads(support_path.read_text())
         audit.update(passed=True, totals={'courses': 16, 'questions': 3485, 'unique_stable_ids': 3485,
                       'hint_blocks_with_valid_links': 3485, 'answer_blocks_with_valid_links': 3485,
                       'hint_section_links': sum(len(q['hint_links']) for q in evidence['questions']),

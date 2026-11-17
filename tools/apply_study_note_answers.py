@@ -18,6 +18,9 @@ def main():
     verify()
     reviews=json.loads((ROOT/'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes())
     by_id={r['id']:r for r in reviews['reviews']}
+    support_path=ROOT/'STUDY_NOTE_SUPPORT.json'
+    support=json.loads(support_path.read_text())if support_path.exists()else None
+    if support:by_id.update({r['id']:r['answer_review']for r in support['questions']})
     manifest=json.loads((ROOT/'SOURCE_MANIFEST.json').read_bytes())
     imported={f['copied_path']:f for f in manifest['files']}
     source=(ROOT/'Complete_CS_Exit_Study_Guide.html').read_text()
@@ -32,6 +35,7 @@ def main():
             assert raw.count(previous)==1;raw=raw.replace(previous,'',1)
         model=json.loads(match[1]);payload={q['question']['id']:by_id[q['question']['id']] for q in model['questions']if q['question']['id']in by_id}
         payload['_section_titles']={sid:titles[sid]for r in list(payload.values())for sid in r['section_ids']}
+        payload['_full_note_support']=bool(support)
         block=START+'\n<style>\n'+css+'\n</style>\n<script id="study-note-answer-data" type="application/json">'+json.dumps(payload,ensure_ascii=False).replace('</',r'<\/')+'</script>\n<script>\n'+js+'\n</script>\n'+END
         assert raw.count('</head>')==1;raw=raw.replace('</head>',block+'</head>',1)
         item['answer_review_integration_block']=block
@@ -47,10 +51,11 @@ def main():
         row=next((r for r in manifest['generated_assets']if r['path']==name),None)
         if row:row['sha256']=sha((ROOT/name).read_bytes())
         else:manifest['generated_assets'].append({'path':name,'sha256':sha((ROOT/name).read_bytes())})
-    manifest['integration']['removal_rule']='For each copied HTML, remove answer_review_integration_block once if present, then reference_integration_block once if present, then integration_block once. The result must exactly match source bytes and source_sha256.'
+    manifest['integration']['removal_rule']='Remove study_note_addition_blocks once each if present. For each copied HTML, remove answer_review_integration_block once if present, then reference_integration_block once if present, then integration_block once. The result must exactly match source bytes and source_sha256.'
     manifest['totals']['current_answer_review_pages']=16
     manifest['totals']['current_answer_reviews']=len(by_id)
-    manifest['assertions']['study_guide_unchanged_by_answer_review']=True
+    manifest['assertions']['study_guide_unchanged_by_answer_review']=not bool(support)
+    if support:manifest['assertions']['all_questions_have_editorial_study_note_support']=True
     manifest['integration']['answer_review_overlay']='Current complete-note reviews appear first. Historical hints and answers stay in closed archives. Source recovery: remove answer_review_integration_block, reference_integration_block, then integration_block.'
     (ROOT/'SOURCE_MANIFEST.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
     print('Applied',len(by_id),'current reviews; all original source bytes and question payloads preserved.')

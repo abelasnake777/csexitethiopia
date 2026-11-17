@@ -19,6 +19,8 @@ def verify(source=None):
  manifest=json.loads((ROOT/'SOURCE_MANIFEST.json').read_text());preserved=0
  for f in manifest['files']:
   data=(ROOT/f['copied_path']).read_bytes();assert digest(data)==f['copied_sha256'],('Changed copied resource',f['copied_path'])
+  for block in f.get('study_note_addition_blocks',[]):
+   b=block.encode();assert data.count(b)==1;data=data.replace(b,b'',1)
   for key in ['answer_review_integration_block','reference_integration_block','integration_block']:
    block=f.get(key)
    if block:

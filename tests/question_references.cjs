@@ -11,7 +11,9 @@ const base = (process.env.BASE_URL || 'http://127.0.0.1:8457').replace(/\/$/, ''
 const readingPath = process.env.READING_MAP || path.join(source, '.master_guide_work/output/Question_Reading_Index.json');
 const readingBytes = fs.readFileSync(readingPath);
 const reviews = new Map(JSON.parse(fs.readFileSync(path.join(root, 'STUDY_NOTE_ANSWER_REVIEW.json'))).reviews.map(r => [r.id, r]));
-const rows = JSON.parse(readingBytes).map(r => ({...r, original_section_ids: r.section_ids, section_ids: [...new Set([...r.section_ids, ...(reviews.get(r.id)?.section_ids || [])])]}));
+const supportPath=path.join(root,'STUDY_NOTE_SUPPORT.json');
+if(fs.existsSync(supportPath))for(const row of JSON.parse(fs.readFileSync(supportPath)).questions)reviews.set(row.id,row.answer_review);
+const rows = JSON.parse(readingBytes).map(r => ({...r, original_section_ids: r.section_ids, section_ids: fs.existsSync(supportPath)?reviews.get(r.id).section_ids:[...new Set([...r.section_ids, ...(reviews.get(r.id)?.section_ids || [])])]}));
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const output = path.join(root, '.qa/ref-dom-evidence.json');
 const result = {schema_version: 1, passed: false, started_at: new Date().toISOString(), base_url: base,
