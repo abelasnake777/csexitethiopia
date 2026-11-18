@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "generated_at": "2026-11-17T11:09:16.373209+00:00",
+  "generated_at": "2026-11-18T01:02:35.213916+00:00",
   "scope": "Full editorial mapping of active questions and variants to positive conceptual study-note evidence; automated checks verify exact passages and presentation, not an infallible correctness guarantee.",
   "questions": 3485,
   "courses": 16,
@@ -11,7 +11,7 @@
   "independent_spot_review_unique_questions": 31,
   "independent_spot_findings_resolved": 6,
   "clarified_practice_records": 1060,
-  "study_guide_sha256": "0e9636128e10447ec69b174d7c0b48d2a864c7461318a45154ebce9be31a229d",
+  "study_guide_sha256": "fe6625eb4d9454e435d1ec5f168ac5f5a7f0c6b3864522f4d0002652817e47d9",
   "support_data_sha256": "ecd43e3088a4daa89f54643d9963485743aa0121134e835d97dc843d7d28c850",
   "existing_study_note_bytes_preserved": true,
   "course_counts": {

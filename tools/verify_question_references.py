@@ -105,6 +105,10 @@ def static_checks():
         raw = (ROOT / before['path']).read_bytes()
         require(raw.count(START.encode()) == raw.count(END.encode()) == raw.count(block) == 1, slug + ': insertion markers/block changed')
         restored = raw.replace(block, b'', 1)
+        public_block=manifest_files[before['path']].get('public_reader_integration_block')
+        if public_block:
+            require(restored.count(public_block.encode())==1,slug+': public reader block count')
+            restored=restored.replace(public_block.encode(),b'',1)
         review_block = manifest_files[before['path']].get('answer_review_integration_block')
         if review_block:
             require(restored.count(review_block.encode()) == 1, slug + ': answer overlay count')

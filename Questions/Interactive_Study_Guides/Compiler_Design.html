@@ -233,7 +233,6 @@
         stem.textContent = revision.stem;
         const options = article.querySelector(':scope > .choices');
         options.replaceChildren(...revision.options.map(option => el('li', option.label + '. ' + option.text, 'choice')));
-        stem.after(el('p', revision.note, 'question-clarification'));
         for (const variant of revision.variant_revisions || []) {
           const heading = [...article.querySelectorAll(':scope > .variant')].find(n => n.textContent === 'Alternative source choices · ' + variant.source);
           if (!heading) throw new Error('Missing source variant: ' + article.dataset.questionId + ' ' + variant.source);
@@ -279,7 +278,9 @@
         const p = el('p', 'Additional reading: ');
         const a = el('a', source.title); a.href = source.url; a.target = '_blank'; a.rel = 'noopener'; p.append(a); hint.append(p);
       }
-      hint.append(hintArchive);
+      // Previous editorial material is not part of the student reader.
+      const hintHeading = [...hint.querySelectorAll('h3')].find(n => n.textContent === 'Unified study note');
+      if (hintHeading) hintHeading.textContent = 'Study-guide sections';
       const guideHeading = [...answer.querySelectorAll('h3')].find(n => n.textContent === 'Unified note guidance');
       const referenceBox = answer.querySelector('.study-note-answer-references');
       if (!guideHeading || !referenceBox) throw new Error('Missing study-note reference container');
@@ -317,13 +318,15 @@
         for (const e of support?.evidence || []) { const p = el('p', e.quote, 'current-variant-evidence'); p.dataset.variantSource = variant.source; p.append(el('cite', e.section_id)); primary.append(p); }
         for (const choice of variant.choices) primary.append(el('p', choice.label + ' · ' + choice.verdict + ' — ' + choice.explanation));
       }
-      answer.append(primary, archive);
+      guideHeading.textContent = 'Study-guide references';
+      guideHeading.classList.add('study-note-references-heading');
+      answer.append(primary);
       article.dataset.studyNoteAnswer = review.status;
     }
     const footer = document.querySelector('main > footer');
     if (footer) {
-      footer.textContent = 'Every practice question has a reading hint, answer, explanation and cited study-note evidence. Necessary conceptual lessons have been added to the complete note. Earlier source reviews remain in closed archives. Clarified practice wording is labeled and original source data is retained. ';
-      const report = el('a', 'Answer review summary'); report.href = '../../ANSWER_REVIEW_SUMMARY.html'; footer.append(report);
+      footer.textContent = 'Use the study-guide links to review a topic, then try the question again. ';
+      const help = el('a', 'How to study'); help.href = '../../index.html#how-to-study'; footer.append(help);
     }
     const closeArchives = () => document.querySelectorAll('.legacy-module-review').forEach(d => d.open = false);
     window.addEventListener('pageshow', closeArchives);
@@ -361,4 +364,117 @@ document.getElementById('hide-all').addEventListener('click',closeAll);window.ad
 jump.addEventListener('change',()=>{const a=document.getElementById('question-'+jump.value);if(a){document.getElementById('search').value='';filter('');a.scrollIntoView({behavior:'smooth'});}});
 function filter(value){const needle=value.trim().toLocaleLowerCase();let count=0;for(const x of searchable){x.article.hidden=!x.text.includes(needle);if(!x.article.hidden)count++;}document.getElementById('result-count').textContent=count+' of '+model.questions.length+' questions';document.getElementById('empty').hidden=count!==0;}
 document.getElementById('search').addEventListener('input',e=>filter(e.target.value));filter('');
-</script></body></html>
+</script><!-- PUBLIC-READER:START -->
+<script id="public-reader-copy" type="application/json">{"root": "../../", "course": "Compiler_Design", "replacements": [{"from": "Repairing malformed questions without inventing answers", "to": "Check syntax and trace control flow", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Question wording and option defects", "to": "Interpret programming questions precisely", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Resolve malformed and overlapping questions", "to": "Check SQL syntax and question assumptions", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Repair source wording before trusting a key", "to": "Compare database mechanisms under explicit assumptions", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Resolve defective wording and syntax before tracing", "to": "Validate Java syntax before tracing", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Language classifications and portability in the bank", "to": "Language classifications and portability", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Resolving underspecified and malformed bank items", "to": "Identify architecture assumptions before answering", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Resolve ambiguous and damaged networking items", "to": "Identify networking layers and addressing assumptions", "reason": "Present the concept as student-facing study guidance while preserving its technical content.", "review": "book_copy.json"}, {"from": "Handle missing data and misleading labels explicitly", "to": "State trace data and representation assumptions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Literal code defects and answerability limits", "to": "Validate syntax, context and output", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Bank ambiguities: identify the missing condition", "to": "Identify the operating-system conditions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Numerical and option defects in the bank", "to": "Apply network calculations and compare design claims", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Conditional nested loops and malformed code", "to": "Analyze conditional nested loops and code validity", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Specific damaged items and minimum clarifications", "to": "Check algorithm specifications and cost assumptions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Source damage and assumptions that need repair", "to": "Interpret quantified statements and search assumptions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "RSA arithmetic and invalid source examples", "to": "RSA arithmetic and key-validity conditions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Interpret flawed security questions precisely", "to": "Interpret security mechanisms and conditions precisely", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Classify bank languages with justified boundaries", "to": "Classify languages with justified boundaries", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Derive the unusual bank grammar examples", "to": "Derive languages from grammar productions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Precise source defects and missing information", "to": "Specify languages, states and start symbols", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Repair missing or conflated lexical answers", "to": "Distinguish tokens, lexemes and lexical analysis", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Repair parser questions with overlapping choices", "to": "Compare parser methods and grammar conditions", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Repair semantic and translation claims", "to": "Distinguish semantic analysis and translation", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Sizes, alignment and offsets are target-dependent; a module’s two-byte int is an example, not a C++ guarantee.", "to": "Sizes, alignment and offsets are target-dependent; a two-byte int is an example, not a C++ guarantee.", "reason": "Replace editorial or question-bank commentary with direct study guidance while preserving the example and applicable conditions.", "review": "book_copy.json"}, {"from": "Ambiguities that require a stated interpretation", "to": "Apply Java rules under explicit assumptions", "reason": "Use a learner-relevant title or reference description; remove production history while retaining the referenced topics, locations and technical facts.", "review": "book_copy.json"}, {"from": "Clarify agent-category questions", "to": "Distinguish agent categories and components", "reason": "Reframe a question-specific option issue as general study guidance without discarding the underlying technical distinction.", "review": "book_copy.json"}, {"from": "Thus two such options are equivalent.", "to": "These two regular expressions are equivalent.", "reason": "Reframe a question-specific option issue as general study guidance without discarding the underlying technical distinction.", "review": "book_copy.json"}, {"from": "“Local optimization” is a wider category; peephole is a concrete method, so a question offering both must specify the level requested.", "to": "Local optimization is a wider category; peephole optimization is a concrete method within the relevant scope.", "reason": "Reframe a question-specific option issue as general study guidance without discarding the underlying technical distinction.", "review": "book_copy.json"}, {"from": "Source text length is not the optimization goal on pp7,17.", "to": "Source text length is not the optimization goal.", "reason": "Remove editorial references while retaining the complete technical meaning.", "review": "question_copy.json"}, {"from": "the clarified ", "to": "the stated ", "reason": "Use standalone public wording without editing-history or local-source references.", "review": "question_copy.json"}, {"from": "The repaired B", "to": "Option B", "reason": "Remove editorial references while retaining the complete technical meaning.", "review": "question_copy.json"}, {"from": "The repaired ", "to": "The ", "reason": "Use standalone public wording without editing-history or local-source references.", "review": "question_copy.json"}, {"from": "the repaired ", "to": "the ", "reason": "Use standalone public wording without editing-history or local-source references.", "review": "question_copy.json"}, {"from": "by the note", "to": "here", "reason": "Use standalone public wording without editing-history or local-source references.", "review": "question_copy.json"}, {"from": " (p. 5).", "to": ".", "reason": "Remove local page bookkeeping while retaining the lexical-analysis explanation.", "review": "question_copy.json"}, {"from": "Use “Open PDF” to read this file directly.", "to": "Choose “Open PDF” to read the module.", "reason": "assets/module-viewer.js: keep the fallback action in student-facing terms.", "review": "global_copy.json"}, {"from": "The embedded reader works when this website is served over HTTP or HTTPS.", "to": "", "reason": "assets/module-viewer.js: remove hosting-protocol setup instructions from the student message.", "review": "global_copy.json"}, {"from": "The retained visual resolves the OCR clutter: A is Lexical Analysis, B Syntax Analysis, C Semantic Analysis, D All of the above. ", "to": "", "review": "final_copy.json"}, {"from": "The corrected option therefore supplies an actual incompatible-type example.", "to": "The option illustrates an incompatible-type example.", "review": "final_copy.json"}], "source_titles": {"2015 model  Exam for Computer science (2).pdf": "Computer Science model exam · 2015", "2015 model  Exam.docx": "Computer Science model exam · 2015", "AI.docx": "Artificial Intelligence practice questions", "AI_Study_Guide_50_Questions.docx": "Artificial Intelligence review questions", "Advance Database Systems SHORT ANSWERS (1).docx": "Advanced Database Systems review questions", "Advanced_Database_Study_Guide (1).docx": "Advanced Database Systems review questions", "Advanced_Database_Study_Guide.docx": "Advanced Database Systems review questions", "Artificial Intelligence SHORT NOTE (1).docx": "Artificial Intelligence review questions", "Automata and Complexity Theory SHORT NOTE (1).docx": "Automata & Complexity Theory review questions", "Automata_Complexity_Complete_Guide.docx": "Automata & Complexity Theory review questions", "CS_Exit_Exam_Combined_by_Course.pdf": "Computer Science Exit Exam practice collection", "Compiler Design MCQ.docx": "Compiler Design review questions", "Compiler Design SHORT NOTE (1).docx": "Compiler Design review questions", "Compiler_Design_Deep_Notes_50_MCQ.docx": "Compiler Design review questions", "Computer Programming - SHORT NOTE (1).docx": "Computer Programming review questions", "Computer Science Exit Exam 2018 with Answer (1).pdf": "Computer Science Exit Exam · 2018", "Computer Science Exit Exam 2018 with Answer.pdf": "Computer Science Exit Exam · 2018", "Computer Security SHORT NOTE (1).docx": "Computer Security review questions", "Computer science Model Exam 2.pdf": "Computer Science model exam 2", "Computer_Architecture_Study_Guide.docx": "Computer Organization & Architecture review questions", "Computer_Security_Study_Guide.docx": "Computer Security review questions", "DAA_Complete_Notes_and_50_Questions.docx": "Algorithm Design & Analysis review questions", "DSA_Complete_Notes_and_50_Questions.docx": "Data Structures & Algorithms review questions", "Data Structure and Algorithms - SHORT NOTE (1).docx": "Data Structures & Algorithms review questions", "Data communication and networking.docx": "Data Communication & Networking practice questions", "Data_Communication_Networking_StudyGuide.docx": "Data Communication & Networking review questions", "Design and Analysis of Algorithms SHORT NOTE (1).docx": "Algorithm Design & Analysis review questions", "EXIT EXAM FOR COMPUTER SCIENCE (1-40) (1).PDF": "Computer Science Exit Exam practice questions", "Exit Exam Model2.pdf": "Computer Science model exam 2", "Exit Exam Model_(0).pdf": "Computer Science model exam", "Fundamental Database Systems - Short Note (1).docx": "Database Fundamentals review questions", "Gondar university model exam(ComputerScienceExitExam). pdf.pdf": "University of Gondar model exam", "Last Year  AAU Model with answer key.pdf": "Addis Ababa University mock exam", "Last Year National Exit Exam.pdf": "National Computer Science Exit Exam", "MOE - Exit Exam.pdf": "MOE Computer Science Exit Exam", "MOE Computer Science Departemt Exit Exam 2016.docx": "MOE Computer Science Exit Exam · 2016", "Mock 1.txt": "Mock exam 1", "Mock 2.txt": "Mock exam 2", "Mock 3.txt": "Mock exam 3", "Mock 4.txt": "Mock exam 4", "National Exit Exam Questions (1-20).pdf": "National Exit Exam practice questions", "OOP.docx": "Object-Oriented Programming practice questions", "OOP_Complete_Study_Guide_50_Questions.docx": "Object-Oriented Programming review questions", "OS_Study_Guide_50_Questions.docx": "Operating Systems review questions", "Object Oriented Programming SHORT NOTE (1).docx": "Object-Oriented Programming review questions", "Operating System question.pdf": "Operating Systems practice questions", "Questions/Last Year National Exit Exam.pdf": "National Computer Science Exit Exam", "Questions/Last Year National Exit Exam.rar": "National Computer Science Exit Exam", "Questions/last year exit model.zip": "Computer Science model exam collection", "Software Engineering SHORT NOTE (1).docx": "Software Engineering review questions", "Software_Engineering_Notes_and_MCQs.docx": "Software Engineering review questions", "Web Programming - Short Note (1).docx": "Web Programming review questions", "Web_Programming_Complete_Guide.docx": "Web Programming review questions", "all mcq for exit FOR CS (1).pdf": "Computer Science MCQ practice collection", "answer for computer science exit exam sene 2016.pdf": "Computer Science Exit Exam · Sene 2016", "data sructure and algrithm.docx": "Data Structures & Algorithms practice questions", "exit exam from ministry of education.pdf": "MOE Computer Science Exit Exam", "fundamenta of database.docx": "Database Fundamentals practice questions", "last year exit model.zip": "Computer Science model exam collection", "operating system.docx": "Operating Systems practice questions", "web programming.docx": "Web Programming practice questions"}, "modules": [{"slug": "Computer_Programming", "course": "Computer Programming", "source_file": "Computer Programming.pdf", "file": "files/ComputerProgramming.pdf"}, {"slug": "Fundamental_of_Database_Systems", "course": "Fundamental of Database Systems", "source_file": "Database System.pdf", "file": "files/DatabaseSystem.pdf"}, {"slug": "Advanced_Database_Systems", "course": "Advanced Database Systems", "source_file": "Database System.pdf", "file": "files/DatabaseSystem.pdf"}, {"slug": "Object_Oriented_Programming", "course": "Object Oriented Programming", "source_file": "Object Oriented Programming.pdf", "file": "files/ObjectOrientedProgramming.pdf"}, {"slug": "Computer_Organization_and_Architecture", "course": "Computer Organization and Architecture", "source_file": "COA all chapter.pdf", "file": "files/ComputerOrganizationAndArchitecture.pdf"}, {"slug": "Data_Communication_and_Computer_Networking", "course": "Data Communication and Computer Networking", "source_file": "Data Communication and System Admin.pdf", "file": "files/DataCommunicationandSystemAdmin.pdf"}, {"slug": "Data_Structures_and_Algorithms", "course": "Data Structure and Algorithms", "source_file": "Data Structures and Algorithms.pdf", "file": "files/DataStructuresAndAlgorithms.pdf"}, {"slug": "Web_Programming", "course": "Web Programming", "source_file": "Web Programming Module (2)_261014_105145.pdf", "file": "files/WebProgramming.pdf"}, {"slug": "Operating_System", "course": "Operating System", "source_file": "Operating Systems Teaching Material by ShmDch WSU.pdf", "file": "files/OperatingSystem.pdf"}, {"slug": "Software_Engineering", "course": "Software Engineering", "source_file": "Software Engineering.pdf", "file": "files/SoftwareEngineering.pdf"}, {"slug": "Design_and_Analysis_of_Algorithms", "course": "Design and Analysis of Algorithms", "source_file": "Design and Analysis of Algorithm.pdf", "file": "files/DesignAndAnalysisOfAlgorithms.pdf"}, {"slug": "Introduction_to_Artificial_Intelligence", "course": "Introduction to Artificial Intelligence", "source_file": "Introduction to Artificial Intelligence.pdf", "file": "files/IntroductionToArtificialIntelligence.pdf"}, {"slug": "Computer_Security", "course": "Computer Security", "source_file": "Computer Security.pdf", "file": "files/ComputerSecurity.pdf"}, {"slug": "Network_and_System_Administration", "course": "Network and System Administration", "source_file": "Data Communication and System Admin.pdf", "file": "files/DataCommunicationandSystemAdmin.pdf"}, {"slug": "Automata_and_Complexity_Theory", "course": "Automata and Complexity Theory", "source_file": "Automata and complexity theory.pdf", "file": "files/AutomataAndComplexityTheory.pdf"}, {"slug": "Compiler_Design", "course": "Compiler Design", "source_file": "Compiler Design.pdf", "file": "files/CompilerDesign.pdf"}], "remove_selectors": ["header nav a[href$=\".docx\"]", ".legacy-module-review", ".provenance-file", "a[href$=\"ANSWER_REVIEW_SUMMARY.html\"]"]}</script>
+<script>
+/* Student-facing language and accessible source attribution. */
+(function () {
+  'use strict';
+  function createTextCleaner(rules) {
+    const pairs = [...rules].filter(r => r.from && r.from !== r.to).sort((a,b) => b.from.length-a.from.length);
+    const values = new Map(pairs.map(r => [r.from, r.to]));
+    const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = pairs.length ? new RegExp(pairs.map(r => escape(r.from)).join('|'), 'g') : null;
+    return text => {
+      let value = String(text);
+      if (pattern) for (let pass=0;pass<4;pass++) { const next=value.replace(pattern, key => values.get(key));if(next===value)break;value=next; }
+      return value;
+    };
+  }
+  if (typeof module !== 'undefined' && module.exports) { module.exports={createTextCleaner}; return; }
+  function start() {
+    const node=document.getElementById('public-reader-copy');if(!node)return;
+    const config=JSON.parse(node.textContent),clean=createTextCleaner(config.replacements);
+    const root=config.root||'./',make=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
+    const sourceLink=(title,href)=>{const a=make('a',title);a.setAttribute('href',href);a.target='_blank';a.rel='noopener';return a;};
+    const modules=new Map(config.modules.map(m=>[m.slug,m]));
+    function publicSources() {
+      const data=document.getElementById('guide-data');if(!data)return;
+      const model=JSON.parse(data.textContent),reviews=JSON.parse(document.getElementById('study-note-answer-data').textContent);
+      for(const item of model.questions){
+        const article=document.querySelector('article[data-question-id="'+item.question.id+'"]');if(!article)continue;
+        article.querySelectorAll('.question-clarification,.provenance-file,.legacy-module-review').forEach(n=>n.remove());
+        const aside=article.querySelector('.question-provenance'),list=aside?.querySelector('.provenance-list');
+        if(list){
+          const seen=new Set();list.replaceChildren();
+          for(const source of item.provenance||[]){
+            const title=config.source_titles[source.filename];if(!title)throw new Error('Missing public source title');
+            const number=source.text.match(/\boriginal question\s+([A-Za-z]?\d+(?:[-–]\d+)?)/i);
+            const label=title+(number?' · Question '+number[1]:'');if(seen.has(label))continue;seen.add(label);
+            const li=make('li');li.append(make('p',label));list.append(li);
+          }
+          aside.querySelector('.provenance-title').textContent=reviews[item.question.id]?.question_revision?'Adapted from':seen.size>1?'Sources':'Source';
+        }
+        [...article.querySelectorAll(':scope>.variant')].forEach((n,i)=>n.textContent='Alternative version '+(i+1));
+        [...article.querySelectorAll('.current-study-answer h3')].filter(n=>n.textContent.startsWith('Alternative source choices · ')).forEach((n,i)=>n.textContent='Alternative version '+(i+1));
+      }
+      for(const p of document.querySelectorAll('main>p.meta'))if(/Keep the original module PDFs|Question source labels use saved file records/.test(p.textContent))p.textContent='Read the linked study-guide sections before revealing the answer. PDF page references count from the first page of the document.';
+    }
+    function readingSources() {
+      const refs=document.getElementById('references');if(!refs)return;
+      const index=new Map(),external=[],publications=[];
+      for(const item of refs.querySelectorAll('.reference-list>li')){
+        const strong=item.querySelector('strong');if(!strong)continue;
+        const parts=strong.textContent.split(' · '),id=parts.shift(),title=parts.join(' · ')||id;
+        if(id==='BP')publications.push(clean(title));
+        const links=[...item.querySelectorAll('a[href^="https://"]')];
+        if(links.length){const entries=links.map(a=>({title:clean(title),href:a.getAttribute('href')}));index.set(id,entries);external.push(...entries);}
+        else{
+          const matching=config.modules.filter(m=>item.textContent.includes(m.source_file));
+          if(matching.length)index.set(id,matching.map(m=>({title:m.course+' module',href:root+'Modules/'+m.slug+'.html'})));
+        }
+      }
+      for(const note of document.querySelectorAll('article[id^="course-"] li.sources')){
+        if(note.querySelector('a'))continue;
+        const match=note.textContent.match(/^\s*References:\s*(.*)$/);if(!match)continue;
+        const course=note.closest('article').id.slice(7),items=match[1].split(/,\s*/).flatMap(id=>index.get(id.trim())||[]);
+        if(!items.length&&modules.has(course))items.push({title:modules.get(course).course+' module',href:root+'Modules/'+course+'.html'});
+        note.replaceChildren(make('span','Further reading: ','cue-text'));
+        const list=make('ul','','detail-list'),seen=new Set();for(const item of items){if(seen.has(item.href))continue;seen.add(item.href);const li=make('li');li.append(sourceLink(item.title,item.href));list.append(li);}note.append(list);
+      }
+      refs.replaceChildren(make('h2','References & further reading'),make('p','Use the course modules and these references to explore topics in more detail.'));
+      const list=make('ul','','reference-list'),seen=new Set();
+      for(const title of publications)list.append(make('li',title));
+      for(const m of config.modules){const li=make('li');li.append(sourceLink(m.course+' — course module',root+'Modules/'+m.slug+'.html'));list.append(li);}
+      for(const item of external){if(seen.has(item.href))continue;seen.add(item.href);const li=make('li');li.append(sourceLink(item.title,item.href));list.append(li);}refs.append(list);
+    }
+    function visit(rootNode) {
+      const walker=document.createTreeWalker(rootNode,NodeFilter.SHOW_TEXT);let n;
+      while((n=walker.nextNode())){
+        if(!n.parentElement||n.parentElement.closest('script,style,pre,code,textarea,.stem,.choices,.variant-clarified-stem'))continue;
+        const value=clean(n.data);if(value!==n.data)n.data=value;
+      }
+      if(rootNode.nodeType===Node.TEXT_NODE&&rootNode.parentElement&&!rootNode.parentElement.closest('script,style,pre,code,textarea,.stem,.choices'))rootNode.data=clean(rootNode.data);
+      const scope=rootNode.querySelectorAll?rootNode:rootNode.parentElement;
+      if(scope){
+        scope.querySelectorAll('a[href$=".pdf"],a[href*=".pdf#"],a[href$=".docx"]').forEach(a=>{
+          if(a.closest('.stem,.choices'))return;
+          const href=decodeURIComponent(a.getAttribute('href'));
+          const matches=config.modules.filter(m=>m.file&&href.includes('Modules/'+m.file));
+          if(matches.length){const slug=a.closest('article[id^="course-"]')?.id.slice(7)||config.course;const m=matches.find(m=>m.slug===slug)||matches[0],page=href.match(/#page=(\d+)/);a.textContent=m.course+' module'+(page?' · page '+page[1]:'');}
+          else a.textContent=a.textContent.replace(/\.(?:pdf|docx)\b/gi,'').replace(/\s*·\s*PDF page\s*/i,' · page ');
+        });
+        scope.querySelectorAll('a[href]').forEach(a=>{if(/(?:SOURCE_MANIFEST|QUESTION_REFERENCE_AUDIT|STUDY_NOTE_(?:ANSWER_REVIEW|SUPPORT(?:_AUDIT)?)|ANSWER_COMPLETENESS_AUDIT|VERIFICATION|Outline_Coverage_Audit|PUBLIC_READER_COPY)\.json|ANSWER_REVIEW_SUMMARY\.html/.test(a.getAttribute('href')))a.remove();});
+        scope.querySelectorAll('#results .result>h3').forEach(n=>n.textContent=n.textContent.split(' · ').slice(0,2).join(' · '));
+        scope.querySelectorAll('#results details>summary').forEach(n=>n.textContent='Show answer & explanation');
+        scope.querySelectorAll('p').forEach(p=>{if(!p.textContent.trim()&&!p.children.length)p.remove();});
+      }
+    }
+    publicSources();readingSources();
+    for(const selector of config.remove_selectors||[])document.querySelectorAll(selector).forEach(n=>n.remove());
+    visit(document);
+    window.CSExitPublicCopy={clean};
+    const observer=new MutationObserver(records=>{
+      observer.disconnect();
+      const added=new Set();for(const r of records){if(r.type==='characterData')added.add(r.target);for(const n of r.addedNodes)if(n.isConnected)added.add(n);}
+      for(const n of added)if(n.isConnected)visit(n);
+      observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+    });
+    observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+    document.documentElement.dataset.publicReader='ready';
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+})();
+
+</script>
+<!-- PUBLIC-READER:END --></body></html>

@@ -18,7 +18,7 @@ const root=path.resolve(__dirname,'..'),base=process.env.BASE_URL||'http://127.0
   await a.click();await p.waitForSelector('article.question');
   assert.equal(new URL(p.url()).hash,new URL(href,base).hash);
   assert.equal(await p.locator(new URL(p.url()).hash).count(),1);
-  await p.locator('main>footer').getByRole('link',{name:'Answer review summary'}).click();
+  await p.goBack();
   assert.ok(p.url().endsWith('/ANSWER_REVIEW_SUMMARY.html'));
   await p.screenshot({path:path.join(root,'.qa/answer-review-summary-'+width+'.png'),fullPage:false});
   out.cases.push({width,courses:16,total_questions:3485,table_totals_match:true,default_closed:true,question_deep_link_and_return:true,overflow:false});await p.close();

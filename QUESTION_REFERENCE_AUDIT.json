@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "passed": true,
-  "generated_at": "2026-11-17T11:10:24.253482+00:00",
+  "generated_at": "2026-11-18T00:51:14.079755+00:00",
   "scope_note": "Reference-link coverage only, not answer completeness or correctness. Original question payloads remain unchanged. Current complete-note reviews are separately recorded in STUDY_NOTE_ANSWER_REVIEW.json; historical reviews stay archived.",
   "errors": [],
   "dom_evidence": {
     "path": ".qa/ref-dom-evidence.json",
-    "sha256": "6be62e663c3411a5073c84f776c10ce2ce5e2226f07a252fe928be714e91abf6",
+    "sha256": "79ae9bbc9db738d118c9edbff86ec82b17c72749fe51d244c2f0c730d9f09688",
     "browser": {
       "engine": "chromium",
       "version": "155.0.8059.84",
       "executable": "/opt/google/chrome/chrome"
     },
-    "started_at": "2026-11-17T11:10:26.363Z",
-    "finished_at": "2026-11-17T11:11:23.024Z",
+    "started_at": "2026-11-18T00:51:16.441Z",
+    "finished_at": "2026-11-18T00:52:05.806Z",
     "base_url": "http://127.0.0.1:8457"
   },
   "separate_answer_support_review": {
@@ -891,7 +891,7 @@
   },
   "full_study_note_grounding": {
     "passed": true,
-    "generated_at": "2026-11-17T11:09:16.373209+00:00",
+    "generated_at": "2026-11-18T01:02:35.213916+00:00",
     "scope": "Full editorial mapping of active questions and variants to positive conceptual study-note evidence; automated checks verify exact passages and presentation, not an infallible correctness guarantee.",
     "questions": 3485,
     "courses": 16,
@@ -902,7 +902,7 @@
     "independent_spot_review_unique_questions": 31,
     "independent_spot_findings_resolved": 6,
     "clarified_practice_records": 1060,
-    "study_guide_sha256": "0e9636128e10447ec69b174d7c0b48d2a864c7461318a45154ebce9be31a229d",
+    "study_guide_sha256": "fe6625eb4d9454e435d1ec5f168ac5f5a7f0c6b3864522f4d0002652817e47d9",
     "support_data_sha256": "ecd43e3088a4daa89f54643d9963485743aa0121134e835d97dc843d7d28c850",
     "existing_study_note_bytes_preserved": true,
     "course_counts": {
@@ -964,6 +964,24 @@
       "SOURCE_MANIFEST.json",
       "VERIFICATION.json",
       "index.html",
+      "Outlines/Advanced_Database_Systems.html",
+      "Outlines/Automata_and_Complexity_Theory.html",
+      "Outlines/Compiler_Design.html",
+      "Outlines/Computer_Organization_and_Architecture.html",
+      "Outlines/Computer_Programming.html",
+      "Outlines/Computer_Security.html",
+      "Outlines/Data_Communication_and_Computer_Networking.html",
+      "Outlines/Data_Structures_and_Algorithms.html",
+      "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "Outlines/Fundamental_of_Database_Systems.html",
+      "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "Outlines/Network_and_System_Administration.html",
+      "Outlines/Object_Oriented_Programming.html",
+      "Outlines/Operating_System.html",
+      "Outlines/Software_Engineering.html",
+      "Outlines/Web_Programming.html",
+      "Outlines/index.html",
+      "Questions/Interactive_Study_Guides/index.html",
       "assets/resource-nav.js",
       "assets/site.css",
       "tests/browser.cjs",
@@ -1005,33 +1023,38 @@
       "Modules/files/SoftwareEngineering.pdf",
       "Modules/files/WebProgramming.pdf",
       "Modules/index.html",
+      "PUBLIC_READER_COPY.json",
       "STUDY_NOTE_ANSWER_REVIEW.json",
       "STUDY_NOTE_SUPPORT.json",
       "STUDY_NOTE_SUPPORT_AUDIT.json",
       "assets/module-loader.js",
       "assets/module-viewer.js",
       "assets/modules.css",
+      "assets/public-reader.js",
       "assets/study-note-answers.css",
       "assets/study-note-answers.js",
       "tests/answer_completeness.cjs",
       "tests/answer_review_summary.cjs",
       "tests/modules.cjs",
+      "tests/public_copy.cjs",
       "tests/question_clarifications.cjs",
       "tests/study_note_answers.cjs",
       "tests/study_note_support.cjs",
+      "tools/apply_public_copy.py",
       "tools/apply_study_note_answers.py",
       "tools/apply_study_note_support.py",
       "tools/build_answer_review_summary.py",
       "tools/build_modules.py",
+      "tools/public_files.py",
       "tools/study_note_preservation.py",
       "tools/verify_answer_completeness.py",
       "tools/verify_study_note_answers.py",
       "tools/verify_study_note_support.py"
     ],
     "parallel_work_note": "Observed differences outside this task scope are recorded, not attributed to this task. This verifier writes only its authorized audit/evidence files.",
-    "website_master_sha256": "0e9636128e10447ec69b174d7c0b48d2a864c7461318a45154ebce9be31a229d",
+    "website_master_sha256": "fe6625eb4d9454e435d1ec5f168ac5f5a7f0c6b3864522f4d0002652817e47d9",
     "source_master_sha256": "00120d05158449be9b2f72eb19eecdaf86d3109b3badb3b4eb3d8a451103ba00",
-    "source_manifest_sha256": "b996e3b3743542c95043f10e06a2129cb93827d44581c019e61e27cde9a9f013",
+    "source_manifest_sha256": "f661e8b4763e21d23d04e39bc966b66c3be98a7fc764156d240a104b51502da0",
     "reading_map_sha256": "93efba24e4495631df81ad5ffb6f99de043a4a2b4b540eee9e21c8d78ec9d2ea",
     "answer_review_sha256": "2faa09ba8a8e9393f7453a344783d4a4abd71d230ee3bc599a04dc9a84c0d28a"
   },
@@ -1044,8 +1067,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "a407dfe7f3c95cc41adfc6c1bc91df1903b5091bad85cefc9921571c853fd90f",
       "slug": "Advanced_Database_Systems",
-      "after_sha256": "7d296358800d9f2a1ca1d317af8abd28c9a9ddde6691ef427ae4b94a7f05a212",
-      "after_bytes": 1978490,
+      "after_sha256": "a77aa79e1874fa65733bd5cc1d3c6cdec69c9eac398af3b9b72b4aa1da45e9a6",
+      "after_bytes": 2017641,
       "questions": 239,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1054,7 +1077,7 @@
       "browser_checks": {
         "slug": "Advanced_Database_Systems",
         "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
-        "sha256": "7d296358800d9f2a1ca1d317af8abd28c9a9ddde6691ef427ae4b94a7f05a212",
+        "sha256": "a77aa79e1874fa65733bd5cc1d3c6cdec69c9eac398af3b9b72b4aa1da45e9a6",
         "questions": 239,
         "pointer_checks": [
           {
@@ -1116,8 +1139,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "231699b377d5f602104f379d2f9bc1c9bd09c7f15faff6edf9532e0f79da8dcb",
       "slug": "Automata_and_Complexity_Theory",
-      "after_sha256": "323d7a4aa74130e985b4d11b38bd32054440b41d2f5489a133503fa493580cad",
-      "after_bytes": 2273721,
+      "after_sha256": "16fd333eaa6f34212f854df9a09a9b78ef1cadf0e2d9eea734a3f6a8f99fd3d9",
+      "after_bytes": 2324940,
       "questions": 156,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1126,7 +1149,7 @@
       "browser_checks": {
         "slug": "Automata_and_Complexity_Theory",
         "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
-        "sha256": "323d7a4aa74130e985b4d11b38bd32054440b41d2f5489a133503fa493580cad",
+        "sha256": "16fd333eaa6f34212f854df9a09a9b78ef1cadf0e2d9eea734a3f6a8f99fd3d9",
         "questions": 156,
         "pointer_checks": [
           {
@@ -1188,8 +1211,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "aa8551a2d10cab71ae64a282149ff0401648f59588be1e5ba3c1de66b156c04d",
       "slug": "Compiler_Design",
-      "after_sha256": "7f04267b2e59d174135fb0ae4221f2c07871448f9c515b10647a8b4664bf3bef",
-      "after_bytes": 1480776,
+      "after_sha256": "c0ed414b37348b3aae89edac56d65a892862f72fc83bccefa4916621b97a7579",
+      "after_bytes": 1507478,
       "questions": 200,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1198,7 +1221,7 @@
       "browser_checks": {
         "slug": "Compiler_Design",
         "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
-        "sha256": "7f04267b2e59d174135fb0ae4221f2c07871448f9c515b10647a8b4664bf3bef",
+        "sha256": "c0ed414b37348b3aae89edac56d65a892862f72fc83bccefa4916621b97a7579",
         "questions": 200,
         "pointer_checks": [
           {
@@ -1260,8 +1283,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "1b83a697d6dc6725a6b08b87f697fc8ce76a51cd1c57a23986b5619c3a39b16f",
       "slug": "Computer_Organization_and_Architecture",
-      "after_sha256": "e459b05b0ffb46a3314f045794adedadef96e0c134fb1a555705765ed4d9093c",
-      "after_bytes": 2605540,
+      "after_sha256": "0dda063bfb349da3c6ba0045284a158e48a77554e38ff27eb79e8ac433a60d84",
+      "after_bytes": 2634633,
       "questions": 184,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1270,7 +1293,7 @@
       "browser_checks": {
         "slug": "Computer_Organization_and_Architecture",
         "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
-        "sha256": "e459b05b0ffb46a3314f045794adedadef96e0c134fb1a555705765ed4d9093c",
+        "sha256": "0dda063bfb349da3c6ba0045284a158e48a77554e38ff27eb79e8ac433a60d84",
         "questions": 184,
         "pointer_checks": [
           {
@@ -1332,8 +1355,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "3fae179f1975e5f3e64eb0f438396b4fd2849f223d28ef92755933b9d7448ec6",
       "slug": "Computer_Programming",
-      "after_sha256": "7ea44e4f3484caf93de563e61c43cecd32ebaf83820ff29642990ecc082aeac6",
-      "after_bytes": 2484981,
+      "after_sha256": "6973092f7f9eded76e20b07d761a99ad29cc9942862e2545d701240b0917055b",
+      "after_bytes": 2520820,
       "questions": 177,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1342,7 +1365,7 @@
       "browser_checks": {
         "slug": "Computer_Programming",
         "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
-        "sha256": "7ea44e4f3484caf93de563e61c43cecd32ebaf83820ff29642990ecc082aeac6",
+        "sha256": "6973092f7f9eded76e20b07d761a99ad29cc9942862e2545d701240b0917055b",
         "questions": 177,
         "pointer_checks": [
           {
@@ -1404,8 +1427,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "71f2d830aadc41f1d4f808378558cb2cf12d10d138ee3989bb09ca2cab8ba139",
       "slug": "Computer_Security",
-      "after_sha256": "3badb7fbc308652bcf7d7da968d3e37c5db4e5c8827ee0026c75d836917a1dd9",
-      "after_bytes": 1187517,
+      "after_sha256": "c473f41ca1c936d0371036a23d9f40c795aece01526ce5be3641ed07bd868b65",
+      "after_bytes": 1215686,
       "questions": 171,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1414,7 +1437,7 @@
       "browser_checks": {
         "slug": "Computer_Security",
         "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
-        "sha256": "3badb7fbc308652bcf7d7da968d3e37c5db4e5c8827ee0026c75d836917a1dd9",
+        "sha256": "c473f41ca1c936d0371036a23d9f40c795aece01526ce5be3641ed07bd868b65",
         "questions": 171,
         "pointer_checks": [
           {
@@ -1476,8 +1499,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "4ab2e93347ce4fe217a312e6bbb4d776773461f2de87432fa850591246261c65",
       "slug": "Data_Communication_and_Computer_Networking",
-      "after_sha256": "4913a2879bd4e8f2684a184d4091ceab9751cb0b08f7d61c6edcb3eabd64a2d7",
-      "after_bytes": 3210230,
+      "after_sha256": "6088338b403cd3fc13fd1830fa395b7c1b48ef807a37727b014de6badb35d278",
+      "after_bytes": 3243315,
       "questions": 274,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1486,7 +1509,7 @@
       "browser_checks": {
         "slug": "Data_Communication_and_Computer_Networking",
         "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
-        "sha256": "4913a2879bd4e8f2684a184d4091ceab9751cb0b08f7d61c6edcb3eabd64a2d7",
+        "sha256": "6088338b403cd3fc13fd1830fa395b7c1b48ef807a37727b014de6badb35d278",
         "questions": 274,
         "pointer_checks": [
           {
@@ -1548,8 +1571,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "13def9e05a936f65efd5562a6a7ed3d762291d14b3766a0172e56ae6e33b7d92",
       "slug": "Data_Structures_and_Algorithms",
-      "after_sha256": "076ad4a5b23418e2082b20fdf216097000848b20be7d8787fd93ed0e2c5a35de",
-      "after_bytes": 2150260,
+      "after_sha256": "2a0e529ffbdf2db988a8e98f2f4ae34e2ebf75e53f196ce345be3abf7c333c77",
+      "after_bytes": 2178795,
       "questions": 271,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1558,7 +1581,7 @@
       "browser_checks": {
         "slug": "Data_Structures_and_Algorithms",
         "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
-        "sha256": "076ad4a5b23418e2082b20fdf216097000848b20be7d8787fd93ed0e2c5a35de",
+        "sha256": "2a0e529ffbdf2db988a8e98f2f4ae34e2ebf75e53f196ce345be3abf7c333c77",
         "questions": 271,
         "pointer_checks": [
           {
@@ -1620,8 +1643,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "660574c73eae153302b6a04d092b74adb6ca403dd535434224a05d17aae12d4f",
       "slug": "Design_and_Analysis_of_Algorithms",
-      "after_sha256": "a68f14470365705c1ecf3580398ac78e687df71377d3b0080a43393618a1bd1c",
-      "after_bytes": 1523549,
+      "after_sha256": "636c8e8459b1eca1886eede1bf7490578ac3be35eca61e0131032d60fc214801",
+      "after_bytes": 1552997,
       "questions": 141,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1630,7 +1653,7 @@
       "browser_checks": {
         "slug": "Design_and_Analysis_of_Algorithms",
         "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
-        "sha256": "a68f14470365705c1ecf3580398ac78e687df71377d3b0080a43393618a1bd1c",
+        "sha256": "636c8e8459b1eca1886eede1bf7490578ac3be35eca61e0131032d60fc214801",
         "questions": 141,
         "pointer_checks": [
           {
@@ -1692,8 +1715,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "c87f21b6821cf11cca78e1ddc259b4b250c951248ab475182d803a1d2b675953",
       "slug": "Fundamental_of_Database_Systems",
-      "after_sha256": "4c7c962d6026cdc50ba04fd72a6d35e4dd7be69d0c0ff088c5583c703c9ca6be",
-      "after_bytes": 3196430,
+      "after_sha256": "b1f9396c6997ac92106186cbcd14b52d38cf7aa5020a6d7319be5f6c878fe897",
+      "after_bytes": 3245744,
       "questions": 226,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1702,7 +1725,7 @@
       "browser_checks": {
         "slug": "Fundamental_of_Database_Systems",
         "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
-        "sha256": "4c7c962d6026cdc50ba04fd72a6d35e4dd7be69d0c0ff088c5583c703c9ca6be",
+        "sha256": "b1f9396c6997ac92106186cbcd14b52d38cf7aa5020a6d7319be5f6c878fe897",
         "questions": 226,
         "pointer_checks": [
           {
@@ -1764,8 +1787,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "dd765b5e860c06b8d3743737734d6ddce924470491e22d1e24cc0e8535d84543",
       "slug": "Introduction_to_Artificial_Intelligence",
-      "after_sha256": "314db706add15d6292affe78fc835764cb3b32bdbb83343aef6e78a1ff4cf581",
-      "after_bytes": 1902115,
+      "after_sha256": "fc04091f9dcf21774d79443beb01a98cf31ede0163301505e449f8292d43998e",
+      "after_bytes": 1931129,
       "questions": 235,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1774,7 +1797,7 @@
       "browser_checks": {
         "slug": "Introduction_to_Artificial_Intelligence",
         "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
-        "sha256": "314db706add15d6292affe78fc835764cb3b32bdbb83343aef6e78a1ff4cf581",
+        "sha256": "fc04091f9dcf21774d79443beb01a98cf31ede0163301505e449f8292d43998e",
         "questions": 235,
         "pointer_checks": [
           {
@@ -1836,8 +1859,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "c72f57b8ad6133ca9bb94a9a7ae4e792a230dec673022b668f4b8260f0934025",
       "slug": "Network_and_System_Administration",
-      "after_sha256": "fd3ac1c6f90f34e320539723d76dafb43dfbe23c5ee920df3328831c79d63cb5",
-      "after_bytes": 1133275,
+      "after_sha256": "357cdcd4eec4776156ea2708ce1e73de40cadb3a9ba5cb4abac9c8376fb30844",
+      "after_bytes": 1163188,
       "questions": 101,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1846,7 +1869,7 @@
       "browser_checks": {
         "slug": "Network_and_System_Administration",
         "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
-        "sha256": "fd3ac1c6f90f34e320539723d76dafb43dfbe23c5ee920df3328831c79d63cb5",
+        "sha256": "357cdcd4eec4776156ea2708ce1e73de40cadb3a9ba5cb4abac9c8376fb30844",
         "questions": 101,
         "pointer_checks": [
           {
@@ -1908,8 +1931,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "18aed2fd326a6cfafca3238626233fa2a8f18d7c165d7ced368233b242f4d864",
       "slug": "Object_Oriented_Programming",
-      "after_sha256": "41612cd51989018ea1d8f1c1365f3aa06b33335cd465001bf3d1bbd4a97a2b5b",
-      "after_bytes": 4517504,
+      "after_sha256": "80184b7094c6a2c8407505abdf46cb16499eb67682eff18bd658ca5ea2f34589",
+      "after_bytes": 4590441,
       "questions": 294,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1918,7 +1941,7 @@
       "browser_checks": {
         "slug": "Object_Oriented_Programming",
         "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
-        "sha256": "41612cd51989018ea1d8f1c1365f3aa06b33335cd465001bf3d1bbd4a97a2b5b",
+        "sha256": "80184b7094c6a2c8407505abdf46cb16499eb67682eff18bd658ca5ea2f34589",
         "questions": 294,
         "pointer_checks": [
           {
@@ -1980,8 +2003,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "c88ebb5d81ab729c753dcf8e15c6405c15829563dd6084e0b834b77fb55105f0",
       "slug": "Operating_System",
-      "after_sha256": "a04e2f27b544ff8e5c6ab065485e9ddd51b4a83bd945657e55fe4f29c9ccd0c6",
-      "after_bytes": 2098733,
+      "after_sha256": "5dc4ef200cc54dca862aebd9be8857885ca776f22d39d051a50c26893d59e2e6",
+      "after_bytes": 2129138,
       "questions": 233,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -1990,7 +2013,7 @@
       "browser_checks": {
         "slug": "Operating_System",
         "path": "Questions/Interactive_Study_Guides/Operating_System.html",
-        "sha256": "a04e2f27b544ff8e5c6ab065485e9ddd51b4a83bd945657e55fe4f29c9ccd0c6",
+        "sha256": "5dc4ef200cc54dca862aebd9be8857885ca776f22d39d051a50c26893d59e2e6",
         "questions": 233,
         "pointer_checks": [
           {
@@ -2052,8 +2075,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "6760c186890714326d86b34f393e732732411b1f2cc7fc70a66534b3a0867e1e",
       "slug": "Software_Engineering",
-      "after_sha256": "7a5077a6a888c23bb984b442e2297619454326048e604c4127aef071a65b7da3",
-      "after_bytes": 3109101,
+      "after_sha256": "8dda5e35a75b45c9ccf1c2fafa9c3fa3c0dbb6457ae1ccca9588d0facd8e8927",
+      "after_bytes": 3159366,
       "questions": 278,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -2062,7 +2085,7 @@
       "browser_checks": {
         "slug": "Software_Engineering",
         "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
-        "sha256": "7a5077a6a888c23bb984b442e2297619454326048e604c4127aef071a65b7da3",
+        "sha256": "8dda5e35a75b45c9ccf1c2fafa9c3fa3c0dbb6457ae1ccca9588d0facd8e8927",
         "questions": 278,
         "pointer_checks": [
           {
@@ -2124,8 +2147,8 @@
       "navigation_sha256": "c2fc021898b3d3315ea0bf4bd77a4a8f3816dc3912f96075d8bb085ecf5e8ba2",
       "source_sha256": "22f6597bf83643f884d5e2761a4a19107e3fbe7cc5fa92bbe04a4585de07704f",
       "slug": "Web_Programming",
-      "after_sha256": "c63a1e21eff7156d2c2186e34d1f5739e3f1d2999efe923ec0dc72c6bbc1349f",
-      "after_bytes": 2449980,
+      "after_sha256": "eece7ac4f22e0178e6cf2c3df681696b2c417f3b6e436aa477e0eba650e2ede7",
+      "after_bytes": 2486895,
       "questions": 305,
       "json_unchanged": true,
       "navigation_updated_only_with_modules_link": true,
@@ -2134,7 +2157,7 @@
       "browser_checks": {
         "slug": "Web_Programming",
         "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
-        "sha256": "c63a1e21eff7156d2c2186e34d1f5739e3f1d2999efe923ec0dc72c6bbc1349f",
+        "sha256": "eece7ac4f22e0178e6cf2c3df681696b2c417f3b6e436aa477e0eba650e2ede7",
         "questions": 305,
         "pointer_checks": [
           {
@@ -17797,7 +17820,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT40",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT40",
-          "text": "AUT40 · Derive the unusual bank grammar examples",
+          "text": "AUT40 · Derive languages from grammar productions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -17815,7 +17838,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT40",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT40",
-          "text": "AUT40 · Derive the unusual bank grammar examples",
+          "text": "AUT40 · Derive languages from grammar productions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -17970,7 +17993,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT40",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT40",
-          "text": "AUT40 · Derive the unusual bank grammar examples",
+          "text": "AUT40 · Derive languages from grammar productions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -17988,7 +18011,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT40",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT40",
-          "text": "AUT40 · Derive the unusual bank grammar examples",
+          "text": "AUT40 · Derive languages from grammar productions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -20943,7 +20966,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -20953,7 +20976,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -21371,7 +21394,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -21397,7 +21420,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -21456,7 +21479,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -21474,7 +21497,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -21657,7 +21680,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -21667,7 +21690,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -22029,7 +22052,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -22039,7 +22062,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -22083,7 +22106,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -22093,7 +22116,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -23393,7 +23416,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -23419,7 +23442,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AUT26",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AUT26",
-          "text": "AUT26 · Classify bank languages with justified boundaries",
+          "text": "AUT26 · Classify languages with justified boundaries",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -27139,7 +27162,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -27149,7 +27172,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -27252,7 +27275,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -27270,7 +27293,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -27614,7 +27637,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -27632,7 +27655,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -31624,7 +31647,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -31642,7 +31665,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -31970,7 +31993,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -31988,7 +32011,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#COMP41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#COMP41",
-          "text": "COMP41 · Repair missing or conflated lexical answers",
+          "text": "COMP41 · Distinguish tokens, lexemes and lexical analysis",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -49170,7 +49193,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -49196,7 +49219,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -49314,7 +49337,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -49332,7 +49355,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -49436,7 +49459,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -49454,7 +49477,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -51458,7 +51481,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -51476,7 +51499,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP34",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP34",
-          "text": "CP34 · Repairing malformed questions without inventing answers",
+          "text": "CP34 · Check syntax and trace control flow",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -55978,7 +56001,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP35",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP35",
-          "text": "CP35 · Question wording and option defects",
+          "text": "CP35 · Interpret programming questions precisely",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -55996,7 +56019,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#CP35",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#CP35",
-          "text": "CP35 · Question wording and option defects",
+          "text": "CP35 · Interpret programming questions precisely",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -68100,7 +68123,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#SEC19",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#SEC19",
-          "text": "SEC19 · RSA arithmetic and invalid source examples",
+          "text": "SEC19 · RSA arithmetic and key-validity conditions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -68110,7 +68133,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#SEC19",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#SEC19",
-          "text": "SEC19 · RSA arithmetic and invalid source examples",
+          "text": "SEC19 · RSA arithmetic and key-validity conditions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -68153,7 +68176,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#SEC19",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#SEC19",
-          "text": "SEC19 · RSA arithmetic and invalid source examples",
+          "text": "SEC19 · RSA arithmetic and key-validity conditions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -68163,7 +68186,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#SEC19",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#SEC19",
-          "text": "SEC19 · RSA arithmetic and invalid source examples",
+          "text": "SEC19 · RSA arithmetic and key-validity conditions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -69407,7 +69430,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#SEC19",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#SEC19",
-          "text": "SEC19 · RSA arithmetic and invalid source examples",
+          "text": "SEC19 · RSA arithmetic and key-validity conditions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -69417,7 +69440,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#SEC19",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#SEC19",
-          "text": "SEC19 · RSA arithmetic and invalid source examples",
+          "text": "SEC19 · RSA arithmetic and key-validity conditions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -70348,7 +70371,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#NET33",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#NET33",
-          "text": "NET33 · Resolve ambiguous and damaged networking items",
+          "text": "NET33 · Identify networking layers and addressing assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -70374,7 +70397,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#NET33",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#NET33",
-          "text": "NET33 · Resolve ambiguous and damaged networking items",
+          "text": "NET33 · Identify networking layers and addressing assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -73270,7 +73293,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#NET33",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#NET33",
-          "text": "NET33 · Resolve ambiguous and damaged networking items",
+          "text": "NET33 · Identify networking layers and addressing assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -73288,7 +73311,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#NET33",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#NET33",
-          "text": "NET33 · Resolve ambiguous and damaged networking items",
+          "text": "NET33 · Identify networking layers and addressing assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -91993,7 +92016,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DSA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DSA45",
-          "text": "DSA45 · Handle missing data and misleading labels explicitly",
+          "text": "DSA45 · State trace data and representation assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -92011,7 +92034,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DSA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DSA45",
-          "text": "DSA45 · Handle missing data and misleading labels explicitly",
+          "text": "DSA45 · State trace data and representation assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -96262,7 +96285,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DSA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DSA45",
-          "text": "DSA45 · Handle missing data and misleading labels explicitly",
+          "text": "DSA45 · State trace data and representation assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -96296,7 +96319,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DSA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DSA45",
-          "text": "DSA45 · Handle missing data and misleading labels explicitly",
+          "text": "DSA45 · State trace data and representation assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -101025,7 +101048,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DSA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DSA45",
-          "text": "DSA45 · Handle missing data and misleading labels explicitly",
+          "text": "DSA45 · State trace data and representation assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -101035,7 +101058,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DSA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DSA45",
-          "text": "DSA45 · Handle missing data and misleading labels explicitly",
+          "text": "DSA45 · State trace data and representation assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -106500,7 +106523,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DAA07",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DAA07",
-          "text": "DAA07 · Conditional nested loops and malformed code",
+          "text": "DAA07 · Analyze conditional nested loops and code validity",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -106510,7 +106533,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DAA07",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DAA07",
-          "text": "DAA07 · Conditional nested loops and malformed code",
+          "text": "DAA07 · Analyze conditional nested loops and code validity",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -109364,7 +109387,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DAA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DAA45",
-          "text": "DAA45 · Specific damaged items and minimum clarifications",
+          "text": "DAA45 · Check algorithm specifications and cost assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -109382,7 +109405,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#DAA45",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#DAA45",
-          "text": "DAA45 · Specific damaged items and minimum clarifications",
+          "text": "DAA45 · Check algorithm specifications and cost assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -127338,7 +127361,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI44",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI44",
-          "text": "AI44 · Source damage and assumptions that need repair",
+          "text": "AI44 · Interpret quantified statements and search assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -127356,7 +127379,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI44",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI44",
-          "text": "AI44 · Source damage and assumptions that need repair",
+          "text": "AI44 · Interpret quantified statements and search assumptions",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -131628,7 +131651,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -131654,7 +131677,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -132688,7 +132711,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -132714,7 +132737,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -132772,7 +132795,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -132806,7 +132829,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -134336,7 +134359,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -134362,7 +134385,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#AI42",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#AI42",
-          "text": "AI42 · Clarify agent-category questions",
+          "text": "AI42 · Distinguish agent categories and components",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -149528,7 +149551,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -149538,7 +149561,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -149580,7 +149603,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -149590,7 +149613,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -151187,7 +151210,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -151205,7 +151228,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -158152,7 +158175,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP37",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP37",
-          "text": "OOP37 · Resolve defective wording and syntax before tracing",
+          "text": "OOP37 · Validate Java syntax before tracing",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -158178,7 +158201,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP37",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP37",
-          "text": "OOP37 · Resolve defective wording and syntax before tracing",
+          "text": "OOP37 · Validate Java syntax before tracing",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -160180,7 +160203,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -160198,7 +160221,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#OOP39",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#OOP39",
-          "text": "OOP39 · Language classifications and portability in the bank",
+          "text": "OOP39 · Language classifications and portability",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true
@@ -203530,7 +203553,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#WEB41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#WEB41",
-          "text": "WEB41 · Literal code defects and answerability limits",
+          "text": "WEB41 · Validate syntax, context and output",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": false
@@ -203556,7 +203579,7 @@
         {
           "href": "../../Complete_CS_Exit_Study_Guide.html#WEB41",
           "resolved_href": "http://127.0.0.1:8457/Complete_CS_Exit_Study_Guide.html#WEB41",
-          "text": "WEB41 · Literal code defects and answerability limits",
+          "text": "WEB41 · Validate syntax, context and output",
           "target": "_blank",
           "rel": "noopener",
           "in_answer_container": true

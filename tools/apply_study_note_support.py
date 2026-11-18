@@ -18,6 +18,7 @@ def main():
     entry=next(f for f in manifest['files'] if f['copied_path']=='Complete_CS_Exit_Study_Guide.html')
     raw=strip_additions((ROOT/entry['copied_path']).read_text(),manifest)
     assert sha(raw.encode())==BASE_SHA256
+    entry.pop('public_reader_integration_block',None)
     catalog=json.loads((ROOT/'Modules/catalog.json').read_text())['courses']
     modules={x['source_file']:x for x in catalog};blocks=[];new_titles={}
     for c in support['courses']:

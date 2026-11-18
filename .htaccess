@@ -24,3 +24,13 @@ Options -Indexes
   AddType text/javascript .mjs
   AddType application/wasm .wasm
 </IfModule>
+
+# Keep authoring records and development utilities outside the public interface.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule (^|/)(?:\.qa|tools|tests)(?:/|$) - [F,L]
+  RewriteRule (^|/)(?:SOURCE_MANIFEST|QUESTION_REFERENCE_AUDIT|STUDY_NOTE_ANSWER_REVIEW|STUDY_NOTE_SUPPORT|STUDY_NOTE_SUPPORT_AUDIT|ANSWER_COMPLETENESS_AUDIT|VERIFICATION|PUBLIC_READER_COPY|PUBLIC_COPY_AUDIT|Outline_Coverage_Audit)\.json$ - [F,L]
+  RewriteRule ^(?:README|DEPLOYMENT)\.md$ - [F,L]
+  RewriteRule ^Modules/catalog\.json$ - [F,L]
+  RewriteRule ^ANSWER_REVIEW_SUMMARY\.html$ - [F,L]
+</IfModule>

@@ -83,11 +83,11 @@ If opening HTML directly from disk, use Open PDF or Download PDF. The embedded v
 
 Every one of the 3,485 main practice questions and 24 alternative source versions has an explicit answer. Each question has an independent, default-hidden reading hint and answer/explanation block, including choice-by-choice reasoning and exact supporting study-note passages. The study-note lookup uses the current clarified practice wording.
 
-The bank contains 3,026 single-answer questions, 199 explicit select-all questions and 260 written prompts. 1,060 records have labeled practice clarifications. The global exact stem-and-options duplicate check found zero duplicate groups. Original imported question data and historical reviews are retained.
+The bank contains 3,026 single-answer questions, 199 explicit select-all questions and 260 written prompts. 1,060 adapted question records retain their editorial history for maintenance; students see concise source attribution. The global exact stem-and-options duplicate check found zero duplicate groups. Original imported question data and historical reviews are retained.
 
-The full grounding review added 86 focused conceptual lessons to fill missing coverage. All existing guide text is preserved byte for byte, recoverable by removing the exact additive blocks in `SOURCE_MANIFEST.json`. The original materials in Exit_Study are untouched. Module PDFs and revision outlines are unchanged.
+The full grounding review added 86 focused conceptual lessons to fill missing coverage. All existing guide text is preserved byte for byte, recoverable by removing the exact additive blocks in `SOURCE_MANIFEST.json`. The original materials in Exit_Study are untouched. Module PDF bytes and the underlying revision-outline data are unchanged; public wording is presented through a reversible display layer.
 
-`ANSWER_REVIEW_SUMMARY.html` gives the readable course overview. `STUDY_NOTE_SUPPORT.json` records every active answer, reading hint, exact evidence and editorial resolution; `STUDY_NOTE_SUPPORT_AUDIT.json` verifies its coverage and actual note passages. `ANSWER_COMPLETENESS_AUDIT.json` checks definite answers and exact duplicate prompts. `QUESTION_REFERENCE_AUDIT.json` separately records every rendered reference link and independent toggle. Editorial relevance review and automated coverage checks are distinct; these records do not authenticate an imported exam key or predict a score.
+`ANSWER_REVIEW_SUMMARY.html` is an author-only course overview, excluded from hosting. `STUDY_NOTE_SUPPORT.json` records every active answer, reading hint, exact evidence and editorial resolution; `STUDY_NOTE_SUPPORT_AUDIT.json` verifies its coverage and actual note passages. `ANSWER_COMPLETENESS_AUDIT.json` checks definite answers and exact duplicate prompts. `QUESTION_REFERENCE_AUDIT.json` separately records every rendered reference link and independent toggle. Editorial relevance review and automated coverage checks are distinct; these records do not authenticate an imported exam key or predict a score.
 
 Portable verification (no build step for hosting):
 
@@ -104,7 +104,20 @@ With the local QA server running, browser checks cover all questions and source 
 node tests/study_note_answers.cjs
 node tests/answer_completeness.cjs
 node tests/study_note_support.cjs
-node tests/answer_review_summary.cjs
+node tests/public_copy.cjs
 ```
 
-To reapply an intentionally reviewed update, apply `tools/apply_study_note_support.py`, then `tools/apply_study_note_answers.py`, regenerate audits and run `tools/build_answer_review_summary.py`. The exhaustive reference helper additionally uses the author's saved baseline in `.qa/` and the original workspace. These are development inputs, not hosting dependencies. ZIP generation remains deferred at the owner's request.
+To reapply an intentionally reviewed update, apply `tools/apply_study_note_support.py`, then `tools/apply_study_note_answers.py` and `tools/apply_public_copy.py`, regenerate audits and run `tools/build_answer_review_summary.py`. The exhaustive reference helper additionally uses the author's saved baseline in `.qa/` and the original workspace. These are development inputs, not hosting dependencies. ZIP generation remains deferred at the owner's request.
+
+## Public presentation
+
+The public readers show academic source names, study instructions and useful references. Local filenames, editorial notices, earlier answer-review panels and internal audit links are omitted from the student interface. The study guide bibliography links to accessible course modules and public references. Question text, choices, keys, diagrams and section IDs are retained. Generic copy edits do not apply to question stems, choices or code blocks.
+
+`PUBLIC_READER_COPY.json` records reviewed wording changes and source titles for maintenance. `tools/apply_public_copy.py` embeds the relevant presentation rules into the existing static readers, including pages with restrictive inline-only script policies. The exact removable block is recorded in `SOURCE_MANIFEST.json`; all original imported source bytes remain recoverable. Run the public-copy helper after regenerating any course or guide page.
+
+`tools/public_files.py` is the public upload allowlist used by the archive helper. Authoring ledgers, audit reports, development tools and screenshots are excluded. Apache rules also deny access to those maintenance files if a full checkout is uploaded. No archive is created by verification or by applying copy changes.
+
+```sh
+python3 tools/apply_public_copy.py
+node tests/public_copy.cjs
+```

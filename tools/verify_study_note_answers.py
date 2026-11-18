@@ -4,7 +4,7 @@
 This checks coverage, option bookkeeping and literal evidence, not the truth of
 an explanation. Ambiguous questions and note gaps remain distinct from answers.
 """
-from study_note_preservation import verify_base
+from study_note_preservation import verify_base,without_public_block
 from collections import Counter
 from datetime import datetime, timezone
 import argparse
@@ -45,7 +45,7 @@ def verify(allow_partial=False):
     data=json.loads((ROOT/'STUDY_NOTE_ANSWER_REVIEW.json').read_bytes()); reviews={r['id']:r for r in data['reviews']}
     require(len(reviews)==len(data['reviews']), 'Repeated review ID')
     verify_base(master.decode())
-    require(sha(master)==data.get('study_guide_sha256',data.get('study_guide_unchanged_sha256')),'Study-note version mismatch')
+    require(sha(without_public_block(master.decode()).encode())==data.get('study_guide_sha256',data.get('study_guide_unchanged_sha256')),'Study-note version mismatch')
     targets={}; original_verified=0; courses=[]; seen=set(); variants=0; evidence_count=0
     for path in sorted((ROOT/'Questions/Interactive_Study_Guides').glob('*.html')):
         matches=PAYLOAD.findall(path.read_text())

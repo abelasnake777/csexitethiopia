@@ -40,7 +40,7 @@ def main():
         assert raw.count('</head>')==1;raw=raw.replace('</head>',block+'</head>',1)
         item['answer_review_integration_block']=block
         original=raw
-        for key in ['answer_review_integration_block','reference_integration_block','integration_block']:
+        for key in ['public_reader_integration_block','answer_review_integration_block','reference_integration_block','integration_block']:
             if item.get(key):assert original.count(item[key])==1;original=original.replace(item[key],'',1)
         assert sha(original.encode())==item['source_sha256'],path.stem+' source preservation'
         assert re.search(r'<script id="guide-data" type="application/json">(.*?)</script>',raw,re.S)[1]==match[1]

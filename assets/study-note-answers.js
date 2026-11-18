@@ -37,7 +37,6 @@
         stem.textContent = revision.stem;
         const options = article.querySelector(':scope > .choices');
         options.replaceChildren(...revision.options.map(option => el('li', option.label + '. ' + option.text, 'choice')));
-        stem.after(el('p', revision.note, 'question-clarification'));
         for (const variant of revision.variant_revisions || []) {
           const heading = [...article.querySelectorAll(':scope > .variant')].find(n => n.textContent === 'Alternative source choices · ' + variant.source);
           if (!heading) throw new Error('Missing source variant: ' + article.dataset.questionId + ' ' + variant.source);
@@ -83,7 +82,9 @@
         const p = el('p', 'Additional reading: ');
         const a = el('a', source.title); a.href = source.url; a.target = '_blank'; a.rel = 'noopener'; p.append(a); hint.append(p);
       }
-      hint.append(hintArchive);
+      // Previous editorial material is not part of the student reader.
+      const hintHeading = [...hint.querySelectorAll('h3')].find(n => n.textContent === 'Unified study note');
+      if (hintHeading) hintHeading.textContent = 'Study-guide sections';
       const guideHeading = [...answer.querySelectorAll('h3')].find(n => n.textContent === 'Unified note guidance');
       const referenceBox = answer.querySelector('.study-note-answer-references');
       if (!guideHeading || !referenceBox) throw new Error('Missing study-note reference container');
@@ -121,13 +122,15 @@
         for (const e of support?.evidence || []) { const p = el('p', e.quote, 'current-variant-evidence'); p.dataset.variantSource = variant.source; p.append(el('cite', e.section_id)); primary.append(p); }
         for (const choice of variant.choices) primary.append(el('p', choice.label + ' · ' + choice.verdict + ' — ' + choice.explanation));
       }
-      answer.append(primary, archive);
+      guideHeading.textContent = 'Study-guide references';
+      guideHeading.classList.add('study-note-references-heading');
+      answer.append(primary);
       article.dataset.studyNoteAnswer = review.status;
     }
     const footer = document.querySelector('main > footer');
     if (footer) {
-      footer.textContent = 'Every practice question has a reading hint, answer, explanation and cited study-note evidence. Necessary conceptual lessons have been added to the complete note. Earlier source reviews remain in closed archives. Clarified practice wording is labeled and original source data is retained. ';
-      const report = el('a', 'Answer review summary'); report.href = '../../ANSWER_REVIEW_SUMMARY.html'; footer.append(report);
+      footer.textContent = 'Use the study-guide links to review a topic, then try the question again. ';
+      const help = el('a', 'How to study'); help.href = '../../index.html#how-to-study'; footer.append(help);
     }
     const closeArchives = () => document.querySelectorAll('.legacy-module-review').forEach(d => d.open = false);
     window.addEventListener('pageshow', closeArchives);

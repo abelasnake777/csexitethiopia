@@ -2,7 +2,7 @@
   "schema_version": 1,
   "passed": true,
   "all_answers_present": true,
-  "generated_at": "2026-11-17T11:09:11.386107+00:00",
+  "generated_at": "2026-11-18T00:08:26.438479+00:00",
   "scope": "Definite declared-answer coverage for clarified practice versions, including explicit select-all and written answers. This does not independently prove every answer correct. Original source text remains in the audit.",
   "review_data_sha256": "2faa09ba8a8e9393f7453a344783d4a4abd71d230ee3bc599a04dc9a84c0d28a",
   "totals": {

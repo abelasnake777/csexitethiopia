@@ -62,7 +62,7 @@ const result = {schema_version: 1, passed: false, started_at: new Date().toISOSt
           toggle(hint); const hintVisible = links(hint).length > 0 && !!hint.querySelector('a[href*="Complete_CS_Exit_Study_Guide.html#"]').getClientRects().length;
           toggle(answer); const answerVisible = links(answer).length > 0 && !!answer.querySelector('.study-note-answer-references a').getClientRects().length;
           toggle(hint); toggle(answer);
-          const guidance = [...answer.querySelectorAll('h3')].find(n => n.textContent === 'Unified note guidance');
+          const guidance = answer.querySelector('.study-note-references-heading');
           const container = answer.querySelector('.study-note-answer-references');
           const item = model.questions.find(q => q.question.id === article.dataset.questionId);
           return {id: article.dataset.questionId, number: item.question.question, model_section_ids: item.guide.section_ids,

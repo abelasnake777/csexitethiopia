@@ -1,0 +1,26 @@
+'use strict';
+const fs=require('fs'),path=require('path'),assert=require('assert/strict'),crypto=require('crypto');
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/home/abel_asnake/Documents/Exit_Study/.study_guide_work/browser_test/node_modules/playwright');
+const root=path.resolve(__dirname,'..'),base=process.env.BASE_URL||'http://127.0.0.1:8457',support=JSON.parse(fs.readFileSync(path.join(root,'STUDY_NOTE_SUPPORT.json')));
+const out={passed:false,pages:[],questions:0,variants:0,proof_errors:[],copy_findings:[],errors:[],script_errors:[]};
+const bad=String.raw`Exit_Study|new_sources/|\.study_guide_work|Clarified practice version|retained source|original source data|archived earlier|earlier source reviews|(?:local|project) workspace|supplied module|assigned module|source-image|source key|packet[’']s (?:source|retained|extraction)|Necessary conceptual lessons|Source material is not an independently verified key|\bQ\d{4,}|\b(?:NS|AM|SS|SM)\d{4}\b|\bCS0\d{3}\b|source typo|this practice version|saved (?:image|visual)|retained (?:image|visual)`;
+(async()=>{let b;try{
+ b=await chromium.launch({executablePath:'/opt/google/chrome/chrome',headless:true,args:['--no-sandbox']});const p=await b.newPage({viewport:{width:1440,height:1000}});p.on('pageerror',e=>out.script_errors.push(e.message));
+ await p.goto(base+'/Complete_CS_Exit_Study_Guide.html');await p.waitForFunction(()=>document.documentElement.dataset.publicReader==='ready');
+ const note=await p.evaluate(()=>Object.fromEntries([...document.querySelectorAll('section[id]')].map(n=>[n.id,{text:n.textContent.replace(/\s+/g,' ').trim(),course:n.closest('article[id^="course-"]')?.id}])));
+ const folders=['.','Questions/Interactive_Study_Guides','Outlines','Modules'];
+ for(const folder of folders)for(const file of fs.readdirSync(path.join(root,folder)).filter(n=>n.endsWith('.html')&&n!=='ANSWER_REVIEW_SUMMARY.html')){
+  const rel=folder==='.'?file:folder+'/'+file;await p.goto(base+'/'+rel);await p.waitForFunction(()=>document.documentElement.dataset.publicReader==='ready');
+  const scan=await p.evaluate(({bad})=>{
+   const pattern=new RegExp(bad,'i'),walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),found=[];let n;
+   while((n=walker.nextNode()))if(n.parentElement&&!n.parentElement.closest('script,style,noscript,pre,code,.stem,.choices')&&pattern.test(n.data))found.push(n.data.trim());
+   const articles=[...document.querySelectorAll('article.question')].map(a=>{const blocks=[...a.querySelectorAll(':scope>details.reveal')],primary=a.querySelector('.current-study-answer');return{id:a.dataset.questionId,stem:a.querySelector(':scope>.stem').textContent,options:[...a.querySelector(':scope>.choices').children].map(n=>n.textContent),hint:a.querySelector('.current-note-reading')?.textContent,title:primary?.querySelector('.current-answer-title')?.textContent,explanation:primary?.querySelector('.current-answer-explanation')?.textContent,closed:blocks.length===2&&blocks.every(d=>!d.open),links:blocks.map(d=>[...d.querySelectorAll('a[href*="Complete_CS_Exit_Study_Guide.html#"]')].map(n=>n.getAttribute('href'))),evidence:[...primary.querySelectorAll('.current-note-evidence,.current-variant-evidence')].map(n=>({id:n.querySelector('cite').textContent,quote:[...n.childNodes].filter(n=>n.nodeName!=='CITE').map(n=>n.textContent).join('').replace(/\s+/g,' ').trim()})),variants:primary.querySelectorAll('.variant-answer-title').length};});
+   return{findings:[...new Set(found)],articles,legacy:document.querySelectorAll('.legacy-module-review,.question-clarification,.provenance-file').length,audit_links:[...document.querySelectorAll('a[href]')].filter(a=>/ANSWER_REVIEW_SUMMARY|(?:AUDIT|SOURCE_MANIFEST|VERIFICATION|PUBLIC_READER_COPY)\.json/i.test(a.getAttribute('href'))).length};
+  },{bad});
+  if(scan.findings.length)out.copy_findings.push({page:rel,text:scan.findings});
+  assert.equal(scan.legacy,0,rel+' internal review UI');assert.equal(scan.audit_links,0,rel+' audit link');
+  for(const q of scan.articles){const r=support.questions.find(r=>r.id===q.id),review=r.answer_review;assert.ok(q.closed&&q.hint?.trim()&&q.title?.trim()&&q.explanation?.trim(),q.id+' missing study content');assert.ok(q.links.every(ls=>ls.length>0),q.id);assert.ok(q.evidence.length>0,q.id+' note proof');for(const e of q.evidence){if(!e.quote||!note[e.id]?.text.includes(e.quote))out.proof_errors.push({question:q.id,section:e.id,quote:e.quote});assert.equal(note[e.id]?.course,'course-'+r.slug,q.id);}out.questions++;out.variants+=q.variants;}
+  out.pages.push(rel);console.log('CHECK public copy',rel,scan.findings.length,'findings');
+ }
+ assert.equal(out.questions,3485);assert.equal(out.variants,24);assert.deepEqual(out.script_errors,[]);assert.deepEqual(out.copy_findings,[],'Public copy remnants');assert.deepEqual(out.proof_errors,[],'Displayed proof must match the public study note');out.passed=true;
+}catch(e){out.errors.push(e.stack);process.exitCode=1;}finally{if(b)await b.close();fs.writeFileSync(path.join(root,'.qa/public-copy-dom.json'),JSON.stringify(out,null,2)+'\n');console.log(out.passed?'PASS public copy and all study-note evidence':'FAIL public copy: see .qa/public-copy-dom.json');if(out.errors.length)console.error(out.errors.join('\n'));}})();
