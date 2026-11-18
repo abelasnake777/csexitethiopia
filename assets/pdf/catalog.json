@@ -1,0 +1,404 @@
+{
+  "generated_at": "2026-11-18T04:42:15+00:00",
+  "site_url": "https://csexitethiopia.com",
+  "courses": [
+    {
+      "slug": "Computer_Programming",
+      "title": "Computer Programming",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Computer_Programming.pdf",
+          "fragment": "assets/pdf/fragments/questions/Computer_Programming.pdf",
+          "pages": 247,
+          "fragment_pages": 245
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Computer_Programming.pdf",
+          "fragment": "assets/pdf/fragments/notes/Computer_Programming.pdf",
+          "pages": 21,
+          "fragment_pages": 16
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Computer_Programming.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Computer_Programming.pdf",
+          "pages": 22,
+          "fragment_pages": 20
+        }
+      }
+    },
+    {
+      "slug": "Fundamental_of_Database_Systems",
+      "title": "Fundamental of Database Systems",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Fundamental_of_Database_Systems.pdf",
+          "fragment": "assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf",
+          "pages": 302,
+          "fragment_pages": 300
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Fundamental_of_Database_Systems.pdf",
+          "fragment": "assets/pdf/fragments/notes/Fundamental_of_Database_Systems.pdf",
+          "pages": 27,
+          "fragment_pages": 22
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Fundamental_of_Database_Systems.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Fundamental_of_Database_Systems.pdf",
+          "pages": 29,
+          "fragment_pages": 27
+        }
+      }
+    },
+    {
+      "slug": "Advanced_Database_Systems",
+      "title": "Advanced Database Systems",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Advanced_Database_Systems.pdf",
+          "fragment": "assets/pdf/fragments/questions/Advanced_Database_Systems.pdf",
+          "pages": 340,
+          "fragment_pages": 338
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Advanced_Database_Systems.pdf",
+          "fragment": "assets/pdf/fragments/notes/Advanced_Database_Systems.pdf",
+          "pages": 29,
+          "fragment_pages": 24
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Advanced_Database_Systems.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Advanced_Database_Systems.pdf",
+          "pages": 32,
+          "fragment_pages": 30
+        }
+      }
+    },
+    {
+      "slug": "Object_Oriented_Programming",
+      "title": "Object Oriented Programming",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Object_Oriented_Programming.pdf",
+          "fragment": "assets/pdf/fragments/questions/Object_Oriented_Programming.pdf",
+          "pages": 440,
+          "fragment_pages": 438
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Object_Oriented_Programming.pdf",
+          "fragment": "assets/pdf/fragments/notes/Object_Oriented_Programming.pdf",
+          "pages": 24,
+          "fragment_pages": 19
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Object_Oriented_Programming.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Object_Oriented_Programming.pdf",
+          "pages": 24,
+          "fragment_pages": 22
+        }
+      }
+    },
+    {
+      "slug": "Computer_Organization_and_Architecture",
+      "title": "Computer Organization and Architecture",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Computer_Organization_and_Architecture.pdf",
+          "fragment": "assets/pdf/fragments/questions/Computer_Organization_and_Architecture.pdf",
+          "pages": 282,
+          "fragment_pages": 280
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Computer_Organization_and_Architecture.pdf",
+          "fragment": "assets/pdf/fragments/notes/Computer_Organization_and_Architecture.pdf",
+          "pages": 25,
+          "fragment_pages": 20
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Computer_Organization_and_Architecture.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Computer_Organization_and_Architecture.pdf",
+          "pages": 28,
+          "fragment_pages": 26
+        }
+      }
+    },
+    {
+      "slug": "Data_Communication_and_Computer_Networking",
+      "title": "Data Communication and Computer Networking",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Data_Communication_and_Computer_Networking.pdf",
+          "fragment": "assets/pdf/fragments/questions/Data_Communication_and_Computer_Networking.pdf",
+          "pages": 506,
+          "fragment_pages": 504
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Data_Communication_and_Computer_Networking.pdf",
+          "fragment": "assets/pdf/fragments/notes/Data_Communication_and_Computer_Networking.pdf",
+          "pages": 24,
+          "fragment_pages": 19
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Data_Communication_and_Computer_Networking.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Data_Communication_and_Computer_Networking.pdf",
+          "pages": 24,
+          "fragment_pages": 22
+        }
+      }
+    },
+    {
+      "slug": "Data_Structures_and_Algorithms",
+      "title": "Data Structure and Algorithms",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Data_Structures_and_Algorithms.pdf",
+          "fragment": "assets/pdf/fragments/questions/Data_Structures_and_Algorithms.pdf",
+          "pages": 379,
+          "fragment_pages": 377
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Data_Structures_and_Algorithms.pdf",
+          "fragment": "assets/pdf/fragments/notes/Data_Structures_and_Algorithms.pdf",
+          "pages": 27,
+          "fragment_pages": 22
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Data_Structures_and_Algorithms.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Data_Structures_and_Algorithms.pdf",
+          "pages": 32,
+          "fragment_pages": 30
+        }
+      }
+    },
+    {
+      "slug": "Web_Programming",
+      "title": "Web Programming",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Web_Programming.pdf",
+          "fragment": "assets/pdf/fragments/questions/Web_Programming.pdf",
+          "pages": 395,
+          "fragment_pages": 393
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Web_Programming.pdf",
+          "fragment": "assets/pdf/fragments/notes/Web_Programming.pdf",
+          "pages": 29,
+          "fragment_pages": 24
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Web_Programming.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Web_Programming.pdf",
+          "pages": 29,
+          "fragment_pages": 27
+        }
+      }
+    },
+    {
+      "slug": "Operating_System",
+      "title": "Operating System",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Operating_System.pdf",
+          "fragment": "assets/pdf/fragments/questions/Operating_System.pdf",
+          "pages": 327,
+          "fragment_pages": 325
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Operating_System.pdf",
+          "fragment": "assets/pdf/fragments/notes/Operating_System.pdf",
+          "pages": 27,
+          "fragment_pages": 22
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Operating_System.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Operating_System.pdf",
+          "pages": 29,
+          "fragment_pages": 27
+        }
+      }
+    },
+    {
+      "slug": "Software_Engineering",
+      "title": "Software Engineering",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Software_Engineering.pdf",
+          "fragment": "assets/pdf/fragments/questions/Software_Engineering.pdf",
+          "pages": 401,
+          "fragment_pages": 399
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Software_Engineering.pdf",
+          "fragment": "assets/pdf/fragments/notes/Software_Engineering.pdf",
+          "pages": 27,
+          "fragment_pages": 22
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Software_Engineering.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Software_Engineering.pdf",
+          "pages": 29,
+          "fragment_pages": 27
+        }
+      }
+    },
+    {
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "title": "Design and Analysis of Algorithms",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Design_and_Analysis_of_Algorithms.pdf",
+          "fragment": "assets/pdf/fragments/questions/Design_and_Analysis_of_Algorithms.pdf",
+          "pages": 188,
+          "fragment_pages": 186
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Design_and_Analysis_of_Algorithms.pdf",
+          "fragment": "assets/pdf/fragments/notes/Design_and_Analysis_of_Algorithms.pdf",
+          "pages": 26,
+          "fragment_pages": 21
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Design_and_Analysis_of_Algorithms.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Design_and_Analysis_of_Algorithms.pdf",
+          "pages": 34,
+          "fragment_pages": 32
+        }
+      }
+    },
+    {
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "title": "Introduction to Artificial Intelligence",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Introduction_to_Artificial_Intelligence.pdf",
+          "fragment": "assets/pdf/fragments/questions/Introduction_to_Artificial_Intelligence.pdf",
+          "pages": 312,
+          "fragment_pages": 310
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Introduction_to_Artificial_Intelligence.pdf",
+          "fragment": "assets/pdf/fragments/notes/Introduction_to_Artificial_Intelligence.pdf",
+          "pages": 26,
+          "fragment_pages": 21
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Introduction_to_Artificial_Intelligence.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Introduction_to_Artificial_Intelligence.pdf",
+          "pages": 27,
+          "fragment_pages": 25
+        }
+      }
+    },
+    {
+      "slug": "Computer_Security",
+      "title": "Computer Security",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Computer_Security.pdf",
+          "fragment": "assets/pdf/fragments/questions/Computer_Security.pdf",
+          "pages": 241,
+          "fragment_pages": 239
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Computer_Security.pdf",
+          "fragment": "assets/pdf/fragments/notes/Computer_Security.pdf",
+          "pages": 23,
+          "fragment_pages": 18
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Computer_Security.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Computer_Security.pdf",
+          "pages": 25,
+          "fragment_pages": 23
+        }
+      }
+    },
+    {
+      "slug": "Network_and_System_Administration",
+      "title": "Network and System Administration",
+      "resources": {
+        "notes": {
+          "download": "assets/pdf/notes/Network_and_System_Administration.pdf",
+          "fragment": "assets/pdf/fragments/notes/Network_and_System_Administration.pdf",
+          "pages": 27,
+          "fragment_pages": 22
+        },
+        "questions": {
+          "download": "assets/pdf/questions/Network_and_System_Administration.pdf",
+          "fragment": "assets/pdf/fragments/questions/Network_and_System_Administration.pdf",
+          "pages": 166,
+          "fragment_pages": 164
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Network_and_System_Administration.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Network_and_System_Administration.pdf",
+          "pages": 30,
+          "fragment_pages": 28
+        }
+      }
+    },
+    {
+      "slug": "Automata_and_Complexity_Theory",
+      "title": "Automata and Complexity Theory",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Automata_and_Complexity_Theory.pdf",
+          "fragment": "assets/pdf/fragments/questions/Automata_and_Complexity_Theory.pdf",
+          "pages": 194,
+          "fragment_pages": 192
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Automata_and_Complexity_Theory.pdf",
+          "fragment": "assets/pdf/fragments/notes/Automata_and_Complexity_Theory.pdf",
+          "pages": 25,
+          "fragment_pages": 20
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Automata_and_Complexity_Theory.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Automata_and_Complexity_Theory.pdf",
+          "pages": 27,
+          "fragment_pages": 25
+        }
+      }
+    },
+    {
+      "slug": "Compiler_Design",
+      "title": "Compiler Design",
+      "resources": {
+        "questions": {
+          "download": "assets/pdf/questions/Compiler_Design.pdf",
+          "fragment": "assets/pdf/fragments/questions/Compiler_Design.pdf",
+          "pages": 292,
+          "fragment_pages": 290
+        },
+        "notes": {
+          "download": "assets/pdf/notes/Compiler_Design.pdf",
+          "fragment": "assets/pdf/fragments/notes/Compiler_Design.pdf",
+          "pages": 25,
+          "fragment_pages": 20
+        },
+        "outlines": {
+          "download": "assets/pdf/outlines/Compiler_Design.pdf",
+          "fragment": "assets/pdf/fragments/outlines/Compiler_Design.pdf",
+          "pages": 26,
+          "fragment_pages": 24
+        }
+      }
+    }
+  ],
+  "all": {
+    "questions": {
+      "download": "assets/pdf/questions/all-courses.pdf",
+      "pages": 4982
+    },
+    "notes": {
+      "download": "assets/pdf/notes/all-courses.pdf",
+      "pages": 337
+    },
+    "outlines": {
+      "download": "assets/pdf/outlines/all-courses.pdf",
+      "pages": 417
+    }
+  }
+}

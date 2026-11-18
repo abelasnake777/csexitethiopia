@@ -1,0 +1,3 @@
+# Native PDF exports contain ASCII85 streams; always treat them as binary.
+*.pdf binary
+fonts/*.ttf binary

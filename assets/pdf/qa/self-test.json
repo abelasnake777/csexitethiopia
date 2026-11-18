@@ -1,0 +1,62 @@
+[
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/qa/test-questions-fragment.pdf",
+    "pages": 5,
+    "bytes": 79460,
+    "numbered": false,
+    "bookmarks": 3,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/qa/test-questions.pdf",
+    "pages": 7,
+    "bytes": 126315,
+    "numbered": true,
+    "bookmarks": 6,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/qa/test-notes-fragment.pdf",
+    "pages": 5,
+    "bytes": 78928,
+    "numbered": false,
+    "bookmarks": 2,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/qa/test-notes.pdf",
+    "pages": 7,
+    "bytes": 110434,
+    "numbered": true,
+    "bookmarks": 5,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/qa/test-outlines-fragment.pdf",
+    "pages": 1,
+    "bytes": 45328,
+    "numbered": false,
+    "bookmarks": 2,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/qa/test-outlines.pdf",
+    "pages": 3,
+    "bytes": 76319,
+    "numbered": true,
+    "bookmarks": 5,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  }
+]

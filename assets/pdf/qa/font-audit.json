@@ -1,0 +1,252 @@
+{
+  "course_count": 16,
+  "global_note_introduction_sections": 3,
+  "counts": {
+    "questions": 3485,
+    "variants": 24,
+    "note_sections": 735,
+    "outline_topics": 646
+  },
+  "unique_characters": 227,
+  "normalizations": [
+    {
+      "from": "U+2010",
+      "to": "-",
+      "name": "HYPHEN"
+    },
+    {
+      "from": "U+2013",
+      "to": "-",
+      "name": "EN DASH"
+    },
+    {
+      "from": "U+2014",
+      "to": "-",
+      "name": "EM DASH"
+    },
+    {
+      "from": "U+2113",
+      "to": "l",
+      "name": "SCRIPT SMALL L"
+    },
+    {
+      "from": "U+F020",
+      "to": " ",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F02D",
+      "to": "-",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F03D",
+      "to": "=",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F040",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F043",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F046",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F051",
+      "to": "Θ",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F057",
+      "to": "Ω",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F064",
+      "to": "δ",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F06C",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F06E",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F071",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F076",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F077",
+      "to": "ω",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F07D",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F096",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F097",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0A2",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0A7",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0A8",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0B7",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0B9",
+      "to": "≠",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0C6",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0CE",
+      "to": "∈",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0D8",
+      "to": "•",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0E0",
+      "to": "→",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0E5",
+      "to": "∑",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0E8",
+      "to": "→",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0F0",
+      "to": "⇒",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+F0FC",
+      "to": "✓",
+      "name": "PRIVATE USE"
+    },
+    {
+      "from": "U+FF1A",
+      "to": ":",
+      "name": "FULLWIDTH COLON"
+    },
+    {
+      "from": "U+1D45B",
+      "to": "n",
+      "name": "MATHEMATICAL ITALIC SMALL N"
+    },
+    {
+      "from": "U+1D4AB",
+      "to": "P",
+      "name": "MATHEMATICAL SCRIPT CAPITAL P"
+    },
+    {
+      "from": "U+1D5B4",
+      "to": "U",
+      "name": "MATHEMATICAL SANS-SERIF CAPITAL U"
+    },
+    {
+      "from": "U+1F784",
+      "to": "•",
+      "name": "BLACK SLIGHTLY SMALL CIRCLE"
+    }
+  ],
+  "unsupported": [],
+  "fonts": {
+    "Book": {
+      "file": "NotoSerif-Regular.ttf",
+      "codepoints": 2840
+    },
+    "BookBold": {
+      "file": "NotoSerif-Bold.ttf",
+      "codepoints": 2840
+    },
+    "BookItalic": {
+      "file": "NotoSerif-Italic.ttf",
+      "codepoints": 2840
+    },
+    "Sans": {
+      "file": "NotoSans-Regular.ttf",
+      "codepoints": 2840
+    },
+    "SansBold": {
+      "file": "NotoSans-Bold.ttf",
+      "codepoints": 2840
+    },
+    "Code": {
+      "file": "NotoSansMono-Regular.ttf",
+      "codepoints": 3367
+    },
+    "Math": {
+      "file": "NotoSansMath-Regular.ttf",
+      "codepoints": 2472
+    },
+    "Symbols": {
+      "file": "NotoSansSymbols2-Regular.ttf",
+      "codepoints": 2655
+    },
+    "Wide": {
+      "file": "DejaVuSans.ttf",
+      "codepoints": 5918
+    },
+    "Ethiopic": {
+      "file": "NotoSansEthiopic-Regular.ttf",
+      "codepoints": 505
+    }
+  },
+  "policy": "Only mathematical styled alphabet characters and documented source-symbol artifacts are normalized; superscripts/subscripts and operators are preserved."
+}

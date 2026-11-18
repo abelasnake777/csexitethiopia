@@ -1,0 +1,992 @@
+[
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Computer_Programming.pdf",
+    "pages": 245,
+    "bytes": 833359,
+    "numbered": false,
+    "bookmarks": 178,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Computer_Programming.pdf",
+    "pages": 247,
+    "bytes": 899362,
+    "numbered": true,
+    "bookmarks": 181,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Computer_Programming.pdf",
+    "pages": 16,
+    "bytes": 130756,
+    "numbered": false,
+    "bookmarks": 41,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Computer_Programming.pdf",
+    "pages": 21,
+    "bytes": 184215,
+    "numbered": true,
+    "bookmarks": 44,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Computer_Programming.pdf",
+    "pages": 20,
+    "bytes": 103953,
+    "numbered": false,
+    "bookmarks": 36,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Computer_Programming.pdf",
+    "pages": 22,
+    "bytes": 138791,
+    "numbered": true,
+    "bookmarks": 39,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf",
+    "pages": 300,
+    "bytes": 1083957,
+    "numbered": false,
+    "bookmarks": 227,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Fundamental_of_Database_Systems.pdf",
+    "pages": 302,
+    "bytes": 1138912,
+    "numbered": true,
+    "bookmarks": 230,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Fundamental_of_Database_Systems.pdf",
+    "pages": 22,
+    "bytes": 142909,
+    "numbered": false,
+    "bookmarks": 43,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Fundamental_of_Database_Systems.pdf",
+    "pages": 27,
+    "bytes": 193598,
+    "numbered": true,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Fundamental_of_Database_Systems.pdf",
+    "pages": 27,
+    "bytes": 120477,
+    "numbered": false,
+    "bookmarks": 41,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Fundamental_of_Database_Systems.pdf",
+    "pages": 29,
+    "bytes": 156655,
+    "numbered": true,
+    "bookmarks": 44,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Advanced_Database_Systems.pdf",
+    "pages": 338,
+    "bytes": 1151616,
+    "numbered": false,
+    "bookmarks": 240,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Advanced_Database_Systems.pdf",
+    "pages": 340,
+    "bytes": 1209527,
+    "numbered": true,
+    "bookmarks": 243,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Advanced_Database_Systems.pdf",
+    "pages": 24,
+    "bytes": 150889,
+    "numbered": false,
+    "bookmarks": 51,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Advanced_Database_Systems.pdf",
+    "pages": 29,
+    "bytes": 202077,
+    "numbered": true,
+    "bookmarks": 54,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Advanced_Database_Systems.pdf",
+    "pages": 30,
+    "bytes": 127132,
+    "numbered": false,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Advanced_Database_Systems.pdf",
+    "pages": 32,
+    "bytes": 163947,
+    "numbered": true,
+    "bookmarks": 49,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Object_Oriented_Programming.pdf",
+    "pages": 438,
+    "bytes": 1425812,
+    "numbered": false,
+    "bookmarks": 295,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Object_Oriented_Programming.pdf",
+    "pages": 440,
+    "bytes": 1500964,
+    "numbered": true,
+    "bookmarks": 298,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Object_Oriented_Programming.pdf",
+    "pages": 19,
+    "bytes": 117525,
+    "numbered": false,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Object_Oriented_Programming.pdf",
+    "pages": 24,
+    "bytes": 170336,
+    "numbered": true,
+    "bookmarks": 49,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Object_Oriented_Programming.pdf",
+    "pages": 22,
+    "bytes": 108075,
+    "numbered": false,
+    "bookmarks": 40,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Object_Oriented_Programming.pdf",
+    "pages": 24,
+    "bytes": 143339,
+    "numbered": true,
+    "bookmarks": 43,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Computer_Organization_and_Architecture.pdf",
+    "pages": 280,
+    "bytes": 1134804,
+    "numbered": false,
+    "bookmarks": 185,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Computer_Organization_and_Architecture.pdf",
+    "pages": 282,
+    "bytes": 1192549,
+    "numbered": true,
+    "bookmarks": 188,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Computer_Organization_and_Architecture.pdf",
+    "pages": 20,
+    "bytes": 130629,
+    "numbered": false,
+    "bookmarks": 47,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Computer_Organization_and_Architecture.pdf",
+    "pages": 25,
+    "bytes": 184973,
+    "numbered": true,
+    "bookmarks": 50,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Computer_Organization_and_Architecture.pdf",
+    "pages": 26,
+    "bytes": 117025,
+    "numbered": false,
+    "bookmarks": 40,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Computer_Organization_and_Architecture.pdf",
+    "pages": 28,
+    "bytes": 153028,
+    "numbered": true,
+    "bookmarks": 43,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Data_Communication_and_Computer_Networking.pdf",
+    "pages": 504,
+    "bytes": 1624968,
+    "numbered": false,
+    "bookmarks": 275,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Data_Communication_and_Computer_Networking.pdf",
+    "pages": 506,
+    "bytes": 1697436,
+    "numbered": true,
+    "bookmarks": 278,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Data_Communication_and_Computer_Networking.pdf",
+    "pages": 19,
+    "bytes": 126460,
+    "numbered": false,
+    "bookmarks": 41,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Data_Communication_and_Computer_Networking.pdf",
+    "pages": 24,
+    "bytes": 179907,
+    "numbered": true,
+    "bookmarks": 44,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Data_Communication_and_Computer_Networking.pdf",
+    "pages": 22,
+    "bytes": 108358,
+    "numbered": false,
+    "bookmarks": 34,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Data_Communication_and_Computer_Networking.pdf",
+    "pages": 24,
+    "bytes": 143586,
+    "numbered": true,
+    "bookmarks": 37,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Data_Structures_and_Algorithms.pdf",
+    "pages": 377,
+    "bytes": 1243667,
+    "numbered": false,
+    "bookmarks": 272,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Data_Structures_and_Algorithms.pdf",
+    "pages": 379,
+    "bytes": 1304197,
+    "numbered": true,
+    "bookmarks": 275,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Data_Structures_and_Algorithms.pdf",
+    "pages": 22,
+    "bytes": 138527,
+    "numbered": false,
+    "bookmarks": 50,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Data_Structures_and_Algorithms.pdf",
+    "pages": 27,
+    "bytes": 192586,
+    "numbered": true,
+    "bookmarks": 53,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Data_Structures_and_Algorithms.pdf",
+    "pages": 30,
+    "bytes": 125387,
+    "numbered": false,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Data_Structures_and_Algorithms.pdf",
+    "pages": 32,
+    "bytes": 162216,
+    "numbered": true,
+    "bookmarks": 49,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Web_Programming.pdf",
+    "pages": 393,
+    "bytes": 1322484,
+    "numbered": false,
+    "bookmarks": 306,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Web_Programming.pdf",
+    "pages": 395,
+    "bytes": 1380429,
+    "numbered": true,
+    "bookmarks": 309,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Web_Programming.pdf",
+    "pages": 24,
+    "bytes": 154629,
+    "numbered": false,
+    "bookmarks": 56,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Web_Programming.pdf",
+    "pages": 29,
+    "bytes": 207180,
+    "numbered": true,
+    "bookmarks": 59,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Web_Programming.pdf",
+    "pages": 27,
+    "bytes": 123103,
+    "numbered": false,
+    "bookmarks": 42,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Web_Programming.pdf",
+    "pages": 29,
+    "bytes": 159237,
+    "numbered": true,
+    "bookmarks": 45,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Operating_System.pdf",
+    "pages": 325,
+    "bytes": 1130140,
+    "numbered": false,
+    "bookmarks": 234,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Operating_System.pdf",
+    "pages": 327,
+    "bytes": 1190370,
+    "numbered": true,
+    "bookmarks": 237,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Operating_System.pdf",
+    "pages": 22,
+    "bytes": 137897,
+    "numbered": false,
+    "bookmarks": 48,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Operating_System.pdf",
+    "pages": 27,
+    "bytes": 191568,
+    "numbered": true,
+    "bookmarks": 51,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Operating_System.pdf",
+    "pages": 27,
+    "bytes": 119737,
+    "numbered": false,
+    "bookmarks": 42,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Operating_System.pdf",
+    "pages": 29,
+    "bytes": 155873,
+    "numbered": true,
+    "bookmarks": 45,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Software_Engineering.pdf",
+    "pages": 399,
+    "bytes": 1368900,
+    "numbered": false,
+    "bookmarks": 279,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Software_Engineering.pdf",
+    "pages": 401,
+    "bytes": 1448981,
+    "numbered": true,
+    "bookmarks": 282,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Software_Engineering.pdf",
+    "pages": 22,
+    "bytes": 139850,
+    "numbered": false,
+    "bookmarks": 51,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Software_Engineering.pdf",
+    "pages": 27,
+    "bytes": 193387,
+    "numbered": true,
+    "bookmarks": 54,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Software_Engineering.pdf",
+    "pages": 27,
+    "bytes": 120885,
+    "numbered": false,
+    "bookmarks": 44,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Software_Engineering.pdf",
+    "pages": 29,
+    "bytes": 157066,
+    "numbered": true,
+    "bookmarks": 47,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Design_and_Analysis_of_Algorithms.pdf",
+    "pages": 186,
+    "bytes": 687101,
+    "numbered": false,
+    "bookmarks": 142,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Design_and_Analysis_of_Algorithms.pdf",
+    "pages": 188,
+    "bytes": 743639,
+    "numbered": true,
+    "bookmarks": 145,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Design_and_Analysis_of_Algorithms.pdf",
+    "pages": 21,
+    "bytes": 134593,
+    "numbered": false,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Design_and_Analysis_of_Algorithms.pdf",
+    "pages": 26,
+    "bytes": 188793,
+    "numbered": true,
+    "bookmarks": 49,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Design_and_Analysis_of_Algorithms.pdf",
+    "pages": 32,
+    "bytes": 133418,
+    "numbered": false,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Design_and_Analysis_of_Algorithms.pdf",
+    "pages": 34,
+    "bytes": 170621,
+    "numbered": true,
+    "bookmarks": 49,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Introduction_to_Artificial_Intelligence.pdf",
+    "pages": 310,
+    "bytes": 1120256,
+    "numbered": false,
+    "bookmarks": 236,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Introduction_to_Artificial_Intelligence.pdf",
+    "pages": 312,
+    "bytes": 1179521,
+    "numbered": true,
+    "bookmarks": 239,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Introduction_to_Artificial_Intelligence.pdf",
+    "pages": 21,
+    "bytes": 139569,
+    "numbered": false,
+    "bookmarks": 52,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Introduction_to_Artificial_Intelligence.pdf",
+    "pages": 26,
+    "bytes": 193163,
+    "numbered": true,
+    "bookmarks": 55,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Introduction_to_Artificial_Intelligence.pdf",
+    "pages": 25,
+    "bytes": 117646,
+    "numbered": false,
+    "bookmarks": 45,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Introduction_to_Artificial_Intelligence.pdf",
+    "pages": 27,
+    "bytes": 153552,
+    "numbered": true,
+    "bookmarks": 48,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Computer_Security.pdf",
+    "pages": 239,
+    "bytes": 842599,
+    "numbered": false,
+    "bookmarks": 172,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Computer_Security.pdf",
+    "pages": 241,
+    "bytes": 889652,
+    "numbered": true,
+    "bookmarks": 175,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Computer_Security.pdf",
+    "pages": 18,
+    "bytes": 123535,
+    "numbered": false,
+    "bookmarks": 38,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Computer_Security.pdf",
+    "pages": 23,
+    "bytes": 176525,
+    "numbered": true,
+    "bookmarks": 41,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Computer_Security.pdf",
+    "pages": 23,
+    "bytes": 112627,
+    "numbered": false,
+    "bookmarks": 35,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Computer_Security.pdf",
+    "pages": 25,
+    "bytes": 147950,
+    "numbered": true,
+    "bookmarks": 38,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Network_and_System_Administration.pdf",
+    "pages": 164,
+    "bytes": 587856,
+    "numbered": false,
+    "bookmarks": 102,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Network_and_System_Administration.pdf",
+    "pages": 166,
+    "bytes": 643806,
+    "numbered": true,
+    "bookmarks": 105,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Network_and_System_Administration.pdf",
+    "pages": 22,
+    "bytes": 147571,
+    "numbered": false,
+    "bookmarks": 44,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Network_and_System_Administration.pdf",
+    "pages": 27,
+    "bytes": 198461,
+    "numbered": true,
+    "bookmarks": 47,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Network_and_System_Administration.pdf",
+    "pages": 28,
+    "bytes": 121557,
+    "numbered": false,
+    "bookmarks": 39,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Network_and_System_Administration.pdf",
+    "pages": 30,
+    "bytes": 157904,
+    "numbered": true,
+    "bookmarks": 42,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Automata_and_Complexity_Theory.pdf",
+    "pages": 192,
+    "bytes": 809220,
+    "numbered": false,
+    "bookmarks": 157,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Automata_and_Complexity_Theory.pdf",
+    "pages": 194,
+    "bytes": 855742,
+    "numbered": true,
+    "bookmarks": 160,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Automata_and_Complexity_Theory.pdf",
+    "pages": 20,
+    "bytes": 158792,
+    "numbered": false,
+    "bookmarks": 46,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Automata_and_Complexity_Theory.pdf",
+    "pages": 25,
+    "bytes": 211748,
+    "numbered": true,
+    "bookmarks": 49,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Automata_and_Complexity_Theory.pdf",
+    "pages": 25,
+    "bytes": 140655,
+    "numbered": false,
+    "bookmarks": 42,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Automata_and_Complexity_Theory.pdf",
+    "pages": 27,
+    "bytes": 176565,
+    "numbered": true,
+    "bookmarks": 45,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/questions/Compiler_Design.pdf",
+    "pages": 290,
+    "bytes": 994794,
+    "numbered": false,
+    "bookmarks": 201,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/Compiler_Design.pdf",
+    "pages": 292,
+    "bytes": 1054476,
+    "numbered": true,
+    "bookmarks": 204,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/notes/Compiler_Design.pdf",
+    "pages": 20,
+    "bytes": 132337,
+    "numbered": false,
+    "bookmarks": 48,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/Compiler_Design.pdf",
+    "pages": 25,
+    "bytes": 184821,
+    "numbered": true,
+    "bookmarks": 51,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/fragments/outlines/Compiler_Design.pdf",
+    "pages": 24,
+    "bytes": 115709,
+    "numbered": false,
+    "bookmarks": 44,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/Compiler_Design.pdf",
+    "pages": 26,
+    "bytes": 151330,
+    "numbered": true,
+    "bookmarks": 47,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/questions/all-courses.pdf",
+    "pages": 4982,
+    "bytes": 17744442,
+    "numbered": true,
+    "bookmarks": 3504,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/notes/all-courses.pdf",
+    "pages": 337,
+    "bytes": 2256686,
+    "numbered": true,
+    "bookmarks": 751,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  },
+  {
+    "file": "/home/abel_asnake/Documents/csexitethiopia/assets/pdf/outlines/all-courses.pdf",
+    "pages": 417,
+    "bytes": 2024277,
+    "numbered": true,
+    "bookmarks": 665,
+    "failures": [],
+    "overflow": [],
+    "glyph_issues": []
+  }
+]

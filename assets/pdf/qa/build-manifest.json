@@ -1,0 +1,551 @@
+{
+  "generated_at": "2026-11-18T04:43:53+00:00",
+  "source_sha256": {
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Computer_Programming.json": "914a9a4be185db9db6fcbe70bb78877910908afaf4d5db31aa097ff053a23291",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Fundamental_of_Database_Systems.json": "5419dd9dcbaa3708eb37d5de03205ab429ff60a1633732f364dce0ea1d2020de",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Advanced_Database_Systems.json": "52eeabc5128dc7fac71d992cbbdbd30e594c4d1a53ecaedb61ba3e5e4d9b0d27",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Object_Oriented_Programming.json": "cbd9b6b99689b2c7a051adc4d283f5d4b099b6148f76e2db4d98fb8079c24dc2",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Computer_Organization_and_Architecture.json": "b190d56e01faa0762f2e478ceda3e614f51a54d9d9eed0f1cc6a6bf106cac53a",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Data_Communication_and_Computer_Networking.json": "4fc33ae133886a7f121a0eea646e220793e0f3ed769d89ca4f75b1fa8352a280",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Data_Structures_and_Algorithms.json": "c944e478bf1fc4a7033c3b7e93f5baa67f5b42cf5629634d0c9a71bab9ba943f",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Web_Programming.json": "ab35c7211828f6dde656facb4ddd83c264a99e5a8adaaf1487d733d61243f2bb",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Operating_System.json": "a3e5568b38dd3a181909b2ce97657647cce1f5decf0c75ca29881c70cb792752",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Software_Engineering.json": "89656128eda0889e0c01043fddacb7fb8fe2a99a373fdd61f038aef8d6d7887b",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Design_and_Analysis_of_Algorithms.json": "017e3180845daddcfc72e72e0c4f9c7f7c55d353ff5f5ccb2046b730ecec9ce9",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Introduction_to_Artificial_Intelligence.json": "e59fc353daa5e30e5a78037da3a2041c01945af02b02f158e24cf094395da2a2",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Computer_Security.json": "0ca01453cd7bb42b21a35531806e7c22131a7a62a24e9fb59cae4a49c1889a73",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Network_and_System_Administration.json": "171ba2d12ce2f9bb3ab127313ecc20ecc2f089a3e34e92676cb431b3b15b1985",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Automata_and_Complexity_Theory.json": "8627c59aaeb7013eab5210c49a21d5da9ab421bbd8373fbb6d8f170214b577a6",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/Compiler_Design.json": "131ec1a01e1cc994d013fb88f32f8643926b9ad7305a698db46fc471e5d17e96",
+    "/home/abel_asnake/Documents/csexitethiopia/assets/export-data/study-introduction.json": "e90979e89cf05aa75daa4d147479902df86026bc53677904ff89a94ffbf69b3b"
+  },
+  "rendered_content_counts": {
+    "questions": 3485,
+    "variants": 24,
+    "note_evidence": 7003,
+    "module_refs": 5136,
+    "choice_contrasts": 13063,
+    "note_sections": 735,
+    "outline_topics": 646,
+    "outline_cues": 12062,
+    "text_fields_checked": 93054
+  },
+  "global_note_introduction_sections": 3,
+  "warnings": [],
+  "artifacts": [
+    {
+      "path": "assets/pdf/fragments/questions/Computer_Programming.pdf",
+      "pages": 245,
+      "bytes": 833359
+    },
+    {
+      "path": "assets/pdf/questions/Computer_Programming.pdf",
+      "pages": 247,
+      "bytes": 899362
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Computer_Programming.pdf",
+      "pages": 16,
+      "bytes": 130756
+    },
+    {
+      "path": "assets/pdf/notes/Computer_Programming.pdf",
+      "pages": 21,
+      "bytes": 184215
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Computer_Programming.pdf",
+      "pages": 20,
+      "bytes": 103953
+    },
+    {
+      "path": "assets/pdf/outlines/Computer_Programming.pdf",
+      "pages": 22,
+      "bytes": 138791
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf",
+      "pages": 300,
+      "bytes": 1083957
+    },
+    {
+      "path": "assets/pdf/questions/Fundamental_of_Database_Systems.pdf",
+      "pages": 302,
+      "bytes": 1138912
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Fundamental_of_Database_Systems.pdf",
+      "pages": 22,
+      "bytes": 142909
+    },
+    {
+      "path": "assets/pdf/notes/Fundamental_of_Database_Systems.pdf",
+      "pages": 27,
+      "bytes": 193598
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Fundamental_of_Database_Systems.pdf",
+      "pages": 27,
+      "bytes": 120477
+    },
+    {
+      "path": "assets/pdf/outlines/Fundamental_of_Database_Systems.pdf",
+      "pages": 29,
+      "bytes": 156655
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Advanced_Database_Systems.pdf",
+      "pages": 338,
+      "bytes": 1151616
+    },
+    {
+      "path": "assets/pdf/questions/Advanced_Database_Systems.pdf",
+      "pages": 340,
+      "bytes": 1209527
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Advanced_Database_Systems.pdf",
+      "pages": 24,
+      "bytes": 150889
+    },
+    {
+      "path": "assets/pdf/notes/Advanced_Database_Systems.pdf",
+      "pages": 29,
+      "bytes": 202077
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Advanced_Database_Systems.pdf",
+      "pages": 30,
+      "bytes": 127132
+    },
+    {
+      "path": "assets/pdf/outlines/Advanced_Database_Systems.pdf",
+      "pages": 32,
+      "bytes": 163947
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Object_Oriented_Programming.pdf",
+      "pages": 438,
+      "bytes": 1425812
+    },
+    {
+      "path": "assets/pdf/questions/Object_Oriented_Programming.pdf",
+      "pages": 440,
+      "bytes": 1500964
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Object_Oriented_Programming.pdf",
+      "pages": 19,
+      "bytes": 117525
+    },
+    {
+      "path": "assets/pdf/notes/Object_Oriented_Programming.pdf",
+      "pages": 24,
+      "bytes": 170336
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Object_Oriented_Programming.pdf",
+      "pages": 22,
+      "bytes": 108075
+    },
+    {
+      "path": "assets/pdf/outlines/Object_Oriented_Programming.pdf",
+      "pages": 24,
+      "bytes": 143339
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Computer_Organization_and_Architecture.pdf",
+      "pages": 280,
+      "bytes": 1134804
+    },
+    {
+      "path": "assets/pdf/questions/Computer_Organization_and_Architecture.pdf",
+      "pages": 282,
+      "bytes": 1192549
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Computer_Organization_and_Architecture.pdf",
+      "pages": 20,
+      "bytes": 130629
+    },
+    {
+      "path": "assets/pdf/notes/Computer_Organization_and_Architecture.pdf",
+      "pages": 25,
+      "bytes": 184973
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Computer_Organization_and_Architecture.pdf",
+      "pages": 26,
+      "bytes": 117025
+    },
+    {
+      "path": "assets/pdf/outlines/Computer_Organization_and_Architecture.pdf",
+      "pages": 28,
+      "bytes": 153028
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Data_Communication_and_Computer_Networking.pdf",
+      "pages": 504,
+      "bytes": 1624968
+    },
+    {
+      "path": "assets/pdf/questions/Data_Communication_and_Computer_Networking.pdf",
+      "pages": 506,
+      "bytes": 1697436
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Data_Communication_and_Computer_Networking.pdf",
+      "pages": 19,
+      "bytes": 126460
+    },
+    {
+      "path": "assets/pdf/notes/Data_Communication_and_Computer_Networking.pdf",
+      "pages": 24,
+      "bytes": 179907
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Data_Communication_and_Computer_Networking.pdf",
+      "pages": 22,
+      "bytes": 108358
+    },
+    {
+      "path": "assets/pdf/outlines/Data_Communication_and_Computer_Networking.pdf",
+      "pages": 24,
+      "bytes": 143586
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Data_Structures_and_Algorithms.pdf",
+      "pages": 377,
+      "bytes": 1243667
+    },
+    {
+      "path": "assets/pdf/questions/Data_Structures_and_Algorithms.pdf",
+      "pages": 379,
+      "bytes": 1304197
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Data_Structures_and_Algorithms.pdf",
+      "pages": 22,
+      "bytes": 138527
+    },
+    {
+      "path": "assets/pdf/notes/Data_Structures_and_Algorithms.pdf",
+      "pages": 27,
+      "bytes": 192586
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Data_Structures_and_Algorithms.pdf",
+      "pages": 30,
+      "bytes": 125387
+    },
+    {
+      "path": "assets/pdf/outlines/Data_Structures_and_Algorithms.pdf",
+      "pages": 32,
+      "bytes": 162216
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Web_Programming.pdf",
+      "pages": 393,
+      "bytes": 1322484
+    },
+    {
+      "path": "assets/pdf/questions/Web_Programming.pdf",
+      "pages": 395,
+      "bytes": 1380429
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Web_Programming.pdf",
+      "pages": 24,
+      "bytes": 154629
+    },
+    {
+      "path": "assets/pdf/notes/Web_Programming.pdf",
+      "pages": 29,
+      "bytes": 207180
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Web_Programming.pdf",
+      "pages": 27,
+      "bytes": 123103
+    },
+    {
+      "path": "assets/pdf/outlines/Web_Programming.pdf",
+      "pages": 29,
+      "bytes": 159237
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Operating_System.pdf",
+      "pages": 325,
+      "bytes": 1130140
+    },
+    {
+      "path": "assets/pdf/questions/Operating_System.pdf",
+      "pages": 327,
+      "bytes": 1190370
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Operating_System.pdf",
+      "pages": 22,
+      "bytes": 137897
+    },
+    {
+      "path": "assets/pdf/notes/Operating_System.pdf",
+      "pages": 27,
+      "bytes": 191568
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Operating_System.pdf",
+      "pages": 27,
+      "bytes": 119737
+    },
+    {
+      "path": "assets/pdf/outlines/Operating_System.pdf",
+      "pages": 29,
+      "bytes": 155873
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Software_Engineering.pdf",
+      "pages": 399,
+      "bytes": 1368900
+    },
+    {
+      "path": "assets/pdf/questions/Software_Engineering.pdf",
+      "pages": 401,
+      "bytes": 1448981
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Software_Engineering.pdf",
+      "pages": 22,
+      "bytes": 139850
+    },
+    {
+      "path": "assets/pdf/notes/Software_Engineering.pdf",
+      "pages": 27,
+      "bytes": 193387
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Software_Engineering.pdf",
+      "pages": 27,
+      "bytes": 120885
+    },
+    {
+      "path": "assets/pdf/outlines/Software_Engineering.pdf",
+      "pages": 29,
+      "bytes": 157066
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Design_and_Analysis_of_Algorithms.pdf",
+      "pages": 186,
+      "bytes": 687101
+    },
+    {
+      "path": "assets/pdf/questions/Design_and_Analysis_of_Algorithms.pdf",
+      "pages": 188,
+      "bytes": 743639
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Design_and_Analysis_of_Algorithms.pdf",
+      "pages": 21,
+      "bytes": 134593
+    },
+    {
+      "path": "assets/pdf/notes/Design_and_Analysis_of_Algorithms.pdf",
+      "pages": 26,
+      "bytes": 188793
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Design_and_Analysis_of_Algorithms.pdf",
+      "pages": 32,
+      "bytes": 133418
+    },
+    {
+      "path": "assets/pdf/outlines/Design_and_Analysis_of_Algorithms.pdf",
+      "pages": 34,
+      "bytes": 170621
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Introduction_to_Artificial_Intelligence.pdf",
+      "pages": 310,
+      "bytes": 1120256
+    },
+    {
+      "path": "assets/pdf/questions/Introduction_to_Artificial_Intelligence.pdf",
+      "pages": 312,
+      "bytes": 1179521
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Introduction_to_Artificial_Intelligence.pdf",
+      "pages": 21,
+      "bytes": 139569
+    },
+    {
+      "path": "assets/pdf/notes/Introduction_to_Artificial_Intelligence.pdf",
+      "pages": 26,
+      "bytes": 193163
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Introduction_to_Artificial_Intelligence.pdf",
+      "pages": 25,
+      "bytes": 117646
+    },
+    {
+      "path": "assets/pdf/outlines/Introduction_to_Artificial_Intelligence.pdf",
+      "pages": 27,
+      "bytes": 153552
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Computer_Security.pdf",
+      "pages": 239,
+      "bytes": 842599
+    },
+    {
+      "path": "assets/pdf/questions/Computer_Security.pdf",
+      "pages": 241,
+      "bytes": 889652
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Computer_Security.pdf",
+      "pages": 18,
+      "bytes": 123535
+    },
+    {
+      "path": "assets/pdf/notes/Computer_Security.pdf",
+      "pages": 23,
+      "bytes": 176525
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Computer_Security.pdf",
+      "pages": 23,
+      "bytes": 112627
+    },
+    {
+      "path": "assets/pdf/outlines/Computer_Security.pdf",
+      "pages": 25,
+      "bytes": 147950
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Network_and_System_Administration.pdf",
+      "pages": 164,
+      "bytes": 587856
+    },
+    {
+      "path": "assets/pdf/questions/Network_and_System_Administration.pdf",
+      "pages": 166,
+      "bytes": 643806
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Network_and_System_Administration.pdf",
+      "pages": 22,
+      "bytes": 147571
+    },
+    {
+      "path": "assets/pdf/notes/Network_and_System_Administration.pdf",
+      "pages": 27,
+      "bytes": 198461
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Network_and_System_Administration.pdf",
+      "pages": 28,
+      "bytes": 121557
+    },
+    {
+      "path": "assets/pdf/outlines/Network_and_System_Administration.pdf",
+      "pages": 30,
+      "bytes": 157904
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Automata_and_Complexity_Theory.pdf",
+      "pages": 192,
+      "bytes": 809220
+    },
+    {
+      "path": "assets/pdf/questions/Automata_and_Complexity_Theory.pdf",
+      "pages": 194,
+      "bytes": 855742
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Automata_and_Complexity_Theory.pdf",
+      "pages": 20,
+      "bytes": 158792
+    },
+    {
+      "path": "assets/pdf/notes/Automata_and_Complexity_Theory.pdf",
+      "pages": 25,
+      "bytes": 211748
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Automata_and_Complexity_Theory.pdf",
+      "pages": 25,
+      "bytes": 140655
+    },
+    {
+      "path": "assets/pdf/outlines/Automata_and_Complexity_Theory.pdf",
+      "pages": 27,
+      "bytes": 176565
+    },
+    {
+      "path": "assets/pdf/fragments/questions/Compiler_Design.pdf",
+      "pages": 290,
+      "bytes": 994794
+    },
+    {
+      "path": "assets/pdf/questions/Compiler_Design.pdf",
+      "pages": 292,
+      "bytes": 1054476
+    },
+    {
+      "path": "assets/pdf/fragments/notes/Compiler_Design.pdf",
+      "pages": 20,
+      "bytes": 132337
+    },
+    {
+      "path": "assets/pdf/notes/Compiler_Design.pdf",
+      "pages": 25,
+      "bytes": 184821
+    },
+    {
+      "path": "assets/pdf/fragments/outlines/Compiler_Design.pdf",
+      "pages": 24,
+      "bytes": 115709
+    },
+    {
+      "path": "assets/pdf/outlines/Compiler_Design.pdf",
+      "pages": 26,
+      "bytes": 151330
+    },
+    {
+      "path": "assets/pdf/questions/all-courses.pdf",
+      "pages": 4982,
+      "bytes": 17744442
+    },
+    {
+      "path": "assets/pdf/notes/all-courses.pdf",
+      "pages": 337,
+      "bytes": 2256686
+    },
+    {
+      "path": "assets/pdf/outlines/all-courses.pdf",
+      "pages": 417,
+      "bytes": 2024277
+    }
+  ],
+  "validation_failures": [],
+  "elapsed_seconds": 143.2,
+  "final_verification": {
+    "pdf_files": 99,
+    "pages_checked": 17334,
+    "text_fields_checked": 93054
+  },
+  "site_config_sha256": "0fe706b16ec5175597311d8048917978f8d5f5d3d957a4799795703cee234458",
+  "builder_sha256": {
+    "tools/build_pdfs.py": "9269dff0166180d6841ff782c39e0c6056d44d28656506ba9eca3920c6fcbfd5",
+    "tools/pdf_layout_helpers.py": "7d7f5f2935a5945ce55c6d104fe51226648d43264c9a6c3dc1bf81a4ad3b3615"
+  },
+  "font_audit_summary": {
+    "courses": 16,
+    "note_sections": 735,
+    "unique_characters": 227,
+    "unsupported": 0,
+    "normalizations": 39
+  }
+}

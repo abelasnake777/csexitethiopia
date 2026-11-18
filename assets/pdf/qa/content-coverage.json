@@ -1,0 +1,336 @@
+{
+  "courses": [
+    {
+      "slug": "Computer_Programming",
+      "resources": {
+        "questions": {
+          "pages": 245,
+          "fields_checked": 3447,
+          "missing": []
+        },
+        "notes": {
+          "pages": 16,
+          "fields_checked": 387,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 20,
+          "fields_checked": 617,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Fundamental_of_Database_Systems",
+      "resources": {
+        "questions": {
+          "pages": 300,
+          "fields_checked": 4902,
+          "missing": []
+        },
+        "notes": {
+          "pages": 22,
+          "fields_checked": 560,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 27,
+          "fields_checked": 844,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Advanced_Database_Systems",
+      "resources": {
+        "questions": {
+          "pages": 338,
+          "fields_checked": 5045,
+          "missing": []
+        },
+        "notes": {
+          "pages": 24,
+          "fields_checked": 615,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 30,
+          "fields_checked": 912,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Object_Oriented_Programming",
+      "resources": {
+        "questions": {
+          "pages": 438,
+          "fields_checked": 5618,
+          "missing": []
+        },
+        "notes": {
+          "pages": 19,
+          "fields_checked": 441,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 22,
+          "fields_checked": 652,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Computer_Organization_and_Architecture",
+      "resources": {
+        "questions": {
+          "pages": 280,
+          "fields_checked": 4099,
+          "missing": []
+        },
+        "notes": {
+          "pages": 20,
+          "fields_checked": 503,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 26,
+          "fields_checked": 797,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Data_Communication_and_Computer_Networking",
+      "resources": {
+        "questions": {
+          "pages": 504,
+          "fields_checked": 6171,
+          "missing": []
+        },
+        "notes": {
+          "pages": 19,
+          "fields_checked": 470,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 22,
+          "fields_checked": 667,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Data_Structures_and_Algorithms",
+      "resources": {
+        "questions": {
+          "pages": 377,
+          "fields_checked": 5354,
+          "missing": []
+        },
+        "notes": {
+          "pages": 22,
+          "fields_checked": 617,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 30,
+          "fields_checked": 922,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Web_Programming",
+      "resources": {
+        "questions": {
+          "pages": 393,
+          "fields_checked": 6381,
+          "missing": []
+        },
+        "notes": {
+          "pages": 24,
+          "fields_checked": 565,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 27,
+          "fields_checked": 842,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Operating_System",
+      "resources": {
+        "questions": {
+          "pages": 325,
+          "fields_checked": 5054,
+          "missing": []
+        },
+        "notes": {
+          "pages": 22,
+          "fields_checked": 535,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 27,
+          "fields_checked": 843,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Software_Engineering",
+      "resources": {
+        "questions": {
+          "pages": 399,
+          "fields_checked": 5511,
+          "missing": []
+        },
+        "notes": {
+          "pages": 22,
+          "fields_checked": 513,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 27,
+          "fields_checked": 829,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "resources": {
+        "questions": {
+          "pages": 186,
+          "fields_checked": 2451,
+          "missing": []
+        },
+        "notes": {
+          "pages": 21,
+          "fields_checked": 539,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 32,
+          "fields_checked": 979,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "resources": {
+        "questions": {
+          "pages": 310,
+          "fields_checked": 5005,
+          "missing": []
+        },
+        "notes": {
+          "pages": 21,
+          "fields_checked": 531,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 25,
+          "fields_checked": 744,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Computer_Security",
+      "resources": {
+        "questions": {
+          "pages": 239,
+          "fields_checked": 3262,
+          "missing": []
+        },
+        "notes": {
+          "pages": 18,
+          "fields_checked": 445,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 23,
+          "fields_checked": 711,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Network_and_System_Administration",
+      "resources": {
+        "questions": {
+          "pages": 164,
+          "fields_checked": 2222,
+          "missing": []
+        },
+        "notes": {
+          "pages": 22,
+          "fields_checked": 528,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 28,
+          "fields_checked": 860,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Automata_and_Complexity_Theory",
+      "resources": {
+        "questions": {
+          "pages": 192,
+          "fields_checked": 3331,
+          "missing": []
+        },
+        "notes": {
+          "pages": 20,
+          "fields_checked": 490,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 25,
+          "fields_checked": 750,
+          "missing": []
+        }
+      }
+    },
+    {
+      "slug": "Compiler_Design",
+      "resources": {
+        "questions": {
+          "pages": 290,
+          "fields_checked": 4210,
+          "missing": []
+        },
+        "notes": {
+          "pages": 20,
+          "fields_checked": 488,
+          "missing": []
+        },
+        "outlines": {
+          "pages": 24,
+          "fields_checked": 739,
+          "missing": []
+        }
+      }
+    }
+  ],
+  "counts": {
+    "questions": 3485,
+    "variants": 24,
+    "note_evidence": 7003,
+    "module_refs": 5136,
+    "choice_contrasts": 13063,
+    "note_sections": 735,
+    "outline_topics": 646,
+    "outline_cues": 12062,
+    "text_fields_checked": 93054
+  },
+  "failures": []
+}
