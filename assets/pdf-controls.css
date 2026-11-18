@@ -1,0 +1,50 @@
+/* Main may inline this stylesheet on every page. All selectors are scoped. */
+.cs-pdf-modal-open { overflow: hidden; }
+.cs-pdf-dialog, .cs-pdf-dialog *, .cs-downloads, .cs-downloads * { box-sizing: border-box; }
+.cs-pdf-dialog { width: min(680px, calc(100% - 24px)); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow: hidden; margin: auto; padding: 0; border: 1px solid #cdd9d3; border-radius: 18px; background: #fff; color: #19372c; box-shadow: 0 24px 80px #102c2940; font: 1rem/1.5 system-ui, sans-serif; overscroll-behavior: contain; }
+.cs-pdf-dialog:not([open]) { display: none; }
+.cs-pdf-dialog::backdrop { background: #102c29a8; }
+.cs-pdf-dialog-panel { display: flex; flex-direction: column; max-height: calc(100vh - 36px); max-height: calc(100dvh - 36px); padding: 24px; }
+.cs-pdf-dialog form { display: flex; flex: 1 1 auto; flex-direction: column; min-height: 0; margin: 0; }
+.cs-pdf-dialog-panel > p, .cs-pdf-dialog-top, .cs-pdf-select-all, .cs-pdf-count, .cs-pdf-dialog-actions { flex-shrink: 0; }
+.cs-pdf-dialog-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.cs-pdf-dialog h2 { margin: 0; font-size: 1.4rem; line-height: 1.3; color: #19372c; }
+.cs-pdf-dialog p { margin: 12px 0; }
+.cs-pdf-dialog .cs-pdf-fieldset { flex: 1 1 auto; min-width: 0; min-height: 0; overflow: auto; overscroll-behavior: contain; padding: 3px; margin: -3px; border: 0; }
+.cs-pdf-course-list { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.cs-pdf-course { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 10px; border: 1px solid #d7e2dc; border-radius: 8px; cursor: pointer; font-size: .94rem; font-weight: 400; line-height: 1.35; background: #fff; color: #19372c; overflow-wrap: anywhere; }
+.cs-pdf-course:has(input:checked) { background: #edf6ef; border-color: #52846d; }
+.cs-pdf-course:hover { border-color: #205c49; }
+.cs-pdf-course input[type="checkbox"] { appearance: auto; -webkit-appearance: checkbox; flex: 0 0 22px; width: 22px; height: 22px; min-width: 22px; padding: 0; margin: 0; accent-color: #205c49; cursor: pointer; }
+.cs-pdf-select-all { margin: 16px 0 10px; min-height: 48px; font-weight: 650; }
+.cs-pdf-count { font-weight: 600; color: #344f42; }
+.cs-pdf-dialog-actions, .cs-pdf-job-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
+.cs-pdf-button { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 11px 18px; margin: 0; border: 1px solid #205c49; border-radius: 9px; background: #205c49; color: #fff; font: 600 1rem/1.35 system-ui, sans-serif; cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; }
+.cs-pdf-button:hover { background: #164534; color: #fff; }
+.cs-pdf-button.cs-pdf-secondary { background: #fff; color: #205c49; }
+.cs-pdf-button.cs-pdf-secondary:hover { background: #edf6ef; }
+.cs-pdf-button:disabled { opacity: .6; cursor: not-allowed; }
+.cs-pdf-button:focus-visible, .cs-pdf-course input:focus-visible, .cs-downloads a:focus-visible { outline: 3px solid #b36a06; outline-offset: 3px; }
+.cs-pdf-course:focus-within { outline: 2px solid #b36a06; outline-offset: 1px; }
+.cs-pdf-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.cs-downloads { max-width: 1120px; margin: 0 auto; padding: 54px 24px 72px; color: #19372c; }
+.cs-downloads h1 { margin: 0 0 16px; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.12; }
+.cs-downloads-intro { max-width: 720px; font-size: 1.12rem; line-height: 1.7; }
+.cs-downloads-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; margin: 32px 0; }
+.cs-downloads-card { display: flex; flex-direction: column; align-items: flex-start; padding: 24px; border: 1px solid #d4dfd7; border-radius: 15px; background: #fff; }
+.cs-downloads-card h2 { margin: 10px 0; font-size: 1.4rem; line-height: 1.3; }
+.cs-downloads-card p { margin: 0 0 24px; line-height: 1.6; flex-grow: 1; }
+.cs-downloads-card .cs-pdf-button { width: 100%; }
+.cs-downloads-step { color: #43654f; font-size: .85rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.cs-pdf-job { padding: 20px 24px; border-radius: 12px; background: #edf4ef; border: 1px solid #d4dfd7; }
+.cs-pdf-job h2 { margin: 0; font-size: 1.2rem; }
+.cs-pdf-job progress { display: block; width: 100%; height: 14px; margin: 16px 0; accent-color: #205c49; }
+.cs-pdf-job-actions { justify-content: flex-start; }
+.cs-pdf-error { color: #8a241c; font-weight: 600; }
+.cs-downloads [hidden], .cs-pdf-dialog [hidden] { display: none !important; }
+.cs-downloads-help { margin-top: 32px; max-width: 760px; line-height: 1.7; }
+.cs-downloads-help h2 { font-size: 1.25rem; }
+@media (max-width: 740px) { .cs-downloads-grid { grid-template-columns: 1fr; } .cs-downloads { padding: 32px 16px 48px; } }
+@media (max-width: 540px) { .cs-pdf-dialog-panel { padding: 16px; } .cs-pdf-course-list { grid-template-columns: 1fr; } .cs-pdf-dialog-actions .cs-pdf-button { flex: 1 1 auto; } .cs-pdf-dialog h2 { font-size: 1.2rem; } }
+@media (prefers-reduced-motion: reduce) { .cs-pdf-dialog, .cs-pdf-button { scroll-behavior: auto; transition: none; animation: none; } }
+@media print { .cs-pdf-dialog { display: none !important; } }
