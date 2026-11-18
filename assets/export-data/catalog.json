@@ -1,0 +1,116 @@
+{
+  "courses": [
+    {
+      "slug": "Computer_Programming",
+      "title": "Computer Programming",
+      "questions": 177,
+      "notes": 40,
+      "outlines": 35
+    },
+    {
+      "slug": "Fundamental_of_Database_Systems",
+      "title": "Fundamental of Database Systems",
+      "questions": 226,
+      "notes": 42,
+      "outlines": 40
+    },
+    {
+      "slug": "Advanced_Database_Systems",
+      "title": "Advanced Database Systems",
+      "questions": 239,
+      "notes": 50,
+      "outlines": 45
+    },
+    {
+      "slug": "Object_Oriented_Programming",
+      "title": "Object Oriented Programming",
+      "questions": 294,
+      "notes": 45,
+      "outlines": 39
+    },
+    {
+      "slug": "Computer_Organization_and_Architecture",
+      "title": "Computer Organization and Architecture",
+      "questions": 184,
+      "notes": 46,
+      "outlines": 39
+    },
+    {
+      "slug": "Data_Communication_and_Computer_Networking",
+      "title": "Data Communication and Computer Networking",
+      "questions": 274,
+      "notes": 40,
+      "outlines": 33
+    },
+    {
+      "slug": "Data_Structures_and_Algorithms",
+      "title": "Data Structure and Algorithms",
+      "questions": 271,
+      "notes": 49,
+      "outlines": 45
+    },
+    {
+      "slug": "Web_Programming",
+      "title": "Web Programming",
+      "questions": 305,
+      "notes": 55,
+      "outlines": 41
+    },
+    {
+      "slug": "Operating_System",
+      "title": "Operating System",
+      "questions": 233,
+      "notes": 47,
+      "outlines": 41
+    },
+    {
+      "slug": "Software_Engineering",
+      "title": "Software Engineering",
+      "questions": 278,
+      "notes": 50,
+      "outlines": 43
+    },
+    {
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "title": "Design and Analysis of Algorithms",
+      "questions": 141,
+      "notes": 45,
+      "outlines": 45
+    },
+    {
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "title": "Introduction to Artificial Intelligence",
+      "questions": 235,
+      "notes": 51,
+      "outlines": 44
+    },
+    {
+      "slug": "Computer_Security",
+      "title": "Computer Security",
+      "questions": 171,
+      "notes": 37,
+      "outlines": 34
+    },
+    {
+      "slug": "Network_and_System_Administration",
+      "title": "Network and System Administration",
+      "questions": 101,
+      "notes": 43,
+      "outlines": 38
+    },
+    {
+      "slug": "Automata_and_Complexity_Theory",
+      "title": "Automata and Complexity Theory",
+      "questions": 156,
+      "notes": 45,
+      "outlines": 41
+    },
+    {
+      "slug": "Compiler_Design",
+      "title": "Compiler Design",
+      "questions": 200,
+      "notes": 47,
+      "outlines": 43
+    }
+  ]
+}

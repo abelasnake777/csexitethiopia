@@ -1,0 +1,14 @@
+{
+  "main_questions": 3485,
+  "alternative_versions": 24,
+  "study_note_sections": 735,
+  "outline_topics": 646,
+  "literal_note_proofs": 7003,
+  "original_module_passages": 5136,
+  "all_original_source_bytes_recoverable": true,
+  "module_pdfs_unchanged": 14,
+  "canonical_ledger_sha256": {
+    "STUDY_NOTE_SUPPORT.json": "ecd43e3088a4daa89f54643d9963485743aa0121134e835d97dc843d7d28c850",
+    "STUDY_NOTE_ANSWER_REVIEW.json": "2faa09ba8a8e9393f7453a344783d4a4abd71d230ee3bc599a04dc9a84c0d28a"
+  }
+}

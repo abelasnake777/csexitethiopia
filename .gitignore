@@ -11,3 +11,9 @@ __pycache__/
 .qa/
 playwright-report/
 test-results/
+
+# Private, reproducible PDF build scratch artifacts.
+work/
+assets/pdf/qa/*.pdf
+assets/pdf/qa/*.png
+assets/pdf/qa/*.log

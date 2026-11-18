@@ -1,123 +1,74 @@
 # CS Exit Ethiopia
 
-A free, buildless Computer Science Exit Exam study hub for Ethiopian students. Open `index.html` to choose the complete study guide, interactive questions, revision outlines or original course modules. No accounts, advertising, analytics, paywalls or backend services are used.
+A free static Ethiopian Computer Science Exit Exam preparation hub: 16 courses, 3,485 practice questions, complete notes, revision outlines and original PDF modules. No account, ads, analytics or server-side service.
 
-## Run locally
+## Preview
 
-Open `index.html` directly, or use any static web server. For example:
-
-```sh
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000`. A server is useful for checking clipboard behavior. Python is a local preview option, not a hosting dependency.
-
-## Project structure
-
-- `index.html`: home, study routine, optional support and contact information.
-- `assets/`: lightweight CSS, vanilla JavaScript and favicon.
-- `Complete_CS_Exit_Study_Guide.html`: the complete study note.
-- `Questions/Interactive_Study_Guides/`: 16 course readers and their course selector.
-- `Outlines/`: 16 course revision readers, their selector and the earlier Word outlines.
-- `Modules/`: 16 course entries, an embedded PDF reader and 14 original PDFs (two pairs of courses share files).
-- `QUESTION_REFERENCE_AUDIT.json`: exhaustive per-question hint and answer reference-link checks.
-- `STUDY_NOTE_ANSWER_REVIEW.json`: current review data and explicit answer-certainty statuses.
-- `ANSWER_COMPLETENESS_AUDIT.json`: definite-answer coverage for all main questions and alternative source versions.
-- `ANSWER_REVIEW_SUMMARY.html`: readable course counts and links to flagged source questions.
-- `SOURCE_MANIFEST.json`: copied-resource hashes and content-preservation records.
-- `VERIFICATION.json`: verification summary for this release.
-- `tools/` and `tests/`: optional development checks and packaging tools; not required by the website.
-
-Keep all four resource paths together. Existing reading-section links, practice-question lookups and Word-outline downloads depend on this structure. Paths work at a domain root or inside a subdirectory.
-
-## Preserved educational content
-
-Resources were copied from the existing Exit Study materials. Original source files and the complete study note were left untouched. Imported HTML has removable navigation additions; question readers also have a study-note reference insertion and a current-answer review overlay. Removing the three exact blocks recorded in `SOURCE_MANIFEST.json` recovers the original question reader byte for byte. The original embedded question JSON, stems, choices, provenance, images and historical reviews are unchanged.
-
-Clarified practice versions use user-approved intended readings, including: restored aⁿbⁿcⁿ notation, permission mode -rwxr--r--, simultaneous FCFS arrivals, and an explicit two-path project network ending at day 9. Their displayed stems and cleaned choices are labeled as clarified practice versions; original imported JSON and source wording remain recoverable in the audit. The search index follows the clarified wording.
-
-The current-answer overlay places new complete-note explanations and literal evidence before the older review. Historical hints and answers remain in independently collapsed archives, so old module-only limitations do not masquerade as current answers. Existing module-verified answers are retained. The imported content-security policy stays unchanged; the new code and review data are embedded inline for compatibility with that policy.
-The shared navigation adds Home and resource links. The questions selector receives presentation-only responsive grid styling. Other resource layouts retain their existing styles. Non-HTML resources are identical copies. The manifest documents these checks.
-
-## Optional support and contact
-
-All study resources remain free. Support details are displayed on the home page with local clipboard buttons; the site does not process payments. Contact links open the visitor's email, phone or the requested social profile. No data is submitted to a server by this website.
-
-Edit the home page only to change these details. Browser review progress is managed by the existing revision readers and stays in each student's browser. Students can use their readers' export/import controls to move progress.
-
-## Deploy
-
-See [DEPLOYMENT.md](DEPLOYMENT.md). Upload the static files to the chosen domain's document root on Yegara. No Node.js install, build command, database, API key or server process is required.
-
-## Optional verification
-
-Check all copied files and static local links using Python's standard library:
+Use HTTP/HTTPS for search, PDF exports and embedded PDF viewing:
 
 ```sh
-python3 tools/verify_site.py
+python3 tools/serve.py --port 8457
 ```
 
-To also verify against the untouched original materials on the author's machine:
+Open `http://127.0.0.1:8457/`. Hosting needs only static files; Python, Node.js and PDF libraries are development tools, not hosting requirements.
+
+## Domain configuration
+
+Edit **only `SITE_URL` in `site.config.js`**, then regenerate domain-derived metadata:
 
 ```sh
-python3 tools/verify_site.py --source ../Exit_Study
+python3 tools/build_site.py --metadata-only
 ```
 
-The browser regression test uses an externally installed Playwright package and Chrome. These are development tools only. For browser QA, start `python3 tools/serve.py` in a separate terminal. This serves port 8457 and a subdirectory alias for the relative-path check. Set `PLAYWRIGHT_MODULE` and `CHROME_BIN` for your environment, then run:
+This updates canonical URLs, social tags, JSON-LD, sitemap, robots, browser configuration and footer branding. When changing the domain, regenerate prebuilt PDFs too, so printed attribution uses the new domain. The default is `https://csexitethiopia.com`; configuring it does not register a domain or set DNS.
+
+## Public resources
+
+- `index.html`: resources, study routine, optional support and contact.
+- `Complete_CS_Exit_Study_Guide.html`: static, hierarchical notes with reading-section IDs and lazy question lookup.
+- `Questions/Interactive_Study_Guides/`: 16 static course readers; independent hints and answers start closed.
+- `Outlines/`: 16 interactive revision readers; progress stays in the browser, with import/export.
+- `Modules/`: 16 course viewers and 14 unchanged original PDFs. Two pairs of courses share a PDF.
+- `downloads.html`: select one, custom multiple or all 16 courses for each PDF resource.
+- `search.html`: searchable notes, questions, outlines and modules, with course/type filters.
+- `sitemap.xml`, `robots.txt`, favicons and self-hosted social preview assets.
+
+All HTML navigation uses relative paths and stays in one tab. Third-party references have an external indicator and open a separate tab. The shared responsive menu switches below 992px. Course progress uses the existing version/source checksum format.
+
+## PDF architecture
+
+Single-course and all-course PDFs are prebuilt vector documents under `assets/pdf/`. They contain cover pages, course contents, course dividers, readable text, references and running attribution/page numbers. Custom selections are assembled in a Web Worker from vector PDF fragments using self-hosted pdf-lib. No screenshots, runtime CDN or server-side PDF generation is used. A browser download progress indicator supports cancellation and retry.
+
+Question PDFs include current prompts, options, answers, explanations, choice contrasts, exact study-note evidence, and original module page/line excerpts where available. Module excerpts are identified as related reading; the current study-note evidence remains the answer proof when an old module did not cover that concept. Extended explanations can continue onto another page while short question blocks and prompt/choices are kept together.
+
+Rebuild PDFs using the development environment with ReportLab, pypdf, PyMuPDF, svglib, Pillow and fontTools installed:
 
 ```sh
-node tests/browser.cjs
+python3 tools/build_pdfs.py --validate
 ```
 
-It checks the home page at desktop, tablet and phone widths; every course reader at desktop and phone widths; home navigation; clipboard values and fallback; original question toggles; outline progress; and subdirectory hosting. Screenshots and detailed results go in ignored `.qa/`.
+The generator reads `site.config.js` and `assets/export-data/`. See `--help` for course/type selection and resumable subset builds. PDF generation is optional maintenance; deployed downloads are already generated.
 
-## Course modules
+## Source preservation and maintenance
 
-The Modules catalog offers online viewing and PDF downloads for all 16 courses. Database Fundamentals and Advanced Database use the same complete PDF; Networking and System Administration share another. Course viewers start at the verified physical PDF page for the relevant course. Downloads retain the complete original PDF.
+The public readers contain reviewed educational HTML directly, allowing reading and crawling without JavaScript. Lightweight scripts provide search and interaction. Large legacy review data is no longer duplicated inside every reader.
 
-The embedded viewer uses self-hosted Mozilla PDF.js, loaded only on module viewer pages. Page controls and zoom work on desktop and phones; Open PDF supports browser search, selection and printing. PDF.js, its fonts and decoders are static files under assets/pdfjs/; no CDN or build is needed. Its license and version/integrity record are included.
+`maintenance/source-snapshots/` preserves the exact original imported educational HTML bytes; `maintenance/public-baseline/` preserves the reviewed student-facing DOM used to compile the static readers. `SOURCE_MANIFEST.json` records recovery hashes. The original workspace, 14 module PDFs and canonical answer/support ledgers are unchanged. These maintenance files are excluded from hosting.
 
-If opening HTML directly from disk, use Open PDF or Download PDF. The embedded viewer needs HTTP/HTTPS; use the local QA server for preview. Apache MIME types for .mjs and .wasm are included in .htaccess.
+`tools/build_site.py` rebuilds readers from the reviewed baseline and reapplies metadata, navigation and routing. After an intentional content update, review/update that baseline and export data before rebuilding. Earlier overlay scripts and historical audit files remain maintenance history; do not reapply those overlays to this static reader architecture.
 
-## Question answers and study-note support
+## Verification
 
-Every one of the 3,485 main practice questions and 24 alternative source versions has an explicit answer. Each question has an independent, default-hidden reading hint and answer/explanation block, including choice-by-choice reasoning and exact supporting study-note passages. The study-note lookup uses the current clarified practice wording.
-
-The bank contains 3,026 single-answer questions, 199 explicit select-all questions and 260 written prompts. 1,060 adapted question records retain their editorial history for maintenance; students see concise source attribution. The global exact stem-and-options duplicate check found zero duplicate groups. Original imported question data and historical reviews are retained.
-
-The full grounding review added 86 focused conceptual lessons to fill missing coverage. All existing guide text is preserved byte for byte, recoverable by removing the exact additive blocks in `SOURCE_MANIFEST.json`. The original materials in Exit_Study are untouched. Module PDF bytes and the underlying revision-outline data are unchanged; public wording is presented through a reversible display layer.
-
-`ANSWER_REVIEW_SUMMARY.html` is an author-only course overview, excluded from hosting. `STUDY_NOTE_SUPPORT.json` records every active answer, reading hint, exact evidence and editorial resolution; `STUDY_NOTE_SUPPORT_AUDIT.json` verifies its coverage and actual note passages. `ANSWER_COMPLETENESS_AUDIT.json` checks definite answers and exact duplicate prompts. `QUESTION_REFERENCE_AUDIT.json` separately records every rendered reference link and independent toggle. Editorial relevance review and automated coverage checks are distinct; these records do not authenticate an imported exam key or predict a score.
-
-Portable verification (no build step for hosting):
+Development dependencies include Python lxml and Playwright/Chrome for browser checks. Use your Python/Node environment for these optional checks:
 
 ```sh
 python3 tools/verify_site.py
-python3 tools/verify_study_note_support.py
-python3 tools/verify_study_note_answers.py
-python3 tools/verify_answer_completeness.py
+python3 tools/verify_platform_content.py
+node tests/platform.cjs
+node tests/platform_all_courses.cjs
+node tests/pdf_exports.cjs
 ```
 
-With the local QA server running, browser checks cover all questions and source versions, detailed explanations and choice contrasts, exact note proof, hidden controls, the active reading lookup and added lessons on desktop and phones:
+The checks cover all public links and metadata, source recovery, 3,485 questions and 24 source variants, every note/proof, outline content/progress, responsive layout, routing, donation copying, search, PDF selection and persistent favicons. PDF generation validation checks exported item totals, text, page counts and font coverage; rendered PDF samples are reviewed visually.
 
-```sh
-node tests/study_note_answers.cjs
-node tests/answer_completeness.cjs
-node tests/study_note_support.cjs
-node tests/public_copy.cjs
-```
-
-To reapply an intentionally reviewed update, apply `tools/apply_study_note_support.py`, then `tools/apply_study_note_answers.py` and `tools/apply_public_copy.py`, regenerate audits and run `tools/build_answer_review_summary.py`. The exhaustive reference helper additionally uses the author's saved baseline in `.qa/` and the original workspace. These are development inputs, not hosting dependencies. ZIP generation remains deferred at the owner's request.
-
-## Public presentation
-
-The public readers show academic source names, study instructions and useful references. Local filenames, editorial notices, earlier answer-review panels and internal audit links are omitted from the student interface. The study guide bibliography links to accessible course modules and public references. Question text, choices, keys, diagrams and section IDs are retained. Generic copy edits do not apply to question stems, choices or code blocks.
-
-`PUBLIC_READER_COPY.json` records reviewed wording changes and source titles for maintenance. `tools/apply_public_copy.py` embeds the relevant presentation rules into the existing static readers, including pages with restrictive inline-only script policies. The exact removable block is recorded in `SOURCE_MANIFEST.json`; all original imported source bytes remain recoverable. Run the public-copy helper after regenerating any course or guide page.
-
-`tools/public_files.py` is the public upload allowlist used by the archive helper. Authoring ledgers, audit reports, development tools and screenshots are excluded. Apache rules also deny access to those maintenance files if a full checkout is uploaded. No archive is created by verification or by applying copy changes.
-
-```sh
-python3 tools/apply_public_copy.py
-node tests/public_copy.cjs
-```
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Yegara/cPanel upload instructions. No ZIP is produced automatically by a build or verification.

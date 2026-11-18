@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "viewports": [
+    360,
+    390,
+    480,
+    768,
+    991,
+    992,
+    1024,
+    1440
+  ],
+  "layout_checks": 64,
+  "functional_checks": [
+    "hamburger",
+    "donation-copy",
+    "question-hints-answers-search-jump",
+    "notes-lookup-anchor",
+    "outline-progress-search-filter",
+    "site-search",
+    "module-PDF-paging",
+    "PDF-modal-selection",
+    "favicon-recovery",
+    "single-tab-routing"
+  ],
+  "page_errors": []
+}

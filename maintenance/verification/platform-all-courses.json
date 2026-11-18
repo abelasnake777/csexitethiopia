@@ -1,0 +1,4566 @@
+{
+  "started_at": "2026-11-18T04:37:41.700Z",
+  "base_url": "http://127.0.0.1:8457/",
+  "product_files_modified": false,
+  "coverage": {
+    "public_pages": 55,
+    "all_page_widths": [
+      360,
+      768
+    ],
+    "representative_widths": [
+      1024
+    ],
+    "courses": 16,
+    "original_module_pdfs": 14
+  },
+  "checks": [
+    {
+      "phase": "static-seo",
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Advanced_Database_Systems.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 153
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 151
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Compiler_Design.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 151
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "passed": true,
+      "title_length": 56,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Computer_Programming.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Computer_Security.html",
+      "passed": true,
+      "title_length": 55,
+      "description_length": 153
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "passed": true,
+      "title_length": 56,
+      "description_length": 150
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 152
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 160
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Network_and_System_Administration.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Object_Oriented_Programming.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Operating_System.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 152
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Software_Engineering.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/Web_Programming.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 151
+    },
+    {
+      "phase": "static-seo",
+      "path": "Modules/index.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Compiler_Design.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Computer_Programming.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Computer_Security.html",
+      "passed": true,
+      "title_length": 56,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 158
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 153
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 157
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Network_and_System_Administration.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 157
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 151
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Operating_System.html",
+      "passed": true,
+      "title_length": 55,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Software_Engineering.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/Web_Programming.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "Outlines/index.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 157
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 151
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "passed": true,
+      "title_length": 55,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "passed": true,
+      "title_length": 55,
+      "description_length": 153
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "passed": true,
+      "title_length": 57,
+      "description_length": 158
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 160
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "passed": true,
+      "title_length": 60,
+      "description_length": 157
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "passed": true,
+      "title_length": 59,
+      "description_length": 157
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 159
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "passed": true,
+      "title_length": 56,
+      "description_length": 153
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "passed": true,
+      "title_length": 56,
+      "description_length": 157
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "passed": true,
+      "title_length": 55,
+      "description_length": 153
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "passed": true,
+      "title_length": 55,
+      "description_length": 156
+    },
+    {
+      "phase": "static-seo",
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 160
+    },
+    {
+      "phase": "static-seo",
+      "path": "downloads.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 154
+    },
+    {
+      "phase": "static-seo",
+      "path": "index.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 155
+    },
+    {
+      "phase": "static-seo",
+      "path": "search.html",
+      "passed": true,
+      "title_length": 58,
+      "description_length": 158
+    },
+    {
+      "phase": "static-seo",
+      "path": "sitemap.xml",
+      "passed": true
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 255
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 562,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 169
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 417
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 48
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Advanced_Database_Systems",
+      "passed": true,
+      "duration_ms": 202,
+      "detail": {
+        "file": "files/DatabaseSystem.pdf",
+        "physical_start_page": 27,
+        "pages": 126
+      }
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 248
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 47
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Automata_and_Complexity_Theory",
+      "passed": true,
+      "duration_ms": 234,
+      "detail": {
+        "file": "files/AutomataAndComplexityTheory.pdf",
+        "physical_start_page": 1,
+        "pages": 18
+      }
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 249
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 49
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Compiler_Design",
+      "passed": true,
+      "duration_ms": 234,
+      "detail": {
+        "file": "files/CompilerDesign.pdf",
+        "physical_start_page": 1,
+        "pages": 19
+      }
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 315
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 3,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 49
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Computer_Organization_and_Architecture",
+      "passed": true,
+      "duration_ms": 220,
+      "detail": {
+        "file": "files/ComputerOrganizationAndArchitecture.pdf",
+        "physical_start_page": 1,
+        "pages": 119
+      }
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 245
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 46
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Computer_Programming",
+      "passed": true,
+      "duration_ms": 238,
+      "detail": {
+        "file": "files/ComputerProgramming.pdf",
+        "physical_start_page": 1,
+        "pages": 53
+      }
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 247
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 47
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Computer_Security",
+      "passed": true,
+      "duration_ms": 218,
+      "detail": {
+        "file": "files/ComputerSecurity.pdf",
+        "physical_start_page": 1,
+        "pages": 11
+      }
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 283
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 46
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Data_Communication_and_Computer_Networking",
+      "passed": true,
+      "duration_ms": 221,
+      "detail": {
+        "file": "files/DataCommunicationandSystemAdmin.pdf",
+        "physical_start_page": 5,
+        "pages": 66
+      }
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 280
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 50
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Data_Structures_and_Algorithms",
+      "passed": true,
+      "duration_ms": 231,
+      "detail": {
+        "file": "files/DataStructuresAndAlgorithms.pdf",
+        "physical_start_page": 1,
+        "pages": 11
+      }
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 250
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 48
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "passed": true,
+      "duration_ms": 238,
+      "detail": {
+        "file": "files/DesignAndAnalysisOfAlgorithms.pdf",
+        "physical_start_page": 1,
+        "pages": 132
+      }
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 262
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 50
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Fundamental_of_Database_Systems",
+      "passed": true,
+      "duration_ms": 215,
+      "detail": {
+        "file": "files/DatabaseSystem.pdf",
+        "physical_start_page": 5,
+        "pages": 126
+      }
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 267
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 44
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "passed": true,
+      "duration_ms": 218,
+      "detail": {
+        "file": "files/IntroductionToArtificialIntelligence.pdf",
+        "physical_start_page": 1,
+        "pages": 85
+      }
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 269
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 47
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Network_and_System_Administration",
+      "passed": true,
+      "duration_ms": 218,
+      "detail": {
+        "file": "files/DataCommunicationandSystemAdmin.pdf",
+        "physical_start_page": 21,
+        "pages": 66
+      }
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 250
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 48
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Object_Oriented_Programming",
+      "passed": true,
+      "duration_ms": 220,
+      "detail": {
+        "file": "files/ObjectOrientedProgramming.pdf",
+        "physical_start_page": 1,
+        "pages": 34
+      }
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 280
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 47
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Operating_System",
+      "passed": true,
+      "duration_ms": 219,
+      "detail": {
+        "file": "files/OperatingSystem.pdf",
+        "physical_start_page": 1,
+        "pages": 54
+      }
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 282
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 45
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Software_Engineering",
+      "passed": true,
+      "duration_ms": 221,
+      "detail": {
+        "file": "files/SoftwareEngineering.pdf",
+        "physical_start_page": 1,
+        "pages": 153
+      }
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 264
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 46
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 360,
+      "phase": "module-physical-start",
+      "slug": "Web_Programming",
+      "passed": true,
+      "duration_ms": 194,
+      "detail": {
+        "file": "files/WebProgramming.pdf",
+        "physical_start_page": 1,
+        "pages": 95
+      }
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 75
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 45
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 86
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 86,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 55
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Advanced_Database_Systems",
+      "passed": true,
+      "duration_ms": 419,
+      "detail": {
+        "topics": 45,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 72
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 71,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 55
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Automata_and_Complexity_Theory",
+      "passed": true,
+      "duration_ms": 420,
+      "detail": {
+        "topics": 41,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 86
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 76,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 82
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Compiler_Design",
+      "passed": true,
+      "duration_ms": 338,
+      "detail": {
+        "topics": 43,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 63,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 77
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Computer_Organization_and_Architecture",
+      "passed": true,
+      "duration_ms": 421,
+      "detail": {
+        "topics": 39,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 73
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 49,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 55
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Computer_Programming",
+      "passed": true,
+      "duration_ms": 306,
+      "detail": {
+        "topics": 35,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 73
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 66,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 57
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Computer_Security",
+      "passed": true,
+      "duration_ms": 337,
+      "detail": {
+        "topics": 34,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 88
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 59,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 86
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Data_Communication_and_Computer_Networking",
+      "passed": true,
+      "duration_ms": 434,
+      "detail": {
+        "topics": 33,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 87,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 56
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Data_Structures_and_Algorithms",
+      "passed": true,
+      "duration_ms": 437,
+      "detail": {
+        "topics": 45,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 86
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 93,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 83
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "passed": true,
+      "duration_ms": 436,
+      "detail": {
+        "topics": 45,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 83,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 60
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Fundamental_of_Database_Systems",
+      "passed": true,
+      "duration_ms": 436,
+      "detail": {
+        "topics": 40,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 104,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 55
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "passed": true,
+      "duration_ms": 481,
+      "detail": {
+        "topics": 44,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 77
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 66,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 57
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Network_and_System_Administration",
+      "passed": true,
+      "duration_ms": 406,
+      "detail": {
+        "topics": 38,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 88
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 59,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 80
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Object_Oriented_Programming",
+      "passed": true,
+      "duration_ms": 422,
+      "detail": {
+        "topics": 39,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 88
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 100,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 57
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Operating_System",
+      "passed": true,
+      "duration_ms": 338,
+      "detail": {
+        "topics": 41,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 80,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 79
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Software_Engineering",
+      "passed": true,
+      "duration_ms": 336,
+      "detail": {
+        "topics": 43,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 73,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 51
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 360,
+      "phase": "outline-search-progress",
+      "slug": "Web_Programming",
+      "passed": true,
+      "duration_ms": 337,
+      "detail": {
+        "topics": 41,
+        "persistence": true
+      }
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 73
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 4,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 60
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 185
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 217,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 182
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Advanced_Database_Systems",
+      "passed": true,
+      "duration_ms": 27,
+      "detail": {
+        "questions_inspected": 239
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Advanced_Database_Systems",
+      "passed": true,
+      "duration_ms": 494
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 145
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 133,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 85
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Automata_and_Complexity_Theory",
+      "passed": true,
+      "duration_ms": 14,
+      "detail": {
+        "questions_inspected": 156
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Automata_and_Complexity_Theory",
+      "passed": true,
+      "duration_ms": 470
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 164
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 145,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 133
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Compiler_Design",
+      "passed": true,
+      "duration_ms": 22,
+      "detail": {
+        "questions_inspected": 200
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Compiler_Design",
+      "passed": true,
+      "duration_ms": 464
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 168
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 146,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 96
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Computer_Organization_and_Architecture",
+      "passed": true,
+      "duration_ms": 22,
+      "detail": {
+        "questions_inspected": 184
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Computer_Organization_and_Architecture",
+      "passed": true,
+      "duration_ms": 495
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 175
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 131,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 120
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Computer_Programming",
+      "passed": true,
+      "duration_ms": 15,
+      "detail": {
+        "questions_inspected": 177
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Computer_Programming",
+      "passed": true,
+      "duration_ms": 455
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 144
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 115,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 96
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Computer_Security",
+      "passed": true,
+      "duration_ms": 16,
+      "detail": {
+        "questions_inspected": 171
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Computer_Security",
+      "passed": true,
+      "duration_ms": 493
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 196
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 236,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 150
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Data_Communication_and_Computer_Networking",
+      "passed": true,
+      "duration_ms": 25,
+      "detail": {
+        "questions_inspected": 274
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Data_Communication_and_Computer_Networking",
+      "passed": true,
+      "duration_ms": 549
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 205
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 277,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 140
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Data_Structures_and_Algorithms",
+      "passed": true,
+      "duration_ms": 25,
+      "detail": {
+        "questions_inspected": 271
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Data_Structures_and_Algorithms",
+      "passed": true,
+      "duration_ms": 616
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 126
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 85,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 110
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "passed": true,
+      "duration_ms": 16,
+      "detail": {
+        "questions_inspected": 141
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "passed": true,
+      "duration_ms": 450
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 171
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 171,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 138
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Fundamental_of_Database_Systems",
+      "passed": true,
+      "duration_ms": 26,
+      "detail": {
+        "questions_inspected": 226
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Fundamental_of_Database_Systems",
+      "passed": true,
+      "duration_ms": 457
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 190
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 204,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 133
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "passed": true,
+      "duration_ms": 27,
+      "detail": {
+        "questions_inspected": 235
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "passed": true,
+      "duration_ms": 493
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 109
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 68,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 108
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Network_and_System_Administration",
+      "passed": true,
+      "duration_ms": 9,
+      "detail": {
+        "questions_inspected": 101
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Network_and_System_Administration",
+      "passed": true,
+      "duration_ms": 527
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 258
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 235,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 142
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Object_Oriented_Programming",
+      "passed": true,
+      "duration_ms": 24,
+      "detail": {
+        "questions_inspected": 294
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Object_Oriented_Programming",
+      "passed": true,
+      "duration_ms": 608
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 170
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 196,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 125
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Operating_System",
+      "passed": true,
+      "duration_ms": 25,
+      "detail": {
+        "questions_inspected": 233
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Operating_System",
+      "passed": true,
+      "duration_ms": 459
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 194
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 234,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 143
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Software_Engineering",
+      "passed": true,
+      "duration_ms": 27,
+      "detail": {
+        "questions_inspected": 278
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Software_Engineering",
+      "passed": true,
+      "duration_ms": 650
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 232
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 311,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 156
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 360,
+      "phase": "question-defaults",
+      "slug": "Web_Programming",
+      "passed": true,
+      "duration_ms": 24,
+      "detail": {
+        "questions_inspected": 305
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 360,
+      "phase": "question-controls-references",
+      "slug": "Web_Programming",
+      "passed": true,
+      "duration_ms": 593
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 78
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 44
+    },
+    {
+      "path": "downloads.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "downloads.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 3,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "downloads.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 62
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 84
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "index.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 63
+    },
+    {
+      "path": "search.html",
+      "width": 360,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 218
+    },
+    {
+      "path": "search.html",
+      "width": 360,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 360,
+        "client": 360,
+        "scroll": 360,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "search.html",
+      "width": 360,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 46
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 159
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 444,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 336
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 246
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Compiler_Design.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 363
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Computer_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Computer_Security.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 295
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 279
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 263
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 262
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 279
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Operating_System.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 279
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Software_Engineering.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 261
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Web_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 78
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 78
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 87,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 93
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 70,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 94
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 68,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Compiler_Design.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 80
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 69,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 79
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 56,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 91
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 63,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Security.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 100
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 66,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 99
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 103,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 94
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 93,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 88
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 71,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 93
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 79,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 84
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 68,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 95
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 65,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 98
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 92,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Operating_System.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 155
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 77,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Software_Engineering.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 118
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 66,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Web_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 7
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 76
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 5,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 160
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 160,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 7
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Advanced_Database_Systems.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Advanced_Database_Systems",
+      "passed": true,
+      "duration_ms": 20,
+      "detail": {
+        "questions_inspected": 239
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 162
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 104,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 6
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Automata_and_Complexity_Theory.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Automata_and_Complexity_Theory",
+      "passed": true,
+      "duration_ms": 11,
+      "detail": {
+        "questions_inspected": 156
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 179
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 134,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 6
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Compiler_Design.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Compiler_Design",
+      "passed": true,
+      "duration_ms": 15,
+      "detail": {
+        "questions_inspected": 200
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 178
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 105,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 6
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Organization_and_Architecture.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Computer_Organization_and_Architecture",
+      "passed": true,
+      "duration_ms": 12,
+      "detail": {
+        "questions_inspected": 184
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 159
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 123,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 6
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Computer_Programming",
+      "passed": true,
+      "duration_ms": 12,
+      "detail": {
+        "questions_inspected": 177
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 158
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 108,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 5
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Security.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Computer_Security",
+      "passed": true,
+      "duration_ms": 15,
+      "detail": {
+        "questions_inspected": 171
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 204
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 219,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 7
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Communication_and_Computer_Networking.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Data_Communication_and_Computer_Networking",
+      "passed": true,
+      "duration_ms": 21,
+      "detail": {
+        "questions_inspected": 274
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 212
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 258,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 8
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Data_Structures_and_Algorithms.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Data_Structures_and_Algorithms",
+      "passed": true,
+      "duration_ms": 21,
+      "detail": {
+        "questions_inspected": 271
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 145
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 102,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 4
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Design_and_Analysis_of_Algorithms.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Design_and_Analysis_of_Algorithms",
+      "passed": true,
+      "duration_ms": 10,
+      "detail": {
+        "questions_inspected": 141
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 200
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 203,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 7
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Fundamental_of_Database_Systems.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Fundamental_of_Database_Systems",
+      "passed": true,
+      "duration_ms": 17,
+      "detail": {
+        "questions_inspected": 226
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 205
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 227,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 9
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Introduction_to_Artificial_Intelligence.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Introduction_to_Artificial_Intelligence",
+      "passed": true,
+      "duration_ms": 21,
+      "detail": {
+        "questions_inspected": 235
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 159
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 72,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Network_and_System_Administration.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Network_and_System_Administration",
+      "passed": true,
+      "duration_ms": 9,
+      "detail": {
+        "questions_inspected": 101
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 248
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 272,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 9
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Object_Oriented_Programming.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Object_Oriented_Programming",
+      "passed": true,
+      "duration_ms": 22,
+      "detail": {
+        "questions_inspected": 294
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 196
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 196,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 8
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Operating_System.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Operating_System",
+      "passed": true,
+      "duration_ms": 18,
+      "detail": {
+        "questions_inspected": 233
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 227
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 253,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 8
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Software_Engineering.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Software_Engineering",
+      "passed": true,
+      "duration_ms": 21,
+      "detail": {
+        "questions_inspected": 278
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 250
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 405,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 14
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Web_Programming.html",
+      "width": 768,
+      "phase": "question-defaults",
+      "slug": "Web_Programming",
+      "passed": true,
+      "duration_ms": 26,
+      "detail": {
+        "questions_inspected": 305
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 90
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 7,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 5
+    },
+    {
+      "path": "downloads.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 90
+    },
+    {
+      "path": "downloads.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 6,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "downloads.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 7
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 7,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "index.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 6
+    },
+    {
+      "path": "search.html",
+      "width": 768,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 199
+    },
+    {
+      "path": "search.html",
+      "width": 768,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 6,
+      "detail": {
+        "width": 768,
+        "client": 768,
+        "scroll": 768,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "search.html",
+      "width": 768,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 7
+    },
+    {
+      "path": "index.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 76
+    },
+    {
+      "path": "index.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 3,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "index.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 144
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 405,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Complete_CS_Exit_Study_Guide.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 92
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/index.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 130
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 109,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 6
+    },
+    {
+      "path": "Questions/Interactive_Study_Guides/Computer_Programming.html",
+      "width": 1024,
+      "phase": "question-defaults",
+      "slug": "Computer_Programming",
+      "passed": true,
+      "duration_ms": 13,
+      "detail": {
+        "questions_inspected": 177
+      }
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 87
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 4,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/index.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 76
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 53,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Outlines/Computer_Programming.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 3
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 78
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 3,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/index.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 276
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "Modules/Fundamental_of_Database_Systems.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 1
+    },
+    {
+      "path": "downloads.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 80
+    },
+    {
+      "path": "downloads.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 2,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "downloads.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "path": "search.html",
+      "width": 1024,
+      "phase": "navigation-load",
+      "passed": true,
+      "duration_ms": 196
+    },
+    {
+      "path": "search.html",
+      "width": 1024,
+      "phase": "layout",
+      "passed": true,
+      "duration_ms": 1,
+      "detail": {
+        "width": 1024,
+        "client": 1024,
+        "scroll": 1024,
+        "protrusions": []
+      }
+    },
+    {
+      "path": "search.html",
+      "width": 1024,
+      "phase": "nav-favicon",
+      "passed": true,
+      "duration_ms": 2
+    },
+    {
+      "phase": "search-all-course-stable-ids",
+      "path": "search.html",
+      "width": 360,
+      "passed": true,
+      "duration_ms": 8272,
+      "detail": {
+        "stable_question_ids": 16,
+        "real_result_navigation": 16,
+        "module_records": 16,
+        "pagination": true,
+        "clear": true,
+        "empty": true
+      }
+    }
+  ],
+  "issues": [],
+  "page_errors": [],
+  "finished_at": "2026-11-18T04:38:45.600Z",
+  "elapsed_seconds": 64,
+  "passed": true,
+  "summary": {
+    "passed_checks": 498,
+    "failed_checks": 0,
+    "page_errors": 0,
+    "layout_checks": 120
+  }
+}

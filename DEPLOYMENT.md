@@ -1,48 +1,22 @@
-# Deploy to Yegara
+# Deploy on Yegara / cPanel
 
-This project is ordinary static HTML, CSS and JavaScript. The repository root is the web root: `index.html` must sit directly inside your chosen domain's document root. There is no build step.
+This is a pure static website. Put `index.html` at the domain's document root, preserving all filename capitalization and relative folders. No Node.js build, database, API key or running server is required.
 
-## Upload an archive through cPanel
+1. Register/connect your chosen `.com` domain, set its DNS to your hosting account, and enable HTTPS in cPanel.
+2. If the domain differs from `https://csexitethiopia.com`, edit `SITE_URL` in `site.config.js`, run `python3 tools/build_site.py --metadata-only`, and regenerate the prebuilt PDFs to update their printed attribution.
+3. Verify with `python3 tools/verify_site.py` and the documented content/browser/PDF checks.
+4. Upload only the public allowlist from `tools/public_files.py`. It includes all public HTML, favicon files, `site.config.js`, robots/sitemap, runtime assets, PDF downloads/fragments, original module PDFs and course readers. It excludes authoring ledgers, source snapshots, tests, tools, QA images and old Word outlines.
+5. Open the HTTPS home page on phone and desktop. Test one internal course link, a reading reference, an original module PDF, a single-course PDF, a custom selection, optional support copy buttons and the favicon after navigation.
+6. Submit `https://YOUR-DOMAIN.com/sitemap.xml` to the domain's verified Search Console property. Structured data and metadata support discovery; search placement and rich display are controlled by search engines.
 
-1. Generate the upload archive from this project folder:
+Use cPanel File Manager or an authorized Git checkout/deployment that copies the public allowlist into the correct document root. The repository is private; no repository visibility change is needed. Do not expose the entire repository as downloadable files. Apache rules deny access to Git metadata and maintenance records as an additional safeguard.
 
-   ```sh
-   python3 tools/package_site.py
-   ```
+The owner has deferred archive generation until final corrections are complete. When explicitly requested, `python3 tools/package_site.py` can generate the public upload ZIP; it is not part of verification or normal builds.
 
-   This creates `../csexitethiopia-upload.zip`. It contains runtime files with `index.html` at the archive root, and excludes Git metadata, development tests, local screenshots, authoring ledgers and internal audit reports. The allowlist is defined in tools/public_files.py.
+## Server configuration
 
-2. In Yegara cPanel, check the document root assigned to the domain you want to use. It is commonly `public_html` for the primary domain; an additional domain may have its own folder. Select the correct domain's folder.
-3. Back up any existing website in that folder before replacing its files.
-4. Upload and extract the ZIP there. Confirm the result is `DOCUMENT_ROOT/index.html`, rather than `DOCUMENT_ROOT/csexitethiopia/index.html`.
-5. Keep `assets/`, `Questions/`, `Outlines/` and `Modules/` beside the complete guide. Keep hidden `.htaccess` with the upload.
-6. Open the domain over HTTPS and try all four study options and a Copy button. HTTPS supports the normal Clipboard API; a local-copy fallback is also included.
-7. Remove the uploaded ZIP from the public folder after extraction. The local archive remains available.
+Keep `.htaccess`: directory index, no directory listings, compression, static caching, `.mjs`/`.wasm`/PDF MIME types and private-path blocks are included. Do not add SPA rewrites: real `.html` files and section anchors are used throughout. The site works at a domain root or subdirectory; canonical URLs describe the configured production root.
 
-Official instructions: [Yegara File Manager and FTP guide](https://yegara.com/en/guide/how-to-upload-your-website-files-to-your-cpanel-using-file-manager-and-ftp/).
+Keep the full `assets/pdfjs/`, `assets/vendor/pdf-lib/`, `assets/pdf/` and all `Modules/files/` assets. Search and PDF assembly use same-origin fetch, so preview over HTTP/HTTPS rather than opening files directly from disk. The embedded original-module reader is loaded only on module pages; pdf-lib loads only when combining a custom PDF.
 
-## GitHub updates
-
-After the GitHub remote is configured, use this workflow for later changes:
-
-```sh
-git pull --ff-only
-# Make and verify your changes.
-python3 tools/apply_public_copy.py
-python3 tools/verify_site.py
-git add .
-git commit -m "Describe the update"
-git push
-python3 tools/package_site.py
-```
-
-Upload the refreshed archive to the same document root. If you use cPanel Git Version Control instead, clone the repository using an authorized GitHub connection and configure deployment to that domain's document root. No GitHub Actions build is needed. This project does not assume a cPanel username or a specific server path.
-
-## Hosting notes
-
-- File names are case-sensitive on typical Linux hosting. Keep their existing capitalization.
-- Existing educational HTML contains inline styles, scripts and data images. Question readers retain their original restrictive policy and use allowed inline navigation. Do not add a restrictive content-security policy that blocks them without testing the readers.
-- The supplied `.htaccess` sets the home page, disables directory listings, enables compression/cache settings when their Apache modules exist, and prevents Git metadata, authoring records and development utilities from being served. No SPA rewrite rule is needed.
-- Donations are optional displayed account details, not a checkout integration. Study resources are available immediately regardless of support.
-
-The PDF reader uses local JavaScript modules and WebAssembly decoders. Keep the included .mjs/.wasm MIME settings and the full assets/pdfjs/ folder. The original PDFs are downloadable directly and need no server-side PDF software.
+Single/all-course PDF cover dates record their generated edition. A custom selection uses the current download date. Regenerate PDFs when publishing an educational-content update.

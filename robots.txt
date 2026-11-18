@@ -1,2 +1,20 @@
 User-agent: *
 Allow: /
+Disallow: /tools/
+Disallow: /tests/
+Disallow: /.git/
+Disallow: /.platform_upgrade_work/
+Disallow: /maintenance/
+Disallow: /work/
+Disallow: /assets/export-data/
+Disallow: /assets/pdf/fragments/
+Disallow: /Modules/catalog.json
+Disallow: /*_AUDIT.json$
+Disallow: /*_REVIEW.json$
+Disallow: /SOURCE_MANIFEST.json
+Disallow: /VERIFICATION.json
+Disallow: /PUBLIC_READER_COPY.json
+Disallow: /STUDY_NOTE_SUPPORT.json
+Disallow: /ANSWER_REVIEW_SUMMARY.html
+
+Sitemap: https://csexitethiopia.com/sitemap.xml

@@ -1,0 +1,1017 @@
+{
+  "passed": true,
+  "status": "passed",
+  "started_at": "2026-11-18T04:43:35.373Z",
+  "base_url": "http://127.0.0.1:8457",
+  "production": true,
+  "catalog_overrides": false,
+  "fixtures": false,
+  "cases": [
+    {
+      "id": "single-notes",
+      "kind": "notes",
+      "mode": "single",
+      "selected": [
+        "Computer_Programming"
+      ],
+      "started_at": "2026-11-18T04:43:35.834Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 875024384,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/notes/Computer_Programming.pdf": "1584af41214c4ff0c351b28ef78e54f07227c93209f3a54775fb93b03896d06d",
+        "assets/pdf/notes/Computer_Programming.pdf": "9182cbb1179bf437767b9917d57de97ef556db2b1612bca9c866863918965096"
+      },
+      "download_seconds": 0.064,
+      "filename": "cs-exit-notes-Computer_Programming.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-notes.pdf",
+      "worker": {
+        "created": 0,
+        "terminated": 0,
+        "completed": 0
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/notes/Computer_Programming.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 21,
+        "bytes": 184215,
+        "all_page_numbers_checked": true,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-notes-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-notes-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-notes-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-notes-p21.png"
+        ]
+      },
+      "total_seconds": 0.762
+    },
+    {
+      "id": "multi-notes",
+      "kind": "notes",
+      "mode": "merged",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems"
+      ],
+      "started_at": "2026-11-18T04:43:36.607Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 906706944,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/notes/Computer_Programming.pdf": "1584af41214c4ff0c351b28ef78e54f07227c93209f3a54775fb93b03896d06d",
+        "assets/pdf/fragments/notes/Fundamental_of_Database_Systems.pdf": "820f4cb7774bc1ae13f72d537a966c65bb4304b0505a18dcaa92a098dc0dab8a"
+      },
+      "download_seconds": 0.168,
+      "filename": "cs-exit-notes-2-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes.pdf",
+      "worker": {
+        "created": 1,
+        "terminated": 1,
+        "completed": 1,
+        "progress_events": 10,
+        "final": {
+          "at": 435.5,
+          "arrayBuffer": true,
+          "bytes": 218125,
+          "pages": 40,
+          "toc": [
+            {
+              "slug": "Computer_Programming",
+              "title": "Computer Programming",
+              "start": 3,
+              "pages": 16
+            },
+            {
+              "slug": "Fundamental_of_Database_Systems",
+              "title": "Fundamental of Database Systems",
+              "start": 19,
+              "pages": 22
+            }
+          ]
+        }
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf-merge-worker.js",
+        "http://127.0.0.1:8457/assets/vendor/pdf-lib/pdf-lib.min.js",
+        "http://127.0.0.1:8457/assets/pdf/fragments/notes/Computer_Programming.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/notes/Fundamental_of_Database_Systems.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 40,
+        "bytes": 218125,
+        "all_page_numbers_checked": true,
+        "toc": [
+          {
+            "slug": "Computer_Programming",
+            "title": "Computer Programming",
+            "start": 3,
+            "pages": 16
+          },
+          {
+            "slug": "Fundamental_of_Database_Systems",
+            "title": "Fundamental of Database Systems",
+            "start": 19,
+            "pages": 22
+          }
+        ],
+        "all_fragment_text_identical": true,
+        "scientific_unicode": "+<=>|×πρσ→⇒∃−⊆",
+        "vector_drawings_checked": 76,
+        "source_page_count": 38,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p4.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p5.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p6.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p7.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-notes-p8.png"
+        ]
+      },
+      "total_seconds": 0.993
+    },
+    {
+      "id": "all-notes",
+      "kind": "notes",
+      "mode": "all",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems",
+        "Advanced_Database_Systems",
+        "Object_Oriented_Programming",
+        "Computer_Organization_and_Architecture",
+        "Data_Communication_and_Computer_Networking",
+        "Data_Structures_and_Algorithms",
+        "Web_Programming",
+        "Operating_System",
+        "Software_Engineering",
+        "Design_and_Analysis_of_Algorithms",
+        "Introduction_to_Artificial_Intelligence",
+        "Computer_Security",
+        "Network_and_System_Administration",
+        "Automata_and_Complexity_Theory",
+        "Compiler_Design"
+      ],
+      "started_at": "2026-11-18T04:43:37.608Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 895815680,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/notes/Computer_Programming.pdf": "1584af41214c4ff0c351b28ef78e54f07227c93209f3a54775fb93b03896d06d",
+        "assets/pdf/fragments/notes/Fundamental_of_Database_Systems.pdf": "820f4cb7774bc1ae13f72d537a966c65bb4304b0505a18dcaa92a098dc0dab8a",
+        "assets/pdf/fragments/notes/Advanced_Database_Systems.pdf": "7088798fc24517afe96ee66ac988f445d0a078e8687fe893defdfb318e50778d",
+        "assets/pdf/fragments/notes/Object_Oriented_Programming.pdf": "1c68db057f1e6581be9013c0019cc4dd840fae49a380aed4f67572a1ed07c21a",
+        "assets/pdf/fragments/notes/Computer_Organization_and_Architecture.pdf": "1dbde7afa83417cd9440f513f732f837c38152f0270ab49a614d0424b682befc",
+        "assets/pdf/fragments/notes/Data_Communication_and_Computer_Networking.pdf": "54bcc39c924579cf4a6794d6dbbda9260dc281095cf1d5d55261cf09efc463a6",
+        "assets/pdf/fragments/notes/Data_Structures_and_Algorithms.pdf": "f07e7c459a910c4233c3c6bde84688094a5c5944775328f30756b483210f7cd4",
+        "assets/pdf/fragments/notes/Web_Programming.pdf": "6da4f34361bf3db45cde5215ade95f37d45f8d02364c3465f4feaa096a677467",
+        "assets/pdf/fragments/notes/Operating_System.pdf": "c22ddfbb66022b2f9fe576e0cded6173dbf414f783cf399737b238b3762d4617",
+        "assets/pdf/fragments/notes/Software_Engineering.pdf": "1b6c9d5c33dc89f9cec276f3c7def1434448b401c47636349fcbfbabb583e35a",
+        "assets/pdf/fragments/notes/Design_and_Analysis_of_Algorithms.pdf": "7be0ea6a9c7909afd57720ea88ab708a9a3bd599d7751b9d969a4df8dc99209d",
+        "assets/pdf/fragments/notes/Introduction_to_Artificial_Intelligence.pdf": "485a0ace752ad84f9da6958d20097ce93576b908329cffa18895e92333180e1a",
+        "assets/pdf/fragments/notes/Computer_Security.pdf": "961cb7ad204170e99868ad541e29c191034b7fb5b6a2da41ff30d34afee4c35c",
+        "assets/pdf/fragments/notes/Network_and_System_Administration.pdf": "61532d89f97f472b80a8aafb539612a47296b8ae535eced4ffc576ca9b89795b",
+        "assets/pdf/fragments/notes/Automata_and_Complexity_Theory.pdf": "943db32e562352c499a60a5f9e4713866d062a073d648044661a243123d2e59a",
+        "assets/pdf/fragments/notes/Compiler_Design.pdf": "6c7f75a2a7988853f34f22701b08714816c2ddec0b200c90ff2ea12cd968d609",
+        "assets/pdf/notes/all-courses.pdf": "cc834e8cffe8c9745d288ddff98c2cebf4a5c160a86c2a8c8d2fd73faf578f29"
+      },
+      "download_seconds": 0.085,
+      "filename": "cs-exit-notes-all-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-notes.pdf",
+      "worker": {
+        "created": 0,
+        "terminated": 0,
+        "completed": 0
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/notes/all-courses.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 337,
+        "bytes": 2256686,
+        "all_page_numbers_checked": true,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-notes-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-notes-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-notes-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-notes-p337.png"
+        ]
+      },
+      "total_seconds": 1.008
+    },
+    {
+      "id": "single-outlines",
+      "kind": "outlines",
+      "mode": "single",
+      "selected": [
+        "Computer_Programming"
+      ],
+      "started_at": "2026-11-18T04:43:38.625Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 885628928,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/outlines/Computer_Programming.pdf": "579a9d3b53c027068bf251c430e9f6008d6671fe2d5072c237030a503255a411",
+        "assets/pdf/outlines/Computer_Programming.pdf": "780424f7c8eebbcb0947b55821f6c0640204d5fc304782dd3cb286c6da0b1db1"
+      },
+      "download_seconds": 0.062,
+      "filename": "cs-exit-outlines-Computer_Programming.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-outlines.pdf",
+      "worker": {
+        "created": 0,
+        "terminated": 0,
+        "completed": 0
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/outlines/Computer_Programming.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 22,
+        "bytes": 138791,
+        "all_page_numbers_checked": true,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-outlines-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-outlines-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-outlines-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-outlines-p22.png"
+        ]
+      },
+      "total_seconds": 0.667
+    },
+    {
+      "id": "multi-outlines",
+      "kind": "outlines",
+      "mode": "merged",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems"
+      ],
+      "started_at": "2026-11-18T04:43:39.299Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 906280960,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/outlines/Computer_Programming.pdf": "579a9d3b53c027068bf251c430e9f6008d6671fe2d5072c237030a503255a411",
+        "assets/pdf/fragments/outlines/Fundamental_of_Database_Systems.pdf": "db51a7ba473e736206175fa4c17190869562d5c6ab0044535a72a47d582a2078"
+      },
+      "download_seconds": 0.173,
+      "filename": "cs-exit-outlines-2-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines.pdf",
+      "worker": {
+        "created": 1,
+        "terminated": 1,
+        "completed": 1,
+        "progress_events": 9,
+        "final": {
+          "at": 452.79999999701977,
+          "arrayBuffer": true,
+          "bytes": 197707,
+          "pages": 49,
+          "toc": [
+            {
+              "slug": "Computer_Programming",
+              "title": "Computer Programming",
+              "start": 3,
+              "pages": 20
+            },
+            {
+              "slug": "Fundamental_of_Database_Systems",
+              "title": "Fundamental of Database Systems",
+              "start": 23,
+              "pages": 27
+            }
+          ]
+        }
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf-merge-worker.js",
+        "http://127.0.0.1:8457/assets/vendor/pdf-lib/pdf-lib.min.js",
+        "http://127.0.0.1:8457/assets/pdf/fragments/outlines/Computer_Programming.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/outlines/Fundamental_of_Database_Systems.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 49,
+        "bytes": 197707,
+        "all_page_numbers_checked": true,
+        "toc": [
+          {
+            "slug": "Computer_Programming",
+            "title": "Computer Programming",
+            "start": 3,
+            "pages": 20
+          },
+          {
+            "slug": "Fundamental_of_Database_Systems",
+            "title": "Fundamental of Database Systems",
+            "start": 23,
+            "pages": 27
+          }
+        ],
+        "all_fragment_text_identical": true,
+        "scientific_unicode": "+<=>|¬±×πρσ→↔⇒∃−≠≡≤≥⊆",
+        "vector_drawings_checked": 94,
+        "source_page_count": 47,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p4.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p5.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p6.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p7.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-outlines-p8.png"
+        ]
+      },
+      "total_seconds": 1.042
+    },
+    {
+      "id": "all-outlines",
+      "kind": "outlines",
+      "mode": "all",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems",
+        "Advanced_Database_Systems",
+        "Object_Oriented_Programming",
+        "Computer_Organization_and_Architecture",
+        "Data_Communication_and_Computer_Networking",
+        "Data_Structures_and_Algorithms",
+        "Web_Programming",
+        "Operating_System",
+        "Software_Engineering",
+        "Design_and_Analysis_of_Algorithms",
+        "Introduction_to_Artificial_Intelligence",
+        "Computer_Security",
+        "Network_and_System_Administration",
+        "Automata_and_Complexity_Theory",
+        "Compiler_Design"
+      ],
+      "started_at": "2026-11-18T04:43:40.350Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 895877120,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/outlines/Computer_Programming.pdf": "579a9d3b53c027068bf251c430e9f6008d6671fe2d5072c237030a503255a411",
+        "assets/pdf/fragments/outlines/Fundamental_of_Database_Systems.pdf": "db51a7ba473e736206175fa4c17190869562d5c6ab0044535a72a47d582a2078",
+        "assets/pdf/fragments/outlines/Advanced_Database_Systems.pdf": "6d48f7db1a115c3975653a8e01f78fa7f944653f413b4548ee197f849718232f",
+        "assets/pdf/fragments/outlines/Object_Oriented_Programming.pdf": "1ccc6d997d036a1241a12aa062183911ecc05bba3d8251b012005334cea65771",
+        "assets/pdf/fragments/outlines/Computer_Organization_and_Architecture.pdf": "b51802f578a840bb8cf6c053169218944c7678fc91dcd7b229b143f0a44697c7",
+        "assets/pdf/fragments/outlines/Data_Communication_and_Computer_Networking.pdf": "f808e7d1db8a098306586c87c75097e3281af55a42a0acae42ce072d54b14924",
+        "assets/pdf/fragments/outlines/Data_Structures_and_Algorithms.pdf": "340873a0f4291b88f1255a763b2da4a3b3a06b0e7562a59775434af31c6d3661",
+        "assets/pdf/fragments/outlines/Web_Programming.pdf": "e1cb58bc275c81a6c33c35146442ea2c2aaa6cfc9469ad5d1658d225582bb7d4",
+        "assets/pdf/fragments/outlines/Operating_System.pdf": "fdc2dc7425123bbb0031203b9307dd0c9f4b77af9c3a984cfbd3a60c14ffb0c3",
+        "assets/pdf/fragments/outlines/Software_Engineering.pdf": "5b14bf37a6c17f8030bfa400368aa66b92052b9d0e8e441b316ad071ff69c88d",
+        "assets/pdf/fragments/outlines/Design_and_Analysis_of_Algorithms.pdf": "d971a089dfa260e81503f411194da21bda677fd073b0e32b873d7ec857a3bd28",
+        "assets/pdf/fragments/outlines/Introduction_to_Artificial_Intelligence.pdf": "35c96d990770414a99715dc2e287b5e9f6f353592fdc1f2035a23baf58c7aa8a",
+        "assets/pdf/fragments/outlines/Computer_Security.pdf": "9365bb805b943157c3518d60196e31c951f62ef8250c350601de665901abb357",
+        "assets/pdf/fragments/outlines/Network_and_System_Administration.pdf": "de71ed30f679719643de26b926447c74ef12eea8888be8616e9d861c6802e5ee",
+        "assets/pdf/fragments/outlines/Automata_and_Complexity_Theory.pdf": "6f2129aa1985dfa2e89bdaeff3cab099e8f993939683ecca0f382a78485bc27a",
+        "assets/pdf/fragments/outlines/Compiler_Design.pdf": "4216b02d4cfa50954e588150df959fab0bf30afd77cda5211df1dc16f84be5a2",
+        "assets/pdf/outlines/all-courses.pdf": "30a0f7e9817e7861584a9481bc2332dbc94aa3f7c54cf2168fe10c94b1f645e6"
+      },
+      "download_seconds": 0.081,
+      "filename": "cs-exit-outlines-all-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-outlines.pdf",
+      "worker": {
+        "created": 0,
+        "terminated": 0,
+        "completed": 0
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/outlines/all-courses.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 417,
+        "bytes": 2024277,
+        "all_page_numbers_checked": true,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-outlines-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-outlines-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-outlines-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-outlines-p417.png"
+        ]
+      },
+      "total_seconds": 0.988
+    },
+    {
+      "id": "single-questions",
+      "kind": "questions",
+      "mode": "single",
+      "selected": [
+        "Computer_Programming"
+      ],
+      "started_at": "2026-11-18T04:43:41.346Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 890609664,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/questions/Computer_Programming.pdf": "9db7a7f10e64befaa2c441cfeeedab9ed98e2b390a51d3de95da8839b6d3420d",
+        "assets/pdf/questions/Computer_Programming.pdf": "b30444c24c390aca1b681bfb575ee918900b1c49a4d1231c200446421a2dcb1e"
+      },
+      "download_seconds": 0.072,
+      "filename": "cs-exit-questions-Computer_Programming.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-questions.pdf",
+      "worker": {
+        "created": 0,
+        "terminated": 0,
+        "completed": 0
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/questions/Computer_Programming.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 247,
+        "bytes": 899362,
+        "all_page_numbers_checked": true,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-questions-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-questions-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-questions-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/single-questions-p247.png"
+        ]
+      },
+      "total_seconds": 0.934
+    },
+    {
+      "id": "multi-questions",
+      "kind": "questions",
+      "mode": "merged",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems"
+      ],
+      "started_at": "2026-11-18T04:43:42.287Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 958521344,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/questions/Computer_Programming.pdf": "9db7a7f10e64befaa2c441cfeeedab9ed98e2b390a51d3de95da8839b6d3420d",
+        "assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf": "297c9f2550ce97cc8f772d4f602f9a372bb7959dc4e0c12c29093bb0f080d841"
+      },
+      "download_seconds": 0.779,
+      "filename": "cs-exit-questions-2-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions.pdf",
+      "worker": {
+        "created": 1,
+        "terminated": 1,
+        "completed": 1,
+        "progress_events": 35,
+        "final": {
+          "at": 1031.1999999955297,
+          "arrayBuffer": true,
+          "bytes": 1608134,
+          "pages": 547,
+          "toc": [
+            {
+              "slug": "Computer_Programming",
+              "title": "Computer Programming",
+              "start": 3,
+              "pages": 245
+            },
+            {
+              "slug": "Fundamental_of_Database_Systems",
+              "title": "Fundamental of Database Systems",
+              "start": 248,
+              "pages": 300
+            }
+          ]
+        }
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf-merge-worker.js",
+        "http://127.0.0.1:8457/assets/vendor/pdf-lib/pdf-lib.min.js",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Computer_Programming.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 547,
+        "bytes": 1608134,
+        "all_page_numbers_checked": true,
+        "toc": [
+          {
+            "slug": "Computer_Programming",
+            "title": "Computer Programming",
+            "start": 3,
+            "pages": 245
+          },
+          {
+            "slug": "Fundamental_of_Database_Systems",
+            "title": "Fundamental of Database Systems",
+            "start": 248,
+            "pages": 300
+          }
+        ],
+        "all_fragment_text_identical": true,
+        "scientific_unicode": "+<=>|×λπρσω→↔−∩≈",
+        "vector_drawings_checked": 2465,
+        "source_page_count": 545,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p4.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p5.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p6.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p7.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/multi-questions-p8.png"
+        ]
+      },
+      "total_seconds": 3.819
+    },
+    {
+      "id": "all-questions",
+      "kind": "questions",
+      "mode": "all",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems",
+        "Advanced_Database_Systems",
+        "Object_Oriented_Programming",
+        "Computer_Organization_and_Architecture",
+        "Data_Communication_and_Computer_Networking",
+        "Data_Structures_and_Algorithms",
+        "Web_Programming",
+        "Operating_System",
+        "Software_Engineering",
+        "Design_and_Analysis_of_Algorithms",
+        "Introduction_to_Artificial_Intelligence",
+        "Computer_Security",
+        "Network_and_System_Administration",
+        "Automata_and_Complexity_Theory",
+        "Compiler_Design"
+      ],
+      "started_at": "2026-11-18T04:43:46.114Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 926208000,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/questions/Computer_Programming.pdf": "9db7a7f10e64befaa2c441cfeeedab9ed98e2b390a51d3de95da8839b6d3420d",
+        "assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf": "297c9f2550ce97cc8f772d4f602f9a372bb7959dc4e0c12c29093bb0f080d841",
+        "assets/pdf/fragments/questions/Advanced_Database_Systems.pdf": "e5e3c2fc14a8f8b1f505eb76b3ff9e7c8922c68f0e0fa2722c20a10148cdfe82",
+        "assets/pdf/fragments/questions/Object_Oriented_Programming.pdf": "0a47a25500faad4c37416a3ca686ba429cb317b2c142677693ea0ac448b2f67a",
+        "assets/pdf/fragments/questions/Computer_Organization_and_Architecture.pdf": "80b5a0d94a4cd8506878914ccb6a4b96267c06d52141394abe9f05172fa77f35",
+        "assets/pdf/fragments/questions/Data_Communication_and_Computer_Networking.pdf": "240bd4897e7edaf0084f3eee343e6267bcee73f56423d473a1347130dc6dd363",
+        "assets/pdf/fragments/questions/Data_Structures_and_Algorithms.pdf": "c89a7335450f614baf4ccf2bdd79bdb9ca933e801d9df9ac505694faa1f8c379",
+        "assets/pdf/fragments/questions/Web_Programming.pdf": "f471c21372732bdbc9974858a651972769ee529e8b90ad9135f7c4255d7166c6",
+        "assets/pdf/fragments/questions/Operating_System.pdf": "0baf8e6223e673aa17a4430012ec56c4b3b4d5751074d988de3e61ed3b680628",
+        "assets/pdf/fragments/questions/Software_Engineering.pdf": "4ea249a2333046d4369ee2536e70771c4999b6741a861329a56a17c64d403a9c",
+        "assets/pdf/fragments/questions/Design_and_Analysis_of_Algorithms.pdf": "2b9f86987521f04aa7f8f1870bc4c82aedddc385534cd20250cadfa3736c9408",
+        "assets/pdf/fragments/questions/Introduction_to_Artificial_Intelligence.pdf": "692f6274e0eebe831be8c6a5f9604a0f755ee229f1b7f993e1a9e2edd137c259",
+        "assets/pdf/fragments/questions/Computer_Security.pdf": "fe0cbb4229b5c98149daa2cc4f3a7dbd57f83987cdac62ea8263f6681984ca15",
+        "assets/pdf/fragments/questions/Network_and_System_Administration.pdf": "289ac3618f005a00549529a5a1b6a4a3a503622b94934c446bb9d4b7a7da605b",
+        "assets/pdf/fragments/questions/Automata_and_Complexity_Theory.pdf": "29c3c2093447f60ea3f03a55bed1e275e1fd5f711a55522c5f7e875c4ec070cd",
+        "assets/pdf/fragments/questions/Compiler_Design.pdf": "db51b8fc86ff8aa59415d9a1a3504d942dd4cc53194a495e1902d0aa7d0b4dbd",
+        "assets/pdf/questions/all-courses.pdf": "b49c681ae4acd9900aedb8d99c3162551680ab7e3940e42d422b4feeb3b53820"
+      },
+      "download_seconds": 0.206,
+      "filename": "cs-exit-questions-all-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-questions.pdf",
+      "worker": {
+        "created": 0,
+        "terminated": 0,
+        "completed": 0
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/questions/all-courses.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 4982,
+        "bytes": 17744442,
+        "all_page_numbers_checked": true,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-questions-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-questions-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-questions-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/all-questions-p4982.png"
+        ]
+      },
+      "total_seconds": 5.697
+    },
+    {
+      "id": "stress-15-questions",
+      "kind": "questions",
+      "mode": "merged",
+      "selected": [
+        "Computer_Programming",
+        "Fundamental_of_Database_Systems",
+        "Advanced_Database_Systems",
+        "Object_Oriented_Programming",
+        "Computer_Organization_and_Architecture",
+        "Data_Communication_and_Computer_Networking",
+        "Data_Structures_and_Algorithms",
+        "Web_Programming",
+        "Operating_System",
+        "Software_Engineering",
+        "Design_and_Analysis_of_Algorithms",
+        "Introduction_to_Artificial_Intelligence",
+        "Computer_Security",
+        "Automata_and_Complexity_Theory",
+        "Compiler_Design"
+      ],
+      "started_at": "2026-11-18T04:43:51.824Z",
+      "passed": true,
+      "memory_measurement": "Peak sum of browser process resident-set sizes; shared pages may be counted more than once",
+      "peak_browser_rss_bytes": 1104158720,
+      "input_hashes": {
+        "assets/pdf/catalog.json": "af6cfde2bae035df9409c5a7d7bd57ddceeef36af9132e1391a291f02a5e971c",
+        "assets/pdf/fragments/questions/Computer_Programming.pdf": "9db7a7f10e64befaa2c441cfeeedab9ed98e2b390a51d3de95da8839b6d3420d",
+        "assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf": "297c9f2550ce97cc8f772d4f602f9a372bb7959dc4e0c12c29093bb0f080d841",
+        "assets/pdf/fragments/questions/Advanced_Database_Systems.pdf": "e5e3c2fc14a8f8b1f505eb76b3ff9e7c8922c68f0e0fa2722c20a10148cdfe82",
+        "assets/pdf/fragments/questions/Object_Oriented_Programming.pdf": "0a47a25500faad4c37416a3ca686ba429cb317b2c142677693ea0ac448b2f67a",
+        "assets/pdf/fragments/questions/Computer_Organization_and_Architecture.pdf": "80b5a0d94a4cd8506878914ccb6a4b96267c06d52141394abe9f05172fa77f35",
+        "assets/pdf/fragments/questions/Data_Communication_and_Computer_Networking.pdf": "240bd4897e7edaf0084f3eee343e6267bcee73f56423d473a1347130dc6dd363",
+        "assets/pdf/fragments/questions/Data_Structures_and_Algorithms.pdf": "c89a7335450f614baf4ccf2bdd79bdb9ca933e801d9df9ac505694faa1f8c379",
+        "assets/pdf/fragments/questions/Web_Programming.pdf": "f471c21372732bdbc9974858a651972769ee529e8b90ad9135f7c4255d7166c6",
+        "assets/pdf/fragments/questions/Operating_System.pdf": "0baf8e6223e673aa17a4430012ec56c4b3b4d5751074d988de3e61ed3b680628",
+        "assets/pdf/fragments/questions/Software_Engineering.pdf": "4ea249a2333046d4369ee2536e70771c4999b6741a861329a56a17c64d403a9c",
+        "assets/pdf/fragments/questions/Design_and_Analysis_of_Algorithms.pdf": "2b9f86987521f04aa7f8f1870bc4c82aedddc385534cd20250cadfa3736c9408",
+        "assets/pdf/fragments/questions/Introduction_to_Artificial_Intelligence.pdf": "692f6274e0eebe831be8c6a5f9604a0f755ee229f1b7f993e1a9e2edd137c259",
+        "assets/pdf/fragments/questions/Computer_Security.pdf": "fe0cbb4229b5c98149daa2cc4f3a7dbd57f83987cdac62ea8263f6681984ca15",
+        "assets/pdf/fragments/questions/Automata_and_Complexity_Theory.pdf": "29c3c2093447f60ea3f03a55bed1e275e1fd5f711a55522c5f7e875c4ec070cd",
+        "assets/pdf/fragments/questions/Compiler_Design.pdf": "db51b8fc86ff8aa59415d9a1a3504d942dd4cc53194a495e1902d0aa7d0b4dbd"
+      },
+      "download_seconds": 5.758,
+      "filename": "cs-exit-questions-15-courses.pdf",
+      "output": "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions.pdf",
+      "worker": {
+        "created": 1,
+        "terminated": 1,
+        "completed": 1,
+        "progress_events": 248,
+        "final": {
+          "at": 6379.20000000298,
+          "arrayBuffer": true,
+          "bytes": 14384671,
+          "pages": 4818,
+          "toc": [
+            {
+              "slug": "Computer_Programming",
+              "title": "Computer Programming",
+              "start": 3,
+              "pages": 245
+            },
+            {
+              "slug": "Fundamental_of_Database_Systems",
+              "title": "Fundamental of Database Systems",
+              "start": 248,
+              "pages": 300
+            },
+            {
+              "slug": "Advanced_Database_Systems",
+              "title": "Advanced Database Systems",
+              "start": 548,
+              "pages": 338
+            },
+            {
+              "slug": "Object_Oriented_Programming",
+              "title": "Object Oriented Programming",
+              "start": 886,
+              "pages": 438
+            },
+            {
+              "slug": "Computer_Organization_and_Architecture",
+              "title": "Computer Organization and Architecture",
+              "start": 1324,
+              "pages": 280
+            },
+            {
+              "slug": "Data_Communication_and_Computer_Networking",
+              "title": "Data Communication and Computer Networking",
+              "start": 1604,
+              "pages": 504
+            },
+            {
+              "slug": "Data_Structures_and_Algorithms",
+              "title": "Data Structure and Algorithms",
+              "start": 2108,
+              "pages": 377
+            },
+            {
+              "slug": "Web_Programming",
+              "title": "Web Programming",
+              "start": 2485,
+              "pages": 393
+            },
+            {
+              "slug": "Operating_System",
+              "title": "Operating System",
+              "start": 2878,
+              "pages": 325
+            },
+            {
+              "slug": "Software_Engineering",
+              "title": "Software Engineering",
+              "start": 3203,
+              "pages": 399
+            },
+            {
+              "slug": "Design_and_Analysis_of_Algorithms",
+              "title": "Design and Analysis of Algorithms",
+              "start": 3602,
+              "pages": 186
+            },
+            {
+              "slug": "Introduction_to_Artificial_Intelligence",
+              "title": "Introduction to Artificial Intelligence",
+              "start": 3788,
+              "pages": 310
+            },
+            {
+              "slug": "Computer_Security",
+              "title": "Computer Security",
+              "start": 4098,
+              "pages": 239
+            },
+            {
+              "slug": "Automata_and_Complexity_Theory",
+              "title": "Automata and Complexity Theory",
+              "start": 4337,
+              "pages": 192
+            },
+            {
+              "slug": "Compiler_Design",
+              "title": "Compiler Design",
+              "start": 4529,
+              "pages": 290
+            }
+          ]
+        }
+      },
+      "requests": [
+        "http://127.0.0.1:8457/downloads.html",
+        "http://127.0.0.1:8457/assets/site.css",
+        "http://127.0.0.1:8457/assets/pdf-controls.css",
+        "http://127.0.0.1:8457/site.config.js",
+        "http://127.0.0.1:8457/assets/pdf-controls.js",
+        "http://127.0.0.1:8457/assets/platform.css",
+        "http://127.0.0.1:8457/assets/platform.js",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf/catalog.json",
+        "http://127.0.0.1:8457/favicon.svg",
+        "http://127.0.0.1:8457/assets/pdf-merge-worker.js",
+        "http://127.0.0.1:8457/assets/vendor/pdf-lib/pdf-lib.min.js",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Computer_Programming.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Fundamental_of_Database_Systems.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Advanced_Database_Systems.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Object_Oriented_Programming.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Computer_Organization_and_Architecture.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Data_Communication_and_Computer_Networking.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Data_Structures_and_Algorithms.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Web_Programming.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Operating_System.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Software_Engineering.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Design_and_Analysis_of_Algorithms.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Introduction_to_Artificial_Intelligence.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Computer_Security.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Automata_and_Complexity_Theory.pdf",
+        "http://127.0.0.1:8457/assets/pdf/fragments/questions/Compiler_Design.pdf"
+      ],
+      "http_errors": [],
+      "page_errors": [],
+      "pdf": {
+        "pages": 4818,
+        "bytes": 14384671,
+        "all_page_numbers_checked": true,
+        "toc": [
+          {
+            "slug": "Computer_Programming",
+            "title": "Computer Programming",
+            "start": 3,
+            "pages": 245
+          },
+          {
+            "slug": "Fundamental_of_Database_Systems",
+            "title": "Fundamental of Database Systems",
+            "start": 248,
+            "pages": 300
+          },
+          {
+            "slug": "Advanced_Database_Systems",
+            "title": "Advanced Database Systems",
+            "start": 548,
+            "pages": 338
+          },
+          {
+            "slug": "Object_Oriented_Programming",
+            "title": "Object Oriented Programming",
+            "start": 886,
+            "pages": 438
+          },
+          {
+            "slug": "Computer_Organization_and_Architecture",
+            "title": "Computer Organization and Architecture",
+            "start": 1324,
+            "pages": 280
+          },
+          {
+            "slug": "Data_Communication_and_Computer_Networking",
+            "title": "Data Communication and Computer Networking",
+            "start": 1604,
+            "pages": 504
+          },
+          {
+            "slug": "Data_Structures_and_Algorithms",
+            "title": "Data Structure and Algorithms",
+            "start": 2108,
+            "pages": 377
+          },
+          {
+            "slug": "Web_Programming",
+            "title": "Web Programming",
+            "start": 2485,
+            "pages": 393
+          },
+          {
+            "slug": "Operating_System",
+            "title": "Operating System",
+            "start": 2878,
+            "pages": 325
+          },
+          {
+            "slug": "Software_Engineering",
+            "title": "Software Engineering",
+            "start": 3203,
+            "pages": 399
+          },
+          {
+            "slug": "Design_and_Analysis_of_Algorithms",
+            "title": "Design and Analysis of Algorithms",
+            "start": 3602,
+            "pages": 186
+          },
+          {
+            "slug": "Introduction_to_Artificial_Intelligence",
+            "title": "Introduction to Artificial Intelligence",
+            "start": 3788,
+            "pages": 310
+          },
+          {
+            "slug": "Computer_Security",
+            "title": "Computer Security",
+            "start": 4098,
+            "pages": 239
+          },
+          {
+            "slug": "Automata_and_Complexity_Theory",
+            "title": "Automata and Complexity Theory",
+            "start": 4337,
+            "pages": 192
+          },
+          {
+            "slug": "Compiler_Design",
+            "title": "Compiler Design",
+            "start": 4529,
+            "pages": 290
+          }
+        ],
+        "all_fragment_text_identical": true,
+        "scientific_unicode": "+<=>|~¬×ΓΘΣΩαβγδελμπρσφω⁺←→↔⇒∀∃∅∈∑−∗∞∧∨∩∪≈≠≡≤≥⊂⊆⊊⊕⊨⋃⋯",
+        "vector_drawings_checked": 22213,
+        "source_page_count": 4816,
+        "renders": [
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p1.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p2.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p3.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p4.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p5.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p6.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p7.png",
+          "/home/abel_asnake/Documents/Exit_Study/.platform_upgrade_work/pdf-exports/stress-15-questions-p8.png"
+        ]
+      },
+      "total_seconds": 27.296
+    }
+  ],
+  "catalog_generated_at": "2026-11-18T04:42:15+00:00",
+  "pending": [],
+  "finished_at": "2026-11-18T04:44:19.201Z"
+}
